@@ -70,7 +70,7 @@ We will link to relevant online resources throughout the course.
 
 If you would like a refresher on the basics, the following resources may be useful:
 
-* [Python for Biologists](http://pythonforbiologists.com/) by Martin Jones; an archived PDF may be found [here](http://bit.ly/nih-pythons)
+* [Python for Biologists](http://pythonforbiologists.com/) by Martin Jones; an archived PDF may be found in this repo p4b.pdf.
 * [Learn python the hard way (ebook freely available from the author)](http://learnpythonthehardway.org/book/) by Zed A. Shaw; a video course is also [available](http://learnpythonthehardway.org/).
 * [Think python (ebook freely available from the author)](http://www.greenteapress.com/thinkpython/thinkpython.html) by Allen B. Downey.
 
