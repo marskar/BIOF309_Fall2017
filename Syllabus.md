@@ -6,6 +6,7 @@ Syllabus
 **Spring 2017**
 
 **Wednesday Section 3:30 - 5:30**
+**Wednesday Section 5:30 - 7:30**
 
 Instructor:
 
