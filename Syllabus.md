@@ -6,6 +6,7 @@ Syllabus
 **Spring 2017**
 
 **Wednesday Section 3:30 - 5:30**
+
 **Wednesday Section 5:30 - 7:30**
 
 Instructor:
@@ -21,22 +22,30 @@ Final class:  May 10, 2017
 Course Description
 ------------------
 
+This course is designed for non-programmers, biologists, or those without specific knowledge of python to learn how to program. 
+Week by week we will slowly build up your skills and understanding of programming and the python language. As with learning
+any language you will get as much out of this class as you put in more effort. There will be in class demonstrations and 
+Homework most weeks for you to practice and learn at your own pace.
+
+
 Learning Objectives
 -------------------
 
 By the end of this course you should be able to:
 
 1. Look at a task and determine if you can or should automate it
-2. Create working python programs using the basic features of the python language 
-3. Understand the difference between different sets of objects in the python programming language (list, dictionary)
-4. Do basic data analysis with python using numpy, pandas
-5. Plot data using python
-6. Write bioinformatics programs utilizing the biopython package
+2. Create working python programs 
+3. Understand the difference between different object types in python (i.e. lists, dicts)
+4. Do basic data analysis with python
+5. Write bioinformatics programs utilizing the biopython package
 
 Logistics
 ---------
 
-This is a 13 week course starting on the 14th September 2016, and finishing on December 14th 2016. Classes will take place between 5:30pm and 7:30pm each Wednesday in the Rathskeller of Building 60.
+This is a 14 week course starting on the 1st Feb 2017, and finishing on 3rd May 2017. 
+
+Meeting Time and Place: 3:30 Section -
+Meeting Time and Place: 5:30 Section - 
 
 Attendance in class is strongly recommended; however, we realize other commitments will occasionally prevent attendance. Class materials will generally be sent to all learners via email.
 
@@ -77,7 +86,7 @@ Assignments will be uploaded to the [DropItTo.me](http://www.DropItTo.me) websit
 Grading __assignments__ will follow the following rubric:
 
 * Program runs, produces correct result, contains useful comments, meaningful variable names, follows coding conventions: A+
-* Program runs, produces correct result: A
+* Program runs, produces correct result, contains useful comments: A
 * Program runs, produces something close to the correct result: B
 * Program runs, does not produce correct result: C
 * Program does not run: Incomplete (I)
@@ -128,15 +137,15 @@ Grading the __final project__ will follow the following rubric:
 Course Materials
 ----------------
 
-Course materials are available from the github repository: [https://github.com/biof-309-python/BIOF309-2016-Fall](https://github.com/biof-309-python/BIOF309-2016-Fall).
+Course materials are available from the github repository: https://github.com/ianmisner/BIO309_Spring2017.
 
 
 Schedule
 --------
 
-**Week 1 (Sept 14 2016):** 
+**Week 1 2/1/17:** 
 
-* Intro survey
+* Intro survey review
 * Course overview
 * An introduction to programming
 * Why python
@@ -146,85 +155,84 @@ Schedule
 * Program: "Hello world" interactive
 * Homework: Submit the hello world program 
 
-**Week 2 (Sept 21 2016):** 
+**Week 2 2/8/17:**
 
-* 5:30 - 6:00: Quick review, making sure python and jupyter notebooks are installed
-* 6:00 - 6:30: Review homework, debugging
-* 6:30 - 7:30: Printing and manipulating text
+**NO CLASS**
+
+**Week 3 2/15/17:**
+
+* Quick review, making sure python and text editors are installed.
+* Review homework, debugging
+* Printing and manipulating text
 * Homework: Write a program to calculate GC percentage
 
-**Week 3 (Sept 28 2016):**
+**Week 4 2/22/17:**
 
-* 5:30 - 6:00: Introduction to Linux, shell, DOS commands
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Reading and writing files
+* Introduction to Linux/Unix and shell
+* Review Homework
+* Reading and writing files
+* Homework: Split a file and write a fasta file
+
+**Week 5 3/1/17:**
+
+* Intro and review
+* Review Homework
+* Lists and loops
+* Sys Argv
+* Homework: Trim sequences
+
+**Week 6 3/8/17:**
+
+* Intro and review
+* Review Homework
+* Writing functions
 * Homework: 
 
-**Week 4 (Oct 5 2016):**
+**Week 7 3/15/17:**
 
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Lists and loops
+* Intro and review
+* Review Homework
+* Conditional tests
+* Homework: BLAST Parsing
+
+**Week 8 3/22/17:**
+
+* Intro and review
+* Review Homework
+* Data analysis with pandas
 * Homework: 
 
-**Week 5 (Oct 12 2016):**
+**Week 9 3/29/17:**
 
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Writing functions
+* Intro and review
+* Review Homework
+* Dictionaries
+* Homework: Actin Problem
+
+**Week 10 4/5/17:**
+
+* Intro and review
+* Review Homework
+* Biopython
+* Homework: Actin Problem with Biopython tools
+
+**Week 11 4/12/17:**
+
+* Intro and review
+* Review Homework
+* Topic: TBD
 * Homework: 
 
-**Week 6 (Oct 19 2016):**
+**Week 12 4/19/17:**
 
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Conditional tests
-* Homework: 
+* Intro and review
+* Review Homework
+* A brief look at: version control, testing, command line arguments, and regular expressions
 
-**Week 7 (Oct 26 2016):**
+**Week 13 4/26/17:**
 
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Data analysis with pandas
-* Homework: 
+* Project presentations (Presentations order will be randomly assigned)
 
-**Week 8 (Nov 2 2016):**
+**Week 14 5/3/17:**
 
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Dictionaries
-* Homework: 
-
-**Week 9 (Nov 9 2016):**
-
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: PyCharm, debugging
-* Homework: 
-
-**Week 10 (Nov 16 2016):**
-
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: Biopython
-* Homework: 
-
-**Week 11 (Nov 23 2016):**
-Thanksgiving week.
-
-* No class
-
-**Week 12 (Nov 30 2016):**
-
-* 5:30 - 6:00: Intro and review
-* 6:00 - 6:30: Review Homework
-* 6:30 - 7:30: A brief look at: version control, testing, command line arguments, and regular expressions
-
-**Week 13 (Dec 7 2016):**
-
-* Project presentations (Presentations will be randomly assigned)
-* Exit survey
-
-**Week 14 (Dec 14 2016):**
-
-* Project presentations (Presentations will be randomly assigned)
+* Project presentations (Presentations order will be randomly assigned)
