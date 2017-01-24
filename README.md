@@ -151,7 +151,6 @@ Schedule
 * Why python
 * What can you do with python?
 * Troubleshooting software installation
-* Introduction to Jupyter notebook
 * Program: "Hello world" interactive
 * Homework: Submit the hello world program 
 
