@@ -15,7 +15,7 @@ Instructor:
 
 First class: Feb 1, 2017
 
-Final class:  May 10, 2017
+Final class:  May 3, 2017
 
 *This document is subject to revision.*
 
@@ -59,7 +59,7 @@ Important dates:
 Required Materials
 ------------------
 
-**Each student is encouraged to bring their own laptop to each class.** Programing without a computer would be an exceptional feat. For the course, we will use Python 3. Any python installation should work, but you must be able to install packages. The [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads) from Continuum Analytics will likely be the easiest approach to configuring python if you do not already have python installed. The Anaconda installer will automatically install many of the packages we will use during the course.
+**Each student is encouraged to bring their own laptop to each class.** Programing without a computer would be an exceptional feat. For the course, we will use Python 3. Any python installation should work, but you must be able to install packages. The [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads) from Continuum Analytics will likely be the easiest approach to configuring python if you do not already have python installed. The Anaconda installer will automatically install many of the packages we will use during the course. Or see the guidelines on http://docs.python-guide.org/en/latest/ that were emailed to you.
 
 Recommended Books
 -----------------
