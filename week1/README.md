@@ -31,11 +31,11 @@ https://www.youtube.com/watch?v=-67hh86N42Q
 2. Take a screenshot of the output
 3. Add another question to hello_world_interactive.py - SAVE UNDER A DIFFERENT NAME!
 4. Run the new script and take a screenshot of the output
-5. Compress all four files into a single archive called [your_name]_HW1 and submit. 
+5. Compress all four files into a single archive called [your_name]_HW1 and submit.
 
 ##Where to send homework
 
 * https://dropitto.me/Learn_Python_330_section
 * https://dropitto.me/Learn_Python_530_section
-* password for both is: iLOVEpython
-* Homework must be recieved no later than 12:00 PM on 2/10/17 to recieve credit
+* Password for both is: iLOVEpython
+* Homework must be received no later than 12:00 PM on 2/10/17 to receive credit
