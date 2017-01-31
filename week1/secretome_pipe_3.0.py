@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+##this is written in python 2
 
 import sys, getopt, subprocess, os, tempfile, shutil, time
 
@@ -21,7 +22,7 @@ if len(sys.argv) < 2:
 
 if sys.argv[1] == "-check":
 	def which(cmd):
-		command = "which " + cmd	
+		command = "which " + cmd
 		check = subprocess.call([command], stdout=subprocess.PIPE, stderr =subprocess.PIPE, shell=True)
 		if check == 0:
 			print cmd + " Present"
@@ -36,9 +37,9 @@ if sys.argv[1] == "-check":
 	which("faSomeRecords")
 	which("fasta_formatter")
 	which("runWolfPsortSummary")
-	
+
 	sys.exit(0)
-	
+
 elif sys.argv[1] == "-h":
 	print """
 	Usage: python Secretome_pipe.py [protein_file.fasta] [output_file_prefix]
@@ -47,11 +48,11 @@ elif sys.argv[1] == "-h":
 
 	If you want to check for the necessary programs use 'python Secretome_pipe.py -check'
 	This script takes a multi-fasta protein file as input and will generate the prediceted secretome
-	as an output. All of the intermidiate files created by the various prediction programs are 
+	as an output. All of the intermidiate files created by the various prediction programs are
 	stored in the directory created and have the output_file_prefix as a leader to the file name.
-	
+
 	##NOTE in the file tmhmmformat.pl set the follwoing lines as shown:
-	
+
 	$opt_html = 0;       # Make HTML output
 	$opt_short = 1;      # Make short output format
 	$opt_plot = 0;       # Make plots
@@ -62,7 +63,7 @@ elif sys.argv[1] == "-h":
     	                     # in the Nterm
 
 	"""
-	
+
 	sys.exit(0)
 
 
@@ -88,64 +89,64 @@ except OSError:
 		raise
 
 # Removes carrige returns from fasta file
-def singleline():		
+def singleline():
 	print "\nMaking fasta single line"
-	file_in = sys.argv[1]	
-	file_out = open(path + "singleline.fasta", "w")	
-	command = ("fasta_formatter -i " + file_in + " -w 0")	
+	file_in = sys.argv[1]
+	file_out = open(path + "singleline.fasta", "w")
+	command = ("fasta_formatter -i " + file_in + " -w 0")
 	p1 = subprocess.check_call([command], stdout=file_out, shell=True)
 	print "Fasta now single line"
 	file_out.close()
 
 # use Signalp to idnetify sequences with signal peptides
 def signalp():
-	singleline()	
-	command = ("signalp3.0 -t euk -short -m hmm " + path + "singleline.fasta | grep ' S ' > " + path + "signalpOUT.txt")	
-	print "\nRunning SignalP"	
-	signalpRUN = subprocess.check_call([command], shell=True)		
+	singleline()
+	command = ("signalp3.0 -t euk -short -m hmm " + path + "singleline.fasta | grep ' S ' > " + path + "signalpOUT.txt")
+	print "\nRunning SignalP"
+	signalpRUN = subprocess.check_call([command], shell=True)
 	print "SignalP Complete"
-	
+
 	# Generate the list of sequences with siganal peptides using the mature sequences
-	
+
 	print "\nCreating SignalP protein list"
-	command_list = ("cut -d ' ' -f 1 " + path + "signalpOUT.txt") 	
+	command_list = ("cut -d ' ' -f 1 " + path + "signalpOUT.txt")
 	file_out4 = open(path + "goodlistSigP.txt", "w")
 	tab = subprocess.check_call([command_list], stdout=file_out4, shell=True)
 	file_out4.close()
 
 # This function creates a fasta file containing the complete sequences with signal peptides
-def sigpFasta():	
+def sigpFasta():
 	command4 = ("faSomeRecords " + path + "singleline.fasta " + path + "goodlistSigP.txt " + path + "signalP_pass.fasta")
-	print "\nRetreving SignalP fasta"	
-	fastaRUN = subprocess.check_call([command4], shell=True)	
+	print "\nRetreving SignalP fasta"
+	fastaRUN = subprocess.check_call([command4], shell=True)
 
 # This function runs tmhmm on the sequences with signal peptides inorder to check for transmembramne domains.
-# NOTE this uses the mature sequences only so any TM regions in the signal peptide will be avoided/ignored	
-def tmhmm(): 
+# NOTE this uses the mature sequences only so any TM regions in the signal peptide will be avoided/ignored
+def tmhmm():
 	command = ("tmhmm -short " + path + "signalP_pass.fasta")
 	file_out = open(path + "tmhmmOUT.txt", "w")
 	print "\nRunning tmhmm on mature signalp sequences only"
 	tmhmmRUN = subprocess.check_call([command], stdout=file_out, shell=True)
-	file_out.close()	
+	file_out.close()
 	print "tmhmm complete"
 	print "\nIdentifying sequences without tm regions."
-	# This section of code parses the output from tmhmm and collects fastas with no TM regions	
+	# This section of code parses the output from tmhmm and collects fastas with no TM regions
 	openfile = open(path + "tmhmmOUT.txt", "r")
 	file_out2 = open(path + "tmhmmGoodlist.txt", "a")
 	for line in openfile:
-		if "\tPredHel=0\t" in line:					
+		if "\tPredHel=0\t" in line:
 			goodname = line.partition('\t')[0] + '\n'
 			file_out2.write(goodname)
 	openfile.close()
 	file_out2.close()
 
-#This function uses targetp to verify the destination of the signal peptide	
-#NOTE for plant networks use -P over -N	
+#This function uses targetp to verify the destination of the signal peptide
+#NOTE for plant networks use -P over -N
 def targetp():
 	ends = ("seqEnd.pl -l 70 " + path + "signalP_pass.fasta")
 	file_out_end = open(path + "short.fasta", "w")
 	endrun = subprocess.check_call([ends], stdout=file_out_end, shell=True)
-	file_out_end.close()		
+	file_out_end.close()
 
 	command = ("targetp -N " + path + "short.fasta")
 	file_out = open(path + "targetpOUT.txt", "w")
@@ -154,16 +155,16 @@ def targetp():
 	print "TargetP complete"
 	file_out.close()
 	print "\nIdentifying sequences that are secreated."
-	
-	# Removes the leader info from the out file 
+
+	# Removes the leader info from the out file
 	lines = open(path + 'targetpOUT.txt').readlines()
-	open(path + 'targetpOUT_parse.txt', 'w').writelines(lines[8:-2])	
-	
+	open(path + 'targetpOUT_parse.txt', 'w').writelines(lines[8:-2])
+
 	# Puts fastas identified as secreted "S" into goodlist
 	openfile = open(path + "targetpOUT_parse.txt", "r")
-	file_out2 = open(path + "targetpGoodlist.txt", "a")	
-	for line in openfile:		
-		if "S" in line:					
+	file_out2 = open(path + "targetpGoodlist.txt", "a")
+	for line in openfile:
+		if "S" in line:
 			goodname = line.partition(' ')[0] + '\n'
 			file_out2.write(goodname)
 	openfile.close()
@@ -173,13 +174,13 @@ def targetp():
 def wolfpsort():
 	command = ("runWolfPsortSummary fungi < " + path + "singleline.fasta")
 	file_out = open(path + "wolfPsortOUT.txt", "w")
-	file_out2 = open(path + "wolfPsortErrorLog.txt", "w")	
+	file_out2 = open(path + "wolfPsortErrorLog.txt", "w")
 	print "\nRunning WoLFPSORT"
 	wolfRUN = subprocess.check_call([command], stdout = file_out, stderr=file_out2, shell=True)
 	file_out.close()
-	file_out2.close()	
+	file_out2.close()
 	print "WoLFPSORT complete"
- 	
+
 	# Removes header from output file
 	lines = open(path + 'wolfPsortOUT.txt').readlines()
 	open(path + 'wolfPsortOUT_parse.txt', 'w').writelines(lines[1:])
@@ -189,7 +190,7 @@ def wolfpsort():
 	searchValue = "extr"
 	f = open(path + "wolfPsortOUT_parse.txt", "r+b")
 	for line in f:
-		if line.split()[1] == searchValue:				
+		if line.split()[1] == searchValue:
 			goodname = line.partition(' ')[0] + '\n'
 			file_out2.write(goodname)
 	f.close()
@@ -220,18 +221,18 @@ def secretome():
 #	file1.close()
 #	file2.close()
 #	file3.close()
-#	file4.close()	
+#	file4.close()
 #	newfile.close()
 
 # takes the collected fasta names and creates the file fasta file of the predicted secretome
 def secFasta():
 	command = ("faSomeRecords " + path + "singleline.fasta " + path + "secretome_pass.txt " + file_name + "secretome_pass.fasta")
-	print "\nRetreving Secretome fasta"	
-	fastaRUN = subprocess.check_call([command], shell=True)	
+	print "\nRetreving Secretome fasta"
+	fastaRUN = subprocess.check_call([command], shell=True)
 	print "\nSecretome identification Complete"
 
 # main execution of the program in the proper order
-def main():	
+def main():
 	signalp()
 	sigpFasta()
 	tmhmm()
@@ -241,4 +242,3 @@ def main():
 	secFasta()
 
 main()
-
