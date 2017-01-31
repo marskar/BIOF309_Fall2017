@@ -27,7 +27,11 @@ https://www.youtube.com/watch?v=-67hh86N42Q
 * http://pythonforbiologists.com/index.php/introduction-to-python-for-biologists/python-for-biologists-introduction/
 
 #Homework
-Add another question to hello_world_interactive.py 
+1. Run hello_world_interactive.py
+2. Take a screenshot of the output
+3. Add another question to hello_world_interactive.py - SAVE UNDER A DIFFERENT NAME!
+4. Run the new script and take a screenshot of the output
+5. Compress all four files into a single archive called [your_name]_HW1 and submit. 
 
 ##Where to send homework
 
