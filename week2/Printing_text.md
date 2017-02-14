@@ -266,8 +266,6 @@ To count the number of times the nucleotide "A" occurs in our string we use the 
 
 
 ```python
-:
-
 new_dna.count('A')
 ```
 
@@ -364,15 +362,16 @@ We can also use the replace() method to change values
 ```python
 my_dna = "ATCGGGGGATG"
 print(my_dna.replace("T", "U"))
-AUCGGGGGAUG
 ```
+    AUCGGGGGAUG
+
 
 This is a method that requires arguments unlike .upper() or lower() although you can give those arguemtns as well.
 
 ```python
 print(my_dna.lower("T"))
-AtCGGGGGAtG
 ```
+    AtCGGGGGAtG
 
 Note that these methods do not affect the original variable. In order to save the result of a
 method you will need to save it as a new variable name.
@@ -381,6 +380,6 @@ method you will need to save it as a new variable name.
 my_lower_dna = my_dna.lower()
 print(my_dna)
 print(my_lower_dna)
-ATCGGGGGATG
-atcgggggatg
 ```
+    ATCGGGGGATG
+    atcgggggatg
