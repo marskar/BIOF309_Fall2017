@@ -207,15 +207,15 @@ More generically, to check to see if a python object (character, string, number,
 
 
 ```python
-message = 'Hello world!'
+print(new_dna)
 ```
 
-    'Hello world!'
+    'atgtag'
 
 ```python
-message.upper()
+print(new_dna.upper())
 ```
-    'HELLO WORLD!'
+    'ATGTAG'
 
 ### _slice [ i : j : k ]_
 
@@ -233,63 +233,30 @@ __NOTE__: The first number is INCLUSIVE (included), while the second number is E
 
     s[i:j:k]	slice of s from i to j with step k
 
-
-
-```python
-:
-new_dna
-```
-
-
-
-
-    'atgtag'
-
-
-
-
 ```python
 new_dna[0]
 ```
-
-
-
-
     'a'
-
-
-
 
 ```python
 new_dna[::-1]
 ```
 
-
-
-
     'gatgta'
-
 
 
 ### _len_
 
-To get teh length or total count of the residues in our sequence use the _len_ function:
+To get the length or total count of the residues in our sequence use the _len_ function:
 
     len(new_dna)	length of new_dna
 
 
 ```python
-:
-
 len(new_dna)
 ```
 
-
-
-
     6
-
-
 
 ### _count_
 
@@ -323,13 +290,8 @@ Like the plus sing (+) concatenation joins string together. The concatenation sy
 
     dna1 = "atgaattgg"
     dna2 = "ttaaggtag"
-    new_dna = dna1 & dna2
+    new_dna = dna1 + dna2
 
-
-```python
-:
-
-```
 
 ### Changing case
 
@@ -344,23 +306,15 @@ For lowercase, use the _lower()_ method.
     new_dna.lower()
 
 
-```python
-:
-
-```
-
 ### Substring
 
 One can extract a substring from a sequence as well using a built-in method. As we mentioned above, a string is a sequence or collection of characters (Unicode characters).
 
 We use square brackets "[" and "]" to extract a subsequence.
 
-
-
-
 ```python
-:
-
+section = new_dna[2:5]
+print(section)
 ```
 
 ### Find
@@ -387,28 +341,15 @@ Find the position of the stop codon:
 
 
 ```python
-:
 new_dna.find('tag')
 ```
-
-
-
-
     3
-
-
-
 
 ```python
 new_dna[3:]
 ```
 
-
-
-
     'tag'
-
-
 
 ### Reversing
 
@@ -416,9 +357,30 @@ We can make use of a trick of the slicing capability to reverse a string. Use a 
 
     new_dna[::-1]
 
+### Replacing
+
+We can also use the replace() method to change values
 
 ```python
-:
+my_dna = "ATCGGGGGATG"
+print(my_dna.replace("T", "U"))
+AUCGGGGGAUG
+```
 
+This is a method that requires arguments unlike .upper() or lower() although you can give those arguemtns as well.
 
+```python
+print(my_dna.lower("T"))
+AtCGGGGGAtG
+```
+
+Note that these methods do not affect the original variable. In order to save the result of a
+method you will need to save it as a new variable name.
+
+```python
+my_lower_dna = my_dna.lower()
+print(my_dna)
+print(my_lower_dna)
+ATCGGGGGATG
+atcgggggatg
 ```
