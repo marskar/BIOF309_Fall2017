@@ -54,13 +54,7 @@ As we can see from the code below, python does not care if we use single or doub
 "Hello world" == 'Hello world'
 ```
 
-
-
-
     True
-
-
-
 
 ```python
 print("Hello world")
