@@ -18,11 +18,20 @@ Your tasks were to:
 
 ##Homework
 
-* Use this sequence as your input DNA (_PLESE COPY/PASTE THIS DIRECTLY INTO YOUR FILE_)
+1. Use this sequence as your input DNA (**COPY/PASTE THIS DIRECTLY INTO YOUR FILE**)
   * ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT
-1. Write a program that will print out the AT content of this sequence
-2. Use typical mathmatical functions (+, - , / , \*)
-3. If you are using python don't forget to add:
+2. Write a program that will print out the AT content of this sequence
+3. Use typical mathematical functions (+, - , / , \*)
+4. You script should be named as follows your_name.ATcount.HW2.py
+5. Submit your final script to the proper drop it to me page.
+6. If you are using python don't forget to add:
 ```python
 from __future__ import division
 ```
+
+##Where to send homework
+
+* https://dropitto.me/week2-330
+* https://dropitto.me/week2-530
+* Password for both is: iLOVEpython
+* Homework must be received no later than 12:00 PM on 2/21/17 to receive credit
