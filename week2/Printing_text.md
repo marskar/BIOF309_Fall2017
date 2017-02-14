@@ -20,7 +20,7 @@ We "printed" or wrote the string to the terminal. The python command _print_ is 
 
 ### Getting help
 
-__NOTE__: Would you like to get more inforamtion on _print_? Type
+__NOTE__: Would you like to get more information on _print_? Type
 
     print?
     or
@@ -28,7 +28,7 @@ __NOTE__: Would you like to get more inforamtion on _print_? Type
 
 
 ```python
-help(print)
+>>> help(print)
 ```
 
     Help on built-in function print in module builtins:
@@ -137,18 +137,15 @@ What is the result? Is there anything wrong with it? If so, how do you fix it?
 Thus far we have been working directly with string or text. We can create a variable to store the text that we want.
 ```python
     message = "Hello world!"
-
+```
 We can then use that variable in our print statement:
 
 ```python
   print(message)
-
+```
 What happens when you run the statement above?
 
-
 ```python
-:
-
 message = "Hello world!"
 print(message)
 ```
@@ -170,17 +167,11 @@ Check and see what type of object something is by using the built-in function "t
 
 
 ```python
-:
+
 variable_name_1 = "A test"
 variable_name_1
 ```
-
-
-
-
     'A test'
-
-
 
 ---
 ## Utilizing the python _str_ (string) methods
@@ -216,28 +207,15 @@ More generically, to check to see if a python object (character, string, number,
 
 
 ```python
-:
-message
+message = 'Hello world!'
 ```
 
-
-
-
     'Hello world!'
-
-
-
 
 ```python
 message.upper()
 ```
-
-
-
-
     'HELLO WORLD!'
-
-
 
 ### _slice [ i : j : k ]_
 
