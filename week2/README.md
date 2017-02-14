@@ -19,4 +19,10 @@ Your tasks were to:
 ##Homework
 
 * Use this sequence as your input DNA (_PLESE COPY/PASTE THIS DIRECTLY INTO YOUR FILE_)
-** ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT
+  * ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT
+1. Write a program that will print out the AT content of this sequence
+2. Use typical mathmatical functions (+, - , / , \*)
+3. If you are using python don't forget to add:
+```python
+from __future__ import division
+```
