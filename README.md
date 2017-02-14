@@ -15,16 +15,16 @@ Instructor:
 
 First class: Feb 1, 2017
 
-Final class:  May 3, 2017
+Final class:  May 10, 2017
 
 *This document is subject to revision.*
 
 Course Description
 ------------------
 
-This course is designed for non-programmers, biologists, or those without specific knowledge of python to learn how to program. 
+This course is designed for non-programmers, biologists, or those without specific knowledge of python to learn how to program.
 Week by week we will slowly build up your skills and understanding of programming and the python language. As with learning
-any language you will get as much out of this class as you put in more effort. There will be in class demonstrations and 
+any language you will get as much out of this class as you put in more effort. There will be in class demonstrations and
 Homework most weeks for you to practice and learn at your own pace.
 
 
@@ -34,7 +34,7 @@ Learning Objectives
 By the end of this course you should be able to:
 
 1. Look at a task and determine if you can or should automate it
-2. Create working python programs 
+2. Create working python programs
 3. Understand the difference between different object types in python (i.e. lists, dicts)
 4. Do basic data analysis with python
 5. Write bioinformatics programs utilizing the biopython package
@@ -42,10 +42,10 @@ By the end of this course you should be able to:
 Logistics
 ---------
 
-This is a 14 week course starting on the 1st Feb 2017, and finishing on 3rd May 2017. 
+This is a 14 week course starting on the 1st Feb 2017, and finishing on 3rd May 2017.
 
 Meeting Time and Place: 3:30 Section -
-Meeting Time and Place: 5:30 Section - 
+Meeting Time and Place: 5:30 Section -
 
 Attendance in class is strongly recommended; however, we realize other commitments will occasionally prevent attendance. Class materials will generally be sent to all learners via email.
 
@@ -126,7 +126,7 @@ Grading the __final project__ will follow the following rubric:
   - Each part of the code, and the whole, could be reused (10-12)
 
 
-* Performance 
+* Performance
 
   - Program does not run (1-6)
   - Program runs, but does not produce correct output (7-12)
@@ -143,7 +143,7 @@ Course materials are available from the github repository: https://github.com/ia
 Schedule
 --------
 
-**Week 1 2/1/17:** 
+**Week 1 2/1/17:**
 
 * Intro survey review
 * Course overview
@@ -152,7 +152,7 @@ Schedule
 * What can you do with python?
 * Troubleshooting software installation
 * Program: "Hello world" interactive
-* Homework: Submit the hello world program 
+* Homework: Submit the hello world program
 
 **Week 2 2/8/17:**
 
@@ -185,7 +185,7 @@ Schedule
 * Intro and review
 * Review Homework
 * Writing functions
-* Homework: 
+* Homework:
 
 **Week 7 3/15/17:**
 
@@ -199,7 +199,7 @@ Schedule
 * Intro and review
 * Review Homework
 * Data analysis with pandas
-* Homework: 
+* Homework:
 
 **Week 9 3/29/17:**
 
@@ -220,7 +220,7 @@ Schedule
 * Intro and review
 * Review Homework
 * Topic: TBD
-* Homework: 
+* Homework:
 
 **Week 12 4/19/17:**
 
