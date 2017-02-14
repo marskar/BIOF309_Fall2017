@@ -53,35 +53,25 @@ As we can see from the code below, python does not care if we use single or doub
 ```python
 "Hello world" == 'Hello world'
 ```
-
     True
 
 ```python
 print("Hello world")
 ```
-
     Hello world
-
-
-
 ```python
 print('Hello world')
 ```
-
     Hello world
-
-
-
 ```python
 print("Hello world") # What happen when you try to run this cell?
+
 ```
-
     Hello world
-
 
 ### Comments, or what is that text at the end of the statement above?
 
-Comments are a way to include text in your code and is ignored by the compiler. Comments are very helpful to understand your code without interfearing with its execution or logic.
+Comments are a way to include text in your code and is ignored by the compiler. Comments are very helpful to understand your code without interfering with its execution or logic.
 
 Comments are preceded by a pound sign "#" and a space.
 

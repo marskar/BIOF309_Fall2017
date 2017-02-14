@@ -22,9 +22,9 @@ Your tasks were to:
   * ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT
 2. Write a program that will print out the AT content of this sequence
 3. Use typical mathematical functions (+, - , / , \*)
-4. You script should be named as follows your_name.ATcount.HW2.py
+4. Your script should be named as follows your_name.ATcount.HW2.py
 5. Submit your final script to the proper drop it to me page.
-6. If you are using python don't forget to add:
+6. If you are using python2 don't forget to add this line to the top of your script:
 ```python
 from __future__ import division
 ```
