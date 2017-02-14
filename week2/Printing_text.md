@@ -115,11 +115,8 @@ What happens when you try it below?
 
 
 ```python
-# Please type your code here:
-
-print("Hello world\nThis is the date\nMy name\nreport title")
+  print("Hello world\nThis is the date\nMy name\nreport title")
 ```
-
     Hello world
     This is the date
     My name
@@ -135,26 +132,22 @@ Strings can be combined using the plus operator. We know what one plus one is an
 What is the result? Is there anything wrong with it? If so, how do you fix it?
 
 
-```python
-# Please type your code here:
-
-```
-
 ### Variables for strings
 
 Thus far we have been working directly with string or text. We can create a variable to store the text that we want.
-
+```python
     message = "Hello world!"
 
 We can then use that variable in our print statement:
 
-    print(message)
+```python
+  print(message)
 
 What happens when you run the statement above?
 
 
 ```python
-# Please type your code here:
+:
 
 message = "Hello world!"
 print(message)
@@ -177,7 +170,7 @@ Check and see what type of object something is by using the built-in function "t
 
 
 ```python
-# Please type your code here:
+:
 variable_name_1 = "A test"
 variable_name_1
 ```
@@ -223,7 +216,7 @@ More generically, to check to see if a python object (character, string, number,
 
 
 ```python
-# Please type your code here:
+:
 message
 ```
 
@@ -265,7 +258,7 @@ __NOTE__: The first number is INCLUSIVE (included), while the second number is E
 
 
 ```python
-# Please type your code here:
+:
 new_dna
 ```
 
@@ -308,7 +301,7 @@ To get teh length or total count of the residues in our sequence use the _len_ f
 
 
 ```python
-# Please type your code here:
+:
 
 len(new_dna)
 ```
@@ -328,7 +321,7 @@ To count the number of times the nucleotide "A" occurs in our string we use the 
 
 
 ```python
-# Please type your code here:
+:
 
 new_dna.count('A')
 ```
@@ -356,7 +349,7 @@ Like the plus sing (+) concatenation joins string together. The concatenation sy
 
 
 ```python
-# Please type your code here:
+:
 
 ```
 
@@ -374,7 +367,7 @@ For lowercase, use the _lower()_ method.
 
 
 ```python
-# Please type your code here:
+:
 
 ```
 
@@ -388,7 +381,7 @@ We use square brackets "[" and "]" to extract a subsequence.
 
 
 ```python
-# Please type your code here:
+:
 
 ```
 
@@ -416,7 +409,7 @@ Find the position of the stop codon:
 
 
 ```python
-# Please type your code here:
+:
 new_dna.find('tag')
 ```
 
@@ -447,7 +440,7 @@ We can make use of a trick of the slicing capability to reverse a string. Use a 
 
 
 ```python
-# Please type your code here:
+:
 
 
 ```
