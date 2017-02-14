@@ -208,6 +208,12 @@ To see all available methods (functions) please look at the [Python Standard Lib
 
 ## Methods available to all objects:
 
+### Create a variable to work with
+
+```python
+new_dna = 'atgtag'
+```
+
 ### _in_
 
 To check to see if a nucleotide (i.e. a character) is in our DNA sequence use the __in__ operator.
@@ -249,11 +255,6 @@ message.upper()
     'HELLO WORLD!'
 
 
-
-
-```python
-new_dna = 'atgtag'
-```
 
 ### _slice [ i : j : k ]_
 
