@@ -366,13 +366,6 @@ print(my_dna.replace("T", "U"))
     AUCGGGGGAUG
 
 
-This is a method that requires arguments unlike .upper() or lower() although you can give those arguemtns as well.
-
-```python
-print(my_dna.lower("T"))
-```
-    AtCGGGGGAtG
-
 Note that these methods do not affect the original variable. In order to save the result of a
 method you will need to save it as a new variable name.
 
