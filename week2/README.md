@@ -20,7 +20,7 @@ Your tasks were to:
 
 1. Use this sequence as your input DNA (**COPY/PASTE THIS DIRECTLY INTO YOUR FILE**)
   * ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT
-2. Write a program that will print out the AT content of this sequence
+2. Write a program that will print out the AT content (percentage) of this sequence 
 3. Use typical mathematical functions (+, - , / , \*)
 4. Your script should be named as follows your_name.ATcount.HW2.py
 5. Submit your final script to the proper drop it to me page.
