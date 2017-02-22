@@ -24,16 +24,16 @@ You should see somethign like this:
 
 ## Finding out where you are:
 
-Displays your location in the file system
+###Displays your location in the file system
 
-  pwd     # pwd (Linux)
-	chdir   # chdir (Windows)
+* pwd     # pwd (Linux)
+* chdir   # chdir (Windows)
 
 
-Creates a directory
+###Creates a directory
 
-  mkdir   # mkdir directory
-	mkdir   # mkdir directory
+* mkdir   # mkdir directory
+* mkdir   # mkdir directory
 
 
 Changes directories with a specified path (absolute path)
