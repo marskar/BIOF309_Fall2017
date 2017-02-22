@@ -52,10 +52,9 @@ You should see somethign like this:
 * Absolute paths start at the root directory in Linux and at the Hard drive Letter in Windows:
 
     /Users/username/Document/BIOF309/file.txt
-
     C:/Users/username/Documents/BIOF309/file.txt
 
-Relative paths are "relative" to the programs currently location.
+* Relative paths are "relative" to the programs currently location.
 
     .\file.txt    # Current directory
 
