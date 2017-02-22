@@ -36,20 +36,20 @@ You should see somethign like this:
 * mkdir   # mkdir directory
 
 
-Changes directories with a specified path (absolute path)
+###Changes directories with a specified path (absolute path)
 
-  cd pathname    # cd /directory/directory
-	cd pathname    # cd C:/directory/directory
+* cd pathname    # cd /directory/directory
+* cd pathname    # cd C:/directory/directory
 
 
-Changes directories with a relative path
+###Changes directories with a relative path
 
-  cd ..   # cd ..
-	cd..    # cd..
+* cd ..
+* cd..
 
 ## Absolute Paths versus Relative Paths
 
-Absolute paths start at the root directory in Linux and at the Hard drive Letter in Windows:
+* Absolute paths start at the root directory in Linux and at the Hard drive Letter in Windows:
 
     /Users/username/Document/BIOF309/file.txt
 
