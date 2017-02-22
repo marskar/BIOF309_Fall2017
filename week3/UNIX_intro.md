@@ -25,39 +25,39 @@ You should see somethign like this:
 ## Finding out where you are:
 
 ###Displays your location in the file system
-
-* pwd     # pwd (Linux)
-* chdir   # chdir (Windows)
-
+```
+pwd     # pwd (Linux)
+chdir   # chdir (Windows)
+```
 
 ###Creates a directory
-
-* mkdir   # mkdir directory
-* mkdir   # mkdir directory
-
+```
+mkdir   # mkdir directory
+mkdir   # mkdir directory
+```
 
 ###Changes directories with a specified path (absolute path)
-
-* cd pathname    # cd /directory/directory
-* cd pathname    # cd C:/directory/directory
-
+```
+cd pathname    # cd /directory/directory
+cd pathname    # cd C:/directory/directory
+```
 
 ###Changes directories with a relative path
-
-* cd ..
-* cd..
-
+```
+cd ..
+cd..
+```
 ## Absolute Paths versus Relative Paths
 
 * Absolute paths start at the root directory in Linux and at the Hard drive Letter in Windows:
-
-    /Users/username/Document/BIOF309/file.txt
-    C:/Users/username/Documents/BIOF309/file.txt
-
+```
+/Users/username/Document/BIOF309/file.txt
+C:/Users/username/Documents/BIOF309/file.txt
+```
 * Relative paths are "relative" to the programs currently location.
-
-    .\file.txt    # Current directory
-
+```
+.\file.txt    # Current directory
+```
 ## Working with files
 
 Lists files
