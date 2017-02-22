@@ -23,21 +23,21 @@ Your tasks were to:
 
 ##Homework
 
-1. Writing a FASTA file
-2. FASTA file format is a commonly-used DNA and protein sequence file format. A single sequence in FASTA format looks like this:
+* Writing a FASTA file
+* FASTA file format is a commonly-used DNA and protein sequence file format. A single sequence in FASTA format looks like this:
 ```pyhon
 >sequence_name
 ACTAGCTAGCTAGCATCG
 ```
-3. Write a program that will create a MULTI-FASTA file for the following three sequences – make sure that all sequences are in upper case and only contain the bases A, T, G and C.
+* Write a program that will create a MULTI-FASTA file for the following three sequences – make sure that all sequences are in upper case and only contain the bases A, T, G and C.
 ```python
 SEQUENCE HEADER     DNA SEQUENCE
 ABC123              ATCGTACGATCGATCGATCGCTAGACGTATCG
 DEF456              actgatcgacgatcgatcgatcacgact
 HIJ789              ACTGAC-ACTGT--ACTGTA----CATGTG
 ```
-4. Submit your final script to the proper drop it to me page.
-5. Your file should be named [yourname].HW3.fasta.py
+* Submit your final script to the proper drop it to me page.
+* Your file should be named [yourname].HW3.fasta.py
 
 
 ##Where to send homework
