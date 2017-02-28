@@ -22,7 +22,7 @@ Your tasks were to:
 ##Homework
 
 * Trimming sequences
-* Directions are a PDF file in this directory
+* Directions are a PDF file in this directory (trimming_HW.pdf)
 * Submit your final script to the proper drop it to me page.
 * Your file should be named [yourname].HW_4.py
 
