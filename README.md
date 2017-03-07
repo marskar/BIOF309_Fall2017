@@ -11,7 +11,8 @@ Syllabus
 
 Instructor:
 
-* Ian Misner (ian.misner at nih.gov)
+* Antej Nuhanovic (antejn at gmail)
+* (with Ian Misner (ian.misner at nih.gov))
 
 First class: Feb 1, 2017
 
