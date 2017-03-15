@@ -184,22 +184,22 @@ Schedule
 
 * Intro and review
 * Review Homework
-* Writing functions
+* Writing functions and Conditional tests
 * Homework:
 
 **Week 7 3/15/17:**
 
 * Intro and review
 * Review Homework
-* Conditional tests
-* Homework: BLAST Parsing
+* Objects and Pandas
+* Homework: submit project proposal via spreadsheet (https://goo.gl/t39OoF)
 
 **Week 8 3/22/17:**
 
 * Intro and review
 * Review Homework
-* Data analysis with pandas
-* Homework:
+* Data analysis with pandas continued
+* Homework:pandas Excel reading
 
 **Week 9 3/29/17:**
 
@@ -213,24 +213,24 @@ Schedule
 * Intro and review
 * Review Homework
 * Biopython
-* Homework: Actin Problem with Biopython tools
+* Homework: submit project milestone 1
 
 **Week 11 4/12/17:**
 
 * Intro and review
 * Review Homework
 * Topic: TBD
-* Homework:
 
 **Week 12 4/19/17:**
 
 * Intro and review
 * Review Homework
 * A brief look at: version control, testing, command line arguments, and regular expressions
+* Homework: submit project milestone 2
 
 **Week 13 4/26/17:**
 
-* Project presentations (Presentations order will be randomly assigned)
+* TBD (Possible Q & A and Review)
 
 **Week 14 5/3/17:**
 
@@ -238,4 +238,4 @@ Schedule
 
 **Week 15 5/10/17:**
 
-* TBD (Possible Q & A and Review)
+* Project presentations (Presentations order will be randomly assigned)
