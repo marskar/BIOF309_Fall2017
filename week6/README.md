@@ -17,7 +17,6 @@ Your tasks were to:
 
 ##Homework
 
-* Load an Excel data file in Pandas
 * Fill out the Project proposal spreadsheet
 
 
