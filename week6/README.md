@@ -17,7 +17,7 @@ Your tasks were to:
 
 ##Homework
 
-* Fill out the Project proposal spreadsheet
+* Fill out the Project proposal spreadsheet https://goo.gl/t39OoF
 
 
 ##Where to send homework
