@@ -12,6 +12,8 @@ Syllabus
 Instructor:
 
 * Antej Nuhanovic (antejn via gmail)
+** before contacting, please read:
+** https://stackoverflow.com/help/how-to-ask
 
 First class: Feb 1, 2017
 
