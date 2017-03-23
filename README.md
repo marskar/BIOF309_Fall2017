@@ -207,14 +207,14 @@ Schedule
 
 * Intro and review
 * Review Homework
-* Dictionaries
-* Homework: Actin Problem
+* Biopython
+* Homework: Pandas practice
 
 **Week 10 4/5/17:**
 
 * Intro and review
 * Review Homework
-* Biopython
+* Dictionaries
 * Homework: submit project milestone 1
 
 **Week 11 4/12/17:**
