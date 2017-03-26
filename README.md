@@ -201,7 +201,7 @@ Schedule
 * Intro and review
 * Review Homework
 * Data analysis with pandas continued
-* Homework:pandas Excel reading
+* Homework: install BioPython and update project proposal (If necessary)
 
 **Week 9 3/29/17:**
 
