@@ -1,23 +1,15 @@
-#Info for week 8 (3/22/2017)
+# Info for week 8 (3/22/2017)
 
-##Homework review
+## Homework review
 
 Your tasks were to:
 * Fill out the project proposal
 
-##Pandas introduction
+## Pandas introduction
 
 * pandas in depth using the Jupyter Notebook and .py files (per request)
 
-##Homework
+## Homework
 
-* Write a pandas script to load, describe and plot the data from an Excel file
-* bonus: ask and answer a good question about the data
-
-
-##Where to send homework
-
-* https://dropitto.me/week8-330
-* https://dropitto.me/week8-530
-* Password for both is: iLOVEpython
-* Homework must be received no later than 1:00 PM on 3/28/17 to receive credit
+* Install BioPython http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc4
+* Update (if neccessary) the project proposal
