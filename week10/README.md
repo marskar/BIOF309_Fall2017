@@ -7,7 +7,8 @@ Your tasks were to:
 * bonus: ask and answer a good question about the data
 
 ## Python dictionaries
-* Python dictionaries in depth using the Jupyter Notebook and .py files (per request)
+* Python dictionaries in depth using the book:
+* http://openbookproject.net/thinkcs/python/english3e/dictionaries.html
 
 ## Homework
 
