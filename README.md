@@ -220,19 +220,18 @@ Schedule
 **Week 11 4/12/17:**
 
 * Intro and review
-* Review Homework
-* Topic: TBD
+* Topic: A brief look at GUI, games, version control, testing
+* No homework
 
 **Week 12 4/19/17:**
 
-* Intro and review
-* Review Homework
-* A brief look at: version control, testing, command line arguments, and regular expressions
+* A brief look at: data analysis tools for big data - ML, NN, Hadoop
 * Homework: submit project milestone 2
 
 **Week 13 4/26/17:**
 
-* TBD (Possible Q & A and Review)
+* Topic: cybersecurity and other student topics
+* No homework
 
 **Week 14 5/3/17:**
 
