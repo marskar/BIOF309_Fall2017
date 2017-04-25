@@ -12,9 +12,7 @@ Your tasks were to:
 
 ## Homework
 
-* Caclulate amino acid residues 
-* Submit your final script to the proper drop it to me page.
-* Your file should be named [yourname].HW_5.py
+* Semester Milestone 2
 
 
 ## Where to send homework
@@ -22,4 +20,4 @@ Your tasks were to:
 * https://dropitto.me/week12-330
 * https://dropitto.me/week12-530
 * Password for both is: iLOVEpython
-* Homework must be received no later than 12:00 PM on 4/27/17 to receive credit
+* Homework must be received no later than 1:00 PM on 4/29/17 to receive credit
