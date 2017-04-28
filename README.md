@@ -44,7 +44,7 @@ By the end of this course you should be able to:
 Logistics
 ---------
 
-This is a 14 week course starting on the 1st Feb 2017, and finishing on 3rd May 2017.
+This is a 15 week course starting on the 1st Feb 2017, and finishing on 10th May 2017, with second week no class.
 
 Meeting Time and Place: 3:30 Section -
 Meeting Time and Place: 5:30 Section -
