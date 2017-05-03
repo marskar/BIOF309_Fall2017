@@ -236,7 +236,9 @@ Schedule
 **Week 14 5/3/17:**
 
 * Project presentations (Presentations order will be randomly assigned)
+* https://dropitto.me/BIOF309Spring17Projects
 
 **Week 15 5/10/17:**
 
 * Project presentations (Presentations order will be randomly assigned)
+* https://dropitto.me/BIOF309Spring17Projects
