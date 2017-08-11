@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Matt Shirley (matt.shirley@jhmi.edu)" />
+  <meta name="date" content="2013-04-18" />
+  <title>Reading, processing, and writing high throughput sequencing data</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js.gz"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">Reading, processing, and writing high throughput sequencing data</h1>
+  <p class="author">
+Matt Shirley (matt.shirley@jhmi.edu)
+  </p>
+  <p class="date">18 April 2013</p>
+</div>
+<div id="why-sequencing-data" class="slide section level1">
+<h1>Why sequencing data?</h1>
+<p>Only half of the class expressed an interest in using Python for sequence analysis. Why should I care?</p>
+<ul>
+<li>high throughput sequence is <em>big data</em></li>
+<li>it's also multi-dimensional</li>
+<li>your data of interest might also be mostly strings</li>
+<li>it's what your instructor knows best</li>
+</ul>
+</div>
+<div id="fastq-format" class="slide section level1">
+<h1>FASTQ format</h1>
+<p><a href="http://en.wikipedia.org/wiki/FASTQ_format">FASTQ</a>: it's like <a href="http://en.wikipedia.org/wiki/FASTA_format">FASTA</a>, except with quality scores for each base call</p>
+<pre><code>@HWI-EAS179_0001:5:1:7:119#0/1
+CAGGGCGCGAATGNTTTGAGAGGGANATTGGAAANNNNNGATAGANNGGNCTATNNTGNNNNNNNNNNNNNNNNNN
++HWI-EAS179_0001:5:1:7:119#0/1
+HIHHHGHHHFDHH#EHHH?HHHDH&gt;#DGGG@7@?##########################################</code></pre>
+<ul>
+<li>Lines 1-4 are
+<ol style="list-style-type: decimal">
+<li>read name</li>
+<li>base calls</li>
+<li>strand (+/-) and optional read name</li>
+<li>quality scores</li>
+</ol></li>
+<li>These quality scores are encoded as ASCII (American Standard Code for Information Interchange)
+<ul>
+<li>to decode, convert from ASCII to numeric and subtract 33</li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-all-at-once" class="slide section level1">
+<h1>Reading all at once</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">import</span> sys
+
+<span class="kw">with</span> <span class="dt">open</span>(<span class="st">&#39;1000_reads.fastq&#39;</span>, <span class="st">&#39;rU&#39;</span>) <span class="ch">as</span> f:
+    data = f.readlines()
+    
+bytes = sys.getsizeof(<span class="st">&#39;&#39;</span>.join(data))
+kbytes = <span class="dt">float</span>(bytes) / <span class="dv">1024</span>
+mbytes = kbytes / <span class="dv">1024</span>
+<span class="kw">print</span> mbytes</code></pre>
+<pre><code>## 2.10134029388</code></pre>
+<p>Our small sample file takes up <code>2.1013</code> MB on disk and <code>2.1013</code> MB in memory.</p>
+<p><a style="color:red">Uh oh</a>! My exome sequence is 10.5 GB. Do I need 10.5 GB of RAM?</p>
+<p>Instead of reading in our entire data at once (<em>like ordering a super-size value meal</em>) we can grab and use only as much as we need at once (<em>like making multiple trips to the salad bar</em>).</p>
+<p>In Python, this type of interaction is known as a <strong>generator</strong> object.</p>
+</div>
+<div id="how-to-make-a-generator" class="slide section level1">
+<h1>How to make a generator?</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> countTo(n):
+    <span class="co">&quot;&quot;&quot; Count to n in increments of one &quot;&quot;&quot;</span>
+    num, nums = <span class="dv">0</span>, []
+    <span class="kw">while</span> num &lt;= n:
+        nums.append(num)
+        num += <span class="dv">1</span>
+    <span class="kw">return</span> nums
+
+counting = countTo(<span class="dv">5</span>)
+<span class="kw">print</span> counting</code></pre>
+<pre><code>## [0, 1, 2, 3, 4, 5]</code></pre>
+<p>Let's turn this function into a generator:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> countTo(n):
+    <span class="co">&quot;&quot;&quot; Count to n in increments of one &quot;&quot;&quot;</span>
+    num = <span class="dv">0</span>
+    <span class="kw">while</span> num &lt;= n:
+        <span class="kw">yield</span> num
+        num += <span class="dv">1</span>
+
+counting = countTo(<span class="dv">5</span>)
+<span class="kw">print</span> counting
+<span class="kw">print</span> [i <span class="kw">for</span> i in counting]</code></pre>
+<pre><code>## &lt;generator object countTo at 0x1039a2410&gt;
+## [0, 1, 2, 3, 4, 5]</code></pre>
+<p>We can treat the generator like a list and get our results as we iterate.</p>
+</div>
+<div id="explicit-iteration" class="slide section level1">
+<h1>Explicit iteration</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> countTo(n):
+    <span class="co">&quot;&quot;&quot; Count to n in increments of one &quot;&quot;&quot;</span>
+    num = <span class="dv">0</span>
+    <span class="kw">while</span> num &lt;= n:
+        <span class="kw">yield</span> num
+        num += <span class="dv">1</span>
+
+counting = countTo(<span class="dv">5</span>)
+<span class="kw">print</span> [i <span class="kw">for</span> i in counting]
+
+counting = countTo(<span class="dv">5</span>)
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()
+<span class="kw">print</span> <span class="dt">iter</span>(counting).<span class="dt">next</span>()</code></pre>
+<pre><code>## [0, 1, 2, 3, 4, 5]
+## 0
+## 1
+## 2
+## 3
+## 4
+## 5</code></pre>
+<p>Each iteration <code>yields</code> a result when you request it. That way you never make the entire list in memory.</p>
+</div>
+<div id="reading-a-file-as-a-generator-object" class="slide section level1">
+<h1>Reading a file as a generator object</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> fastqReader:
+    <span class="co">&quot;&quot;&quot; </span>
+<span class="co">    A class to read the name, sequence, strand and qualities from a fastq file</span>
+
+<span class="co">    file = the file name of a fastq file</span>
+<span class="co">    &quot;&quot;&quot;</span>
+    <span class="kw">def</span> <span class="ot">__init__</span>(<span class="ot">self</span>, <span class="dt">file</span>):
+        <span class="ot">self</span>.<span class="dt">file</span> = <span class="dt">open</span>(<span class="dt">file</span>, <span class="st">&#39;rU&#39;</span>)
+        <span class="ot">self</span>.read = read
+
+    <span class="kw">def</span> <span class="ot">__iter__</span>(<span class="ot">self</span>):
+        <span class="co">&quot;&quot;&quot; </span>
+<span class="co">        Return read class: (name, sequence, strand, qualities).</span>
+<span class="co">        &quot;&quot;&quot;</span>
+        <span class="kw">for</span> i, line in <span class="dt">enumerate</span>(<span class="ot">self</span>.<span class="dt">file</span>):
+            <span class="kw">if</span> i % <span class="dv">4</span> == <span class="dv">0</span>:
+                name = line.strip()[<span class="dv">1</span>:]
+            <span class="kw">elif</span> i % <span class="dv">4</span> == <span class="dv">1</span>:
+                sequence = line.strip()
+            <span class="kw">elif</span> i % <span class="dv">4</span> == <span class="dv">2</span>:
+                strand = line.strip()
+            <span class="kw">elif</span> i % <span class="dv">4</span> == <span class="dv">3</span>:
+                qualities = line.rstrip(<span class="st">&#39;</span><span class="ch">\n\r</span><span class="st">&#39;</span>)
+                <span class="kw">yield</span> <span class="ot">self</span>.read(name, sequence, strand, qualities)
+
+    <span class="kw">def</span> <span class="ot">__enter__</span>(<span class="ot">self</span>):
+        <span class="kw">return</span> <span class="ot">self</span>
+
+    <span class="kw">def</span> <span class="ot">__exit__</span>(<span class="ot">self</span>, *args):
+        <span class="ot">self</span>.<span class="dt">file</span>.close()</code></pre>
+<p><code>%</code> = &quot;modulus&quot;, more commonly known as the remainder after division</p>
+</div>
+<div id="a-class-to-store-sequencing-data" class="slide section level1">
+<h1>A class to store sequencing data</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> read(<span class="dt">object</span>):
+    <span class="co">&quot;&quot;&quot;</span>
+<span class="co">    A class to hold features from fastq reads.</span>
+<span class="co">    &quot;&quot;&quot;</span>
+
+    <span class="kw">def</span> <span class="ot">__init__</span>(<span class="ot">self</span>, name, seq, strand, qual):
+        <span class="ot">self</span>.name = name
+        <span class="ot">self</span>.seq = seq
+        <span class="ot">self</span>.strand = strand
+        <span class="ot">self</span>.qual = qual
+        <span class="ot">self</span>.<span class="dt">dict</span> = {<span class="st">&#39;A&#39;</span>:<span class="st">&#39;T&#39;</span>, <span class="st">&#39;T&#39;</span>:<span class="st">&#39;A&#39;</span>, <span class="st">&#39;C&#39;</span>:<span class="st">&#39;G&#39;</span>, <span class="st">&#39;G&#39;</span>:<span class="st">&#39;C&#39;</span>, <span class="st">&#39;N&#39;</span>:<span class="st">&#39;N&#39;</span>}
+
+    <span class="kw">def</span> <span class="ot">__getitem__</span>(<span class="ot">self</span>, key):
+        <span class="kw">return</span> <span class="ot">self</span>.__class__(<span class="ot">self</span>.name, <span class="ot">self</span>.seq[key], <span class="ot">self</span>.strand, <span class="ot">self</span>.qual[key])
+
+    <span class="kw">def</span> <span class="ot">__repr__</span>(<span class="ot">self</span>):
+        <span class="kw">return</span> <span class="st">&#39;name: {0}</span><span class="ch">\n</span><span class="st">seq: {1}</span><span class="ch">\n</span><span class="st">strand: {2}</span><span class="ch">\n</span><span class="st">qual: {3}</span><span class="ch">\n</span><span class="st">&#39;</span>.<span class="dt">format</span>(\
+        <span class="ot">self</span>.name, <span class="ot">self</span>.seq, <span class="ot">self</span>.strand, <span class="ot">self</span>.qual)
+
+    <span class="kw">def</span> seqlen(<span class="ot">self</span>):
+        <span class="kw">return</span> <span class="dt">len</span>(<span class="ot">self</span>.seq)
+
+    <span class="kw">def</span> reverse(<span class="ot">self</span>):
+        <span class="co">&quot;&quot;&quot; Reverse the order of self &quot;&quot;&quot;</span>
+        <span class="kw">return</span> <span class="ot">self</span>.__class__(<span class="ot">self</span>.name, <span class="ot">self</span>.seq[::-<span class="dv">1</span>], <span class="ot">self</span>.strand, <span class="ot">self</span>.qual[::-<span class="dv">1</span>])
+
+    <span class="kw">def</span> complement(<span class="ot">self</span>):
+        <span class="co">&quot;&quot;&quot; Take the compliment of read.seq &quot;&quot;&quot;</span>
+        compseq = <span class="st">&#39;&#39;</span>.join(<span class="dt">map</span>(<span class="kw">lambda</span> x: <span class="ot">self</span>.<span class="dt">dict</span>[x], <span class="ot">self</span>.seq))
+        <span class="kw">return</span> <span class="ot">self</span>.__class__(<span class="ot">self</span>.name, compseq, <span class="ot">self</span>.strand, <span class="ot">self</span>.qual)</code></pre>
+</div>
+<div id="iterating-through-a-fastqreader-generator-object" class="slide section level1">
+<h1>Iterating through a fastqReader generator object</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">import</span> sys
+<span class="ch">import</span> lecture12
+<span class="kw">with</span> lecture12.fastqReader(<span class="st">&#39;1000_reads.fastq&#39;</span>) <span class="ch">as</span> fq:
+    read = <span class="dt">iter</span>(fq).<span class="dt">next</span>()
+    <span class="kw">print</span> read
+    read = <span class="dt">iter</span>(fq).<span class="dt">next</span>()
+    <span class="kw">print</span> read
+    bytes = sys.getsizeof(read.<span class="ot">__repr__</span>())
+    kbytes = <span class="dt">float</span>(bytes) / <span class="dv">1024</span>
+    mbytes = kbytes / <span class="dv">1024</span>
+    <span class="kw">print</span> mbytes</code></pre>
+<pre><code>## name: HWI-EAS179_0001:5:1:7:119#0/1
+## seq: CAGGGCGCGAATGNTTTGAGAGGGANATTGGAAANNNNNGATAGANNGGNCTATNNTGNNNNNNNNNNNNNNNNNN
+## strand: +HWI-EAS179_0001:5:1:7:119#0/1
+## qual: HIHHHGHHHFDHH#EHHH?HHHDH&gt;#DGGG@7@?##########################################
+## 
+## name: HWI-EAS179_0001:5:1:7:191#0/1
+## seq: GAATCGATGAAGTNCGGCTTTTTGTNGATGATGTNNNNNATGCGGNNGCNCTGTNNGTNNNNNNNNNNNNNNNNNN
+## strand: +HWI-EAS179_0001:5:1:7:191#0/1
+## qual: G=EFHHDHF=9D&lt;#D9:A@;HH=H0#B6?B##############################################
+## 
+## 0.000264167785645</code></pre>
+<p>Every time we iterate over our <code>fastqReader</code> object, we receive a new <code>read</code> object. Instead of using <code>2.1013</code> MB of memory, now we use only <code>0.0024</code> MB of memory! That leaves us plenty of to make our program useful.</p>
+</div>
+<div id="accessing-specific-base-positions-within-a-read" class="slide section level1">
+<h1>Accessing specific base positions within a read</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">import</span> lecture12
+<span class="ch">from</span> textwrap <span class="ch">import</span> fill
+<span class="kw">with</span> lecture12.fastqReader(<span class="st">&#39;1000_reads.fastq&#39;</span>) <span class="ch">as</span> fq:
+    starts = []
+    <span class="kw">for</span> read in fq:
+        starts.append(read.seq[<span class="dv">0</span>])
+    <span class="kw">print</span> fill(<span class="st">&#39;&#39;</span>.join(starts))</code></pre>
+<pre><code>## CGTAGTCTTCAATCGTTTAGTAGGGCGACTTATGTTACAGTAGCTATCAAGAACTAAGGGGGACATGAAT
+## TACAAAGGGTCCGAAGTAGATGCTAAAAGTAACCACTGGTCCAGGAGGATAAAGGATCTGTAGAAGCTTG
+## TTCCTTTTTACCACTGGGAGTCTCAAACTTTGTGGCTAGAGGAAGCTAAAATAAGACGTTCTGGCAGATA
+## GAGGGTCTCATTCAGAGATGAAATAGTTTAGTTATGATTTGTGAGAGCGATGACATGACAAAAGTAATAC
+## AAATCTATCCTTAAGTAAACTCTTGCACTGAGCCTGAGCCGTTTAATAGAGAGCAGTTGCAGAAGGGGCA
+## ACCGGCATCTCTTAGTCGCTGACGGACTGAGAGATTGCAGTTACCTGGTGAGTGCGAAATTGGTCGCAAA
+## TGATAAGACATTCACTTGGAATCCATCCCTTTAAACTCGTGCTAGTAGTGGACGGTGGATGCCTAATGGT
+## GTGCACCCAACAACCATACGTTAGGGTGAGGGTACTGGACCCGAGCCCAATCCGGTTGGATATGGACCGG
+## TAGTGTTGTATCGGCAAAATGCACTGCGGTATTTAATTTCAGGACTTAGCTAGTAGTATGAACCAAAGGA
+## CGCATTACTATAGTAGAGGAGACTTTGAATTCGATTTTTGCGANAGAAGTATGTAACGAAATCGAGAAAC
+## GGGGGGCAAAGTGGTTATATCTGAGAATACCGCCGTGATCTAGTATCGATTTTGCCGAGGCCCCCGTGAG
+## ACCAAAGGACCATGAATCANTGCGCAGGCGGGTTCCACGCCAGCAAGAATGTAGATTACGGACTTTGACC
+## TTAAATTGTTATGAATTTTGAAAGATTAGCTGTGTGTGAAGAACTGTTATAATAGTTACAGTAGAAGCTT
+## GGGCGCGCACGAGACCTTAATGTTGGTCAGAGTTACGAGTAGCTATGTGCGTTGGGAGAGCGGGAGGGTA
+## CTAAAAAGATAGATATTAAGACAGTAGAAACAGCGAGATTAGATTACTAAGCGACCGAGCAATCGGAGCG
+## GGGTAGCAGGACGAAAACAACTAAAGACCGAGTGACAGAAGTTTTGAATCGAGGATTTGCATGCGAGCCC
+## TAAGAAACCCTAAGACTGCACTTAGAAGGAGTCAATAATAAGNGACCTCCCAGCGGTGGATTCGCGGTAG
+## TCCGTGCAAAGCAAAAAACAAATACTCAATGAATCAGACCGGTGGGACCGATAATAGACCATATGATTTG
+## AATGTGGATCCACTGGCTGAGATATGAAAAGAGACTCTCTTTTTAGGGTGGCGCAGTCTCCAAGAGGTAT
+## TCGCCGTAGCTGAAGGTAAGCAGCCGTGAGACGTTTTGGTATAGGACTGCTCCAAAAGTCGGCTTCCAAT
+## GCTTTGTTTTATCGCACACAGGAGGCTATTGCGGTATAGTCGAAAGAATGCATATGATTTATTTCACCAT
+## GGGGCGGTTGCGTACGACAAAGTATTTAGAGGAACAACTTGATGGATGGTCCACGCAAGGGCTCAGTTGA
+## TAGCAAATAAATACGATTCCCGGTAATGTTCATAAAATTAACTTCGAAACCAAAAGTTAAGCGTGGCACA
+## TAGAGAATGACGAGGGACGTGATAGAGCAGAAAAGTTATCTTGTTGGTGCCACTAAACTAACACAGTAGA
+## AGTGGACAACTTGAGAGACTGGGACGCTCAGGGTAGTAAAACGACAGAAAGTCTTTGGGGCATCGTACTC
+## GGCTGAAGAGAATGGATGTAGGATCGAAATCAAAGCATTTTTACTAGTATCAGTGAATGTTAAGACAGCT
+## AAACAAACGTCTTTGTGTAGAACAGATACACGGGGACAGAAATCAACAGAGCGTAGCGCCAGGTGCAGAT
+## TCGGGTGATTAGACCAGGCGCGCATGAGTTGAATAATGTAGTAGTAAACGGAAATAAACAGAGTGGCAAC
+## TACGACACTAAAAATGGAATATACAAGAGTAAGGGGAAGTCTGCAATAGTACTGTGCCGAATTTGGAGGG
+## ATAAAAAACGACTGGGGAAGTTTCGCTGGAAAAGGTATAGAAGTAACGACAGGGTATAGCTCTAACAAGA
+## AGTTCACGATAGAAGGACAGGAATAACAAACTCATATTCAGATAAGTTATCGTGGAGGGGGGTGGGAAGT
+## CCTACCTGAGTGAGTGGTAGAGTGTGTCTAGCACCTAGTGAGGAACGTGTATTATGAGTGACAGAACGGG
+## GACGCATGGGGTCATACTCAGAACAGTAAAGGTGACTATAATAAACGTCGACTGCTTGGGGAGTTTAGTT
+## TAGTCTCGGGATCGTACCCAGGGCTAGGTAGGCACATAAACTCAGGTACGTGTGAGGGCGAGCGATGTGA
+## CGATATACTCAATTGCTCTCCCCCGGAGACAGAAAGGGGTAGTATGCGAAAGTTGATCGCTCAGTGTGCG
+## CACAACGGCAGTGAGTGATCGAGAGCGGCGATATGAGGCGAGTACTGAGCTAGGAGCTATATGTAGAGCT
+## GTATGATGATCGAATTTCGAACAAGATGCGTTTTAGCGAACGTCTCTAATAGGTCACTATTACCACTCTT
+## AGACAAAGAGACATAAGCTCAAAAATGAGTGACCGCACTTATGAACCTCTACAGAGTGATAAGTAATATA
+## CTCTGAGCTTGTATAGAGATTCGTAATGGGCCTGAGATTTCATAGCTTTAAGGTCAACGAATCGGCTTAT
+## CATCAGCGATAACTATGCTGGAATGATCCCTAAAAGTTCTGTCTATTGTAGAATTTACTGTATAGAATCG
+## GTAAAGACATTGGTATACATTAATCTATTCGGAGATCGCCTATGCTTTGAATGAAGGACAAAATCATGAA
+## TATTTTAAAACTTGATGCGGACTTCTAGCTGGTCGCTGGACACAATGTTTGGGAAAAAAATTAAACGGTA
+## CGAACAAAGGCCGTGGACAGGAAAGGTTTTGACTTGGGAATTTAAAGGGGAATGAAAATCGATCATAGTC
+## AATCGCCAGAAATTGATATGACATGGCCCACTAGATATGATATAGCAGAAGCAAATCTGCCGGCAGAATC
+## ACGGTCCGATACTTTTCAGTTAAGGGTAAGTAACCGTTAATCGCGCTCGAGAACCAAATAACATATCCAA
+## GATGCATAAACATAGCTGTTGGATCGATGTAGGATGGACTAAATAACAAAAGAAAAGTTATACGCAAGGA
+## TCAAGAATAGATAAAGCTTCTAGCTAATTCACTAGAGATTAGGGGTTTCGAGAGAGTACCGAGATACTGC
+## CTAGCACCCTGGTAGTAGGCCTGAAACTGGAGGGGCTTATGCTAGAAATATACGATAAGTAATCTTATCT
+## GACTAGATCAAACGACACCTAGGTCTGGTCGGTACAAAAATCAGGCATAGTTAGAGGGAACGAGAGAGTG
+## GTGTATGCAACTGACGAAGCAAAGTGATATAAAGCAAAGAAGCCCTTCACAGTGAAAGCCAGGTATGATA
+## AAGTAGATATAAGGGAGGAAGAGACTCGAGAGAGACACGATTAGTAAGGAAGATTAAAAAGATAACAATA
+## TATGTGACGAGCCTAGGCAAAAGAACTCTAGGCTACATAGTGGAACTCTATCGGACCCATCTGAACTGCG
+## CTACCGAACAGATTGGTTAACCGTCATAATTGCCCAATAAGAAATTACTAGTAAAAGCAATACTCCGCTG
+## GTTTGAACTTCAATGACGGTGAAAACTAGGAAATACGCCAATAGGGGGGCATATGAAGTCCTGTTCTCTC
+## CAAGCTGTCGCGACATACAAAAAGAAGAGGAACTCTAGATGATTCCAAGTATAAAATGAGCACATTACAA
+## TGTAACGAGGGTGCGGTGAGGGACATCATTAACTTTTATTATAGGAGAATGTTCCATGGAGTCAGGAGAT
+## TAGCATCTTCAAGGGCACGTATCTCCCTTATAATGTGCAGAAAGATAGGCCGTTGCCAGCAAGTAATTAA
+## AAAAAGAAGCAGTGTGAAGCAGTCGGACCAGAACTGACTTGGGTAAGGCGAAGCATACTGAAATTAGGTC
+## GAGAAAAGTAGAATTGGAAAATAAGCGAGGGCAGATCGCCGAAATACGTAAAACAACAGAAAGAACTATC
+## TGACCGTTATCTCTTCGTAGTATGCGTAGATTTAGGTAAATTTAAATGCAATAGGCATGGTATAAAATTG
+## GAAAACGAATTCAGCCAACATGGATGAACGCCAAATTACAAGGGATCCTATCACTCTTAAAAATACTGAT
+## AGCAAGTGTGGACAACAATAAGAGGATTTCAACATGTGGAGTACCCAGATATCCGATTGTATGGGCGTTG
+## CATTGTGGGAGTATTGTCTGCGAAGGGGGTACGAATTACCCCAGGACTATATCGACCAAATGAAAAAAAG
+## TACTCACAACCAGATGTAAGCCTACATATATCGAGTACCGATGATAAAGAGTCGTCAATATGATACATCA
+## AGAGAAAAGGCGACCTATATGTGTAATAAAAGAAGTAAAGCATCCGTACAGTAGGAAGTTATTTATGAAG
+## TAGGTATAGACATGAGTCAAAATAAATGATCAAATGATGAGGGAAACCAAATTAACGACCAGGTATAATA
+## AGGAATATGAACGCTGATAGTCAAACCTGAAGGAAATGGAATAAATTACTGGATGAATACCTAGCAAAGC
+## AAAATAACTAAAGCCAGAATTTACACATAATCCTACTATAAGGGCGGAAGCTAGGTAGAGCAGTATCTCA
+## AAATCAGTTGTAAGATCGATATGGGTCGGAGAGAGCATGATATCAATGCGGCACTGGATCAGATCCACTT
+## TGAATGAATTTCGGTGAACTAAAAAAGACGTTAAATCCTCCCGTGAACGAAAAATCGCAGATCCAATTAC
+## CCGTATAGTCCTTAGAACAAATACAGCACGAGTTCAACTACTACCTCTGTCCGAGACACCGAGTAAAAGA
+## AGTACAAGGATTGGACGATTATAAAGAGAGAATAATGTATGAAGTGAGGACAAGGTGAGTCGCGGGGATT
+## GGAAATACACGGTAAAAGTCATGGCCGGCTTGCGCATAGCGGTGGAAAATATATTAATACAGCGAGTGTC
+## GCCAAGCGCAGCCCAGTATATAACCAGACGCAGCCAAAACAGAAAGGATCTATTATTTTCCGTGATGGTG
+## TAAAAAGGCGTACGACATAAGTTTTAATGCTGATTGTTAAGAATGTCAAATTAGTGCTGTGGCTAGATGC
+## GAAGCACTTGAATTAACAGCGTGATTTTGTTACTGACCCTACACAAAATAAAGCGTCATTTGAAGAATGA
+## TTACGGTATAGGATGAGTATAACGGTATAGTATTAAGGTCACGGATCGGGAAACTAAACCACCGCACGAG
+## AGGCATTACGTAAGGTAACTCGGAGGACAAATCCCTCTTTAATTTTTAGGTTACCAAACAGGTAGTAAAA
+## CAAGGGCTGTAAAAAAGGGTCTATCAACAGTCATATTCTAACAATCTCAGCGCTTAGATCCAAAAAATAA
+## ATCGAATAACTAAGTTGTAGCTGAGAACAGACGGTAACTTAGGAAGGTCCCTCAGAATCATGTGGGAAAC
+## GATTCGAATGTACCNCATATATGGAAAAGAGTCCGTTTCCCCAAGCCACATGGATGGATACAGACAATTC
+## AAAATCAACTAGAAAACAATTTTGAAAACAGTGTGTTTATTCATTGAAAGGCAAAAGTAAGTACGTCTAC
+## GCCCGAGCAACAAACTTACACGCGTAGAAACTTAAGCAAACCACACCGTCAATACATTCCATAAGAATGA
+## TTCAGAGCCGAATAAAACGAGAAGAAACATTATAACAGGTGGAAAGACAAAGGGGGAGGCAACACGTGTA
+## ACACGAATGGGCATAGGAATCTCACTTTCTACAGAGAATATATTTACTGGTGGTGGCAAGCCAATCCGCA
+## TAAAATTGTTCCTTTCTAACGATGAAAGAAAAGGCAACTATCACAATCTAAATGGATAGATGACCTATCC
+## GACAAGTTTAATTAGGGTTAGGTCAGGACCAGTAGAGTGAAATGTGACAGGTCCAACACTGAAACAAGAC
+## TAGTATGCGCTGTTTAAATACGCAAAAGTGCAAAAAAAAAACTATTTAATTTGAAACATACGAGGTATGA
+## AAAACAGGATAGTGGGATGAATGTTAGCTGAACTGTCCCCTAAGATACGCTAAGCTGCCTCAACTTAATA
+## TGGGCAGCATAATTAAGCCTGGGAACGAATAGATCCAGAAGCCATTCCCAACCGGTCACCGTAAGAAACT
+## TAACGAGGCAGTCAGTCTCAAATTGCGATTTGAGAAATGTGGAAAACTCGAATATGGAAAATTGGAAACC
+## TAAATCAAAGGACTAATATCAATTGGCAAATCCTAACAAAAATTTTAGTTACCGTTTGAACAACTGGGAG
+## CGGGCACGCTCAAACCAGGCAGACTTTAAAACCTAAGAGAATCGATGAAGGTTTTAGAAAGTGATCAAGT
+## AAATGCCATTTAGCTGACAGACGTTGACGGAATGACGCGCACGTAGATTTAGGACAGTTAAAACATAAGG
+## ATGTAGTTTCATCCACGGTATCTAAATCTAGCGAAATAACTTAAGGTGTTTGATAGGAAAAAACACAAGG
+## TTGAATTGGAATCTTGAACACATTTATTAGCGTCAAAGAGTAAGGGGAAAGGTACACAACTTCACTAACT
+## TGCAATTGAGGAATAAGTAGGTCAAGGGTAGAAATCACGAATGGGCAAGAAGTAGTGGGTCTAAACGGCA
+## GTAATTTCTAGAATAGCTTCAGTCCGAGTGTGCTAAAGAAATAAACGCAGAAAGGGTGGCAAGCAAAAGT
+## GTTCTTTGATTACGCTTTATGGTAGGGACTACTAAACACAGAAGGGAAATAACAAAACATTCCGTCGGCA
+## ATCACAGCCATAAACAAATGGAGTGGATTAGCGAGATATACCTAGAAAAGCAAATGCTAAGGGCCGAGTT
+## AGCCGTGCAATCATAACATAAAACCATATCCATCCTAAACAAATGTGACGTATTAAGAGAAGCAAAAAAA
+## CTACAAGATACCACAACATATAAATTTAGTAAGCAAGGGAGCCAATTTGGGATAAAAGTAAGACAGGTAA
+## GATGTGGTCACAGGGAGTCCCAAAGCACGATATAGGTTATCATCCCCCTTGCAAAGAGGATAGAGAAGCC
+## AAACAATAAGCGAATCATGAATTGAAATAAACGACATAGTTAGGAATTAGAAATTATATGGGTAAGATAT
+## TGTTACTGAACTGATTTATCTTCTTAATGGGACTCGAGTAGGTCCAAAATGCCTATATGGAGTAGACCAT
+## ATGTGGCCAAATAGCATGAGCTAACGAGTCGAGTCGATAAACACACAATGTGATCGTTGTGTCGAACCGA
+## GGGGGGTGGCTGATGCCTAAGACAACCCTTATAGACAAGGTTACCCTATCATGAAACAAAGTAGATGGGC
+## AGTCAGCCATTAGCAAGGACAAGACAAAAGAACATGGGTCAAATGATTGGGCAAATGAGATCTGTAGGTA
+## GGCGGGAAAGGAGCATACTCAATAGAAAGACACAGGATGGATATCTATACAGCACTAACGAAGTGCTTAA
+## ATAGCGGGAGTAAGAATCAAAAAGGGGAGCCCGAGATTAGGTTAATATTAGAGTAACAATAATTTTACAC
+## GAACTATGTGCATCAGAGTCAAATATTCGGAGTGGGACCTTTGGAATTTTCTTAGTAATAGGGCATAGGA
+## AGAGATACGGAAAGGGAAATAGATAGTTAGAGCGGCCAATTTTACAAAACATGTTGGGCCAGGTATCACT
+## AAAAGAAGGAAGAAGTCAGGTATGACCTAGCGAAGGAGAGGATAGGCCAACCATTGGTAAATTANGACAA
+## CGACAACAGTGGCGACACAAACATGTGGAGCAAGAGCTTTAAAAAAGATATTAAAAGGTATACACTCGCA
+## ATGTAGAGACAACGGAAATTTTTGACTGATAATAAGCAAACGTATTAAGGTAGTGAATTGCAACCATTCA
+## AGATGAAGGCCTCCGGAAAGTACAATACGATAACATCATTAATGAGTGTGTGCTAGAAGACTAAGAAGCA
+## TCAGAGGACCGATACATATTGCAGTAGCAAAAACTGTTCATAAGTTAGTTTATGAGAAGATATTAGTACT
+## TATAAATGCGGCAAGTCCTGCGCACATAAGAAAGGAAATGCTGAGACTTCGAAGTTGTATGACATATGTG
+## GCAAAACATGTGAGGTGTATCTGCAAAAGATCGCGTCATTAGGCAAGTGACTACATTCTTAGAAAAACAT
+## TGAGCTAAGCCGAGTGACGTGCAGATTAGTAACGCGCACTTATACAAAATAATACTGGTGATAGNATGTC
+## ACATGAACGATATGGTTTGAAAACATGAGTTTGTGCAACAGGCGCGGTACGTGTTATGCCTCCTTAAAGA
+## CGAAGGAGTTGAGCATGGGAAAAGTTAGAGTTCTTGAAGATGCCTTTTTGCCTCAGCTAACCAAATAGAA
+## GTGCCTACGATGTTGATCGGCGTCCAAATATCAGCAGTCAGGGCTTAAATCTAAAGACTAAATTAAAGGT
+## ATTATAGAGTGAGAGTTCACCCAAACTCAACATGTAGAAGGATATCAGGTTTCATTACCATTACCAAGAG
+## ATACGAACTGGAAAGGTACATCGAAGACGGAGGGGGGCGCAGCCGAAGATAACTTTTTTGAGACTCATGC
+## ATTATGAATACGCGAGGGCTCGATGGGGCTCGGTGTGCAGGGAGTGTGATGAATAATTTAATTGAAGCAG
+## ATGGCCCAACTAACGCATAAGAAAAACAGTCGTGATGACATAGTGTTTTGTGATTGGAATATTACAGACT
+## CTCCACTACTAAAAGAGCGAGATGTACAGGTAAAGACATATTAGATAAGAGGTAAATGGCGGCTAATAAA
+## GATTTATGCTGCAATGAGGAAAGAGGTGTGTGAGGGTTAGAGAGGAGCCCAGGAGGAAAACGCAAGTATT
+## GTAATAGCTATCAAGTCATTAAGCGAATAGATACTAGGACTTGATGTCGAAGTAATCATCGAAGCGAGGG
+## CCAAGTGAAGAGTCACTGATTCTATGGAGGATATCCGATAAATGAAAAGTAACTAGTTATGCGCCAAGTG
+## GAAAAGACAGGACAACGAGGACGCAGGCAATGCATCGCATGGAGCATGATGAACCCAACATGACAACGGT
+## TATTCAGTGTCAAGAGTGAGAATGCATCTATGTACTCGCCAAAGGGGAAGGAGAAATTACTGCGTCACGT
+## TCAATAAATTTTTGTAAGTTTGTAAACAAGAAACTGAATGCAAAAGCAAGGATTGTATACGGTCATCGAT
+## CTTATAGTGAAATAGCGAAAGATTTTCGAGAAACAATTACACAGCAAAAGCATAGAAGTGGACTTAGTCT
+## AAAAGGACATGACAACATCCTAAACGGCATTGCATAACGAGAAAAGGAGTAGACGCCATGCCAGTATTTA
+## GTCAGTATATAACGGACACTCACCATTAAACATAATTTAGTACCAAATGTAAAAAGCGCACGCGCGTAGC
+## AATTATGGTTTAATAGAAAAAACTGGAGAAACCATACATTATAAATATCAAAGGACGGTGAGAGAAGTAG
+## ATCGGGGAGGGAGAATTTATACGAAAGTAGCAAGTAGGTACCAAGCTTCGAAACTCAAATAAAGACAACC
+## TTGAGAAGATCGATATGAAAGACAGAGGGGTAACTATAATCTACCCGGGGGATCAAATTCAAATTCACTA
+## CGTGTGGAAGAGTCGAAGACCGACAGCGGTGGGACTGCACCAAGTCCCACAAGCTAGGCCAACTACATGT
+## AATAGACTCCAGACAAGCAAAAGATCATGATTGCGAAGTAAAGCAGCAATTGTGTGGGTATGAATAAAGG
+## GACATGCGTTCCGATGCTACAAGGAATGACATTACAGTACGGCTGCAATAAGAGGTTGGG</code></pre>
+</div>
+<div id="homework-assignment" class="slide section level1">
+<h1>Homework assignment</h1>
+<ol style="list-style-type: decimal">
+<li>Extend the <code>read</code> class with a method for calculating the &quot;reverse complement&quot; of the sequence</li>
+<li>Write a script that calculates the GC content of each read in <code>1000_reads.fastq</code> and for each read with &gt; 40% GC content prints:
+<ul>
+<li>the read name</li>
+<li>the GC content</li>
+<li>the GC content of the (reverse) complement</li>
+</ul></li>
+</ol>
+<p><strong>Points will be awarded for the following criteria:</strong></p>
+<ul>
+<li>creativity: did you try something new?</li>
+<li>simplicity: could you accomplish the same thing in less lines of code?</li>
+<li>correctness: does it run and produce the expected result?</li>
+<li>completeness: does it do everything we want?</li>
+</ul>
+</div>
+<div id="lets-work-on-the-homework" class="slide section level1">
+<h1>Let's work on the homework</h1>
+<p>The code and python module used to generate these slides can be found at <a href="https://github.com/mdshw5/BIOF309">https://github.com/mdshw5/BIOF309</a>.</p>
+<p>Start by downloading <a href="https://github.com/mdshw5/BIOF309/blob/master/lecture12/lecture12.py">lecture12.py</a>, which contains the classes and methods detailed in this lecture.</p>
+<p>Are you a <a href="http://www.theverge.com/2013/4/13/4218846/massive-botnet-using-brute-force-attack-to-target-wordpress-sites">hacker yet</a>? (check out the image and see if it looks familiar)</p>
+</div>
+</body>
+</html>
