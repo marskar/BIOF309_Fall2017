@@ -11,7 +11,7 @@ Syllabus
 **Monday Section 7:30 - 9:30**
 Instructors:
 ------------
-* Martin Skarzynski - marskar at gmail, but also
+* Martin Skarzynski - marskar at gmail, and also
 GitHub, Slack, DataCamp etc.
 * Benjamin Cohen - benjapaulcohen at gmail
 
@@ -247,28 +247,30 @@ Each part of the code, and the whole, could be reused (10-12)
 
 
 * Performance
-- Program does not run (1-6)
+-
+Program does not run (1-6)
   - Program runs, but does not produce correct
-output (7-12)
+output
+(7-12)
   - Program runs, produces correct output under most conditions
 (13-18)
-  - Program runs, produces correct output with robust error checking
+- Program runs, produces correct output with robust error checking
 (19-24)
-
-
 Course Materials
 ----------------
 
 Course materials are
 available from
-the course [github repository](https://github.com/marskar/BIO309_Fall2017).
+the
+course [github repository](https://github.com/marskar/BIO309_Fall2017).
 Schedule
 --------
 **Week 1 (Sept 11 2017):** 
 
 * Intro survey
 * Course overview
-* An introduction to programming
+* An
+introduction to programming
 * Why python
 * What can you do with python?
 *
@@ -400,13 +402,16 @@ Learning
 
 * Machine Learning
 * Topic:  Student-selected topics!
-**Week 14 (Dec 11 2017):**
+**Week
+14 (Dec 11 2017):**
 * Project presentations (Presentation slots will be
-randomly assigned)
+randomly
+assigned)
 
 **Week 15 (Dec 18 2017):**
 * Project presentations
-(Presentations slots will be randomly assigned)
+(Presentations
+slots will be randomly assigned)
 
 ```{.python .input}
 
