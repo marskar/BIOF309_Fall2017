@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="" style="width: 1024px; height: 1000px;">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2"></feGaussianBlur>
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc></desc>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="46"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="766"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="846"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="926"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="259" y="46"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="46"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="526"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="606"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="643" y="46"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="643" y="366"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="46"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="126"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="206"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="286"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="366"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="446"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="643" y="606"></rect>
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="643" y="686"></rect>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="40"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="61" x="128" y="66">IPy kernel</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="760"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="49" x="128" y="786">R Kernel</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="840"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="73" x="128" y="866">Julia Kernel</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="920"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="61" x="128" y="946">... Kernel</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="256" y="40"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="103" x="320" y="66">[Jupyter kernels]</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="40"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="97" x="512" y="59">Jupyter Notebook</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="37" x="512" y="72">server</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="520"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="97" x="512" y="539">nteract notebook</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="67" x="512" y="552">application</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="600"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="85" x="512" y="619">Jupyter kernel</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="43" x="512" y="632">gateway</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="640" y="40"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="49" x="704" y="66">Notebook</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="640" y="360"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="61" x="704" y="386">Jupyterhub</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="40"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="37" x="896" y="66">Slides</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="120"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="896" y="146">Dashboard</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="200"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="91" x="896" y="226">Markdown / HTML</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="280"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="19" x="896" y="306">PDF</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="360"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="103" x="896" y="386">[Notebook User 1]</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="440"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="103" x="896" y="466">[Notebook User 2]</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="640" y="600"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="79" x="704" y="626">Web dashboard</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="640" y="680"></rect>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="109" x="704" y="706">Microservice / API</text>
+  <path d="M 192 60 L 248 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="255,60 248,56 248,64 255,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 384 60 L 416 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 416 60 L 416 620" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 416 620 L 440 620" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="447,620 440,616 440,624 447,620" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 384 60 L 416 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 416 60 L 416 540" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 416 540 L 440 540" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="447,540 440,536 440,544 447,540" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 384 60 L 440 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="447,60 440,56 440,64 447,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 192 780 L 240 780" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 780 L 240 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 60 L 248 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="255,60 248,56 248,64 255,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 192 860 L 240 860" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 860 L 240 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 60 L 248 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="255,60 248,56 248,64 255,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 192 940 L 240 940" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 940 L 240 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 240 60 L 248 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="255,60 248,56 248,64 255,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 576 60 L 608 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 608 60 L 608 380" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 608 380 L 632 380" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="639,380 632,376 632,384 639,380" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 576 60 L 632 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="639,60 632,56 632,64 639,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 60 L 800 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 60 L 800 140" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 140 L 824 140" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,140 824,136 824,144 831,140" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 60 L 800 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 60 L 800 220" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 220 L 824 220" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,220 824,216 824,224 831,220" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 60 L 824 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,60 824,56 824,64 831,60" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 60 L 800 60" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 60 L 800 300" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 300 L 824 300" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,300 824,296 824,304 831,300" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 380 L 800 380" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 380 L 800 460" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 800 460 L 824 460" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,460 824,456 824,464 831,460" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 768 380 L 824 380" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="831,380 824,376 824,384 831,380" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 576 620 L 608 620" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 608 620 L 608 700" fill="none" stroke="rgb(0,0,0)"></path>
+  <path d="M 608 700 L 632 700" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="639,700 632,696 632,704 639,700" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 576 620 L 632 620" fill="none" stroke="rgb(0,0,0)"></path>
+  <polygon fill="rgb(0,0,0)" points="639,620 632,616 632,624 639,620" stroke="rgb(0,0,0)"></polygon>
+</svg>
