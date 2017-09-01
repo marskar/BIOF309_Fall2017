@@ -52,3 +52,7 @@ We will learn
 to use UNIX and git commands.
 We also create GitHub repositories for the
 homework assignments and final projects.
+
+```{.python .input}
+
+```
