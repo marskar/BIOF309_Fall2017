@@ -97,8 +97,6 @@ python installed. The Anaconda installer will automatically install many of the
 packages we will use during the course. Or see the guidelines on
 http://docs.python-guide.org/en/latest/ that were emailed to you.
 
-
-
 Optional Materials
 ------------------
 
