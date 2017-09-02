@@ -1,6 +1,5 @@
 Syllabus
 ========
-
 **BIOF309 - Introduction to Python Programming**
 
 **Fall 2017**
@@ -9,7 +8,9 @@ Syllabus
 
 **Monday Section 7:30 - 9:30**
 
-*This document is subject to revision.*
+*This document is subject to revision!*
+
+Changes are tracked using the git version control system.
 
 Instructors:
 ------------
@@ -23,11 +24,9 @@ Communication
 **Before contacting us, please check to see if your question has already been answered:**
 https://stackoverflow.com/help/how-to-ask
 
-In general, please use the [class Slack team](https://biof309.slack.com)
-to communicate with classmates and instructors.
+In general, please use the [class Slack team](https://biof309.slack.com) to communicate with classmates and instructors.
 Use email only in case of personal and/or private question/concerns.
-If you have a course-relevant question or something to share,
-slack is simply the better way to communicate.
+If you have a course-relevant question or something to share, slack is simply the better way to communicate.
 
 First class: September 11, 2017
 
@@ -37,20 +36,20 @@ Course Description
 ------------------
 
 This course is designed for non-programmers,
-biologists, or those without specific knowledge of python to learn how to program.
-Week by week we will slowly build up your skills and understanding of programming and the python language. As with learning any language you will get as much out of this
-class as you put in more effort. There will be in class
-demonstrations,using [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html), activities to be completed outside of class, mostly using [DataCamp](https://www.datacamp.com), and homework for you to practice and learn at your own pace.
-
+biologists, or those without specific knowledge of Python to learn how to program.
+Week by week we will slowly build up your skills and understanding of programming and the Python language. There will be in class
+demonstrations, using [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html), activities to be completed outside of class, mostly using [DataCamp](https://www.datacamp.com), and homework for you to practice and learn at your own pace.
 
 Learning Objectives
 -------------------
 
 By the end of this course you should be able to:
 1. Look at a task and determine if you can or should automate it
-2. Create working python programs
-3. Understand the difference between different object types in python (i.e. lists, dicts)
-4. Do basic data analysis with python
+2. Create working Python programs
+3. Understand the difference between Python object types (i.e. lists, dicts)
+4. Perform data analysis and visualization with Python
+5. Use git for version control and collaboration
+6. Demonstrate your Python skills with a project
 
 Logistics
 ---------
@@ -58,23 +57,24 @@ Logistics
 This is a one-semester course starting on the 11th
 of September 2017 and finishing on 18th of December 2017.
 
-* Meeting Time and Place: 5:30 Section - Rathskeller, Building 60, NIH Bethesda campus
-* Meeting Time and Place: 7:30 Section - Rathskeller, Building 60, NIH Bethesda campus
+**Class Location: Rathskeller, Building 60, NIH Bethesda campus**
 
 Attendance in class is strongly recommended; however, we realize other
 commitments will occasionally prevent attendance.
 If you miss a class, please review the materials available at the course [github
-repository](https://github.com/marskar/BIO309_Fall2017).
+repository](https://github.com/marskar/BIO309_Fall2017) and keep up with activities and homework.
 
-You may only attend the section for which you signed up. Do **NOT** attend other sections **UNLESS** given permission to do so by the instructor.
+You may only attend the section for which you signed up.
+Do **NOT** attend other sections **UNLESS** given permission to do so by the instructor.
 
-Most classes will have hands-on tutorials and assignments. Both practice and graded assignments will generally be provided. Graded assignments should be submitted prior to the following class.
+Most classes will have hands-on tutorials and assignments.
+Both practice and graded assignments will generally be provided.
+Graded assignments should be submitted prior to the following class.
 So that you can follow along during class, bringing a laptop to each class is strongly encouraged.
 
 Important dates:
 * September 11 : Class starts
-* September 11 - September 29 : Late Registration ($10.00 late registration fee
-per course applies)
+* September 11 - September 29 : Late Registration ($10.00 late registration fee per course applies)
 * October 6 : Last day to drop/withdraw
 * November 10 : Last day to change status (credit or audit)
 * December 18 : Class ends
@@ -88,26 +88,30 @@ laptop to each class.**
 *Programing without a computer would be an exceptional
 feat.*
 
-For the course, we will use Python 3. Any python installation should
-work, but you
-must be able to install packages. The [Anaconda Scientific Python
-Distribution](https://www.continuum.io/downloads) from Continuum Analytics will
-likely be the easiest approach to configuring python if you do not already have
-python installed. The Anaconda installer will automatically install many of the
-packages we will use during the course. Or see the guidelines on
-http://docs.python-guide.org/en/latest/ that were emailed to you.
+For the course, we will use Python 3.
+Any Python installation should work, but you must be able to install packages.
+The [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads) from Continuum Analytics will
+likely be the easiest approach to configuring Python, if you do not already have Python installed.
+The Anaconda installer will automatically install many of the
+packages we will use during the course, including [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html).
+For more information, see the guidelines on the [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/).
+
+In addition, we will use [Git](https://git-scm.com/) and [GitHub](https://github.com) for version control and collaboration.
+
+
+The very nice folks at [DataCamp](https://www.datacamp.com) have given us access to their awesome teaching materials.
 
 Optional Materials
 ------------------
 
 [GitHub](https://github.com) is offering some awesome resources, that
-might be interesting you you depending on your background: [GitHub student
-pack](https://education.github.com/pack).
+might be interesting you you depending on your background: [GitHub student pack](https://education.github.com/pack).
 
-In particular, [atom](https://atom.io) is noteworthy
-because of its [integration with GitHub](https://github.atom.io/),
-ability to offer Jupyter Notebook style functionality through packages like Hydrogen and jupyter-notebook.
+In particular, the [Atom](https://atom.io) text editor is noteworthy
+because of its [integration with Git and GitHub](https://github.atom.io/),
+ability to offer [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html) style functionality through packages like [Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-notebook](https://atom.io/packages/jupyter-notebook).
 
+You may, however, use other another text editor, in you prefer.
 
 Recommended Books
 -----------------
@@ -119,30 +123,23 @@ Both books are available free on GitHub in Jupyter Notebook form.
 For maximum enjoyment,
 consider reading the relevant chapters before coming to class.
 
-We will link to
-relevant online resources throughout the course.
+We will link to relevant online resources throughout the course.
 
-If you would like additional
-material on the basics, the following resources may be useful:
+If you would like additional material on the basics, the following resources may be useful:
 
 * [Python for Biologists](http://pythonforbiologists.com/) by Martin Jones; an archived PDF
 may be found in this repo in the extras folder under the name p4b.pdf.
-* [Learn python the hard way (ebook freely available from the author)](http://learnpythonthehardway.org/book/) by Zed A. Shaw; a [video course](http://learnpythonthehardway.org/) is also available.
-* [Think python (ebook freely available from the author)](http://www.greenteapress.com/thinkpython/thinkpython.html) by Allen B.
+* [Learn Python the Hard Way (ebook freely available from the author)](http://learnpythonthehardway.org/book/) by Zed A. Shaw; a [video course](http://learnpythonthehardway.org/) is also available.
+* [Think Python (ebook freely available from the author)](http://www.greenteapress.com/thinkpython/thinkpython.html) by Allen B.
 Downey.
-* [Python for Everybody: Exploring Data In Python 3 (ebook freely available from the author)](https://www.pythonlearn.com/book.php) by Charles Severance
+* [Python for Everybody: Exploring Data in Python 3 (ebook freely available from the author)](https://www.pythonlearn.com/book.php) by Charles Severance
 * [Python Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/index.html) by
 David Beazy
-For more information about python, please see the official Python
-Software Foundation website at https://www.python.org/
+For more information about Python, please see the official [Python Software Foundation website](https://www.python.org/).
 
 Assignments and Grading
 -----------------------
-
-The emphasis of the course is on learning and mastering
-the skills covered. It is my hope that everyone will be able to complete the
-assignments and project. If some of the material appears unclear, please ask for
-clarification.
+The emphasis of the course is on learning and mastering the skills covered. We hope that everyone will be able to complete the assignments and project. If some of the material appears unclear, please ask for clarification.
 
 Assignments will be uploaded to the GitHub classroom setup for the course.
 
@@ -212,35 +209,43 @@ Schedule
 * Reading: Chapters 01-06 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Reading: Chapters 01.01-01.04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 * Activity: [DataCamp - Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
-* Homework: Find a cool notebook to share with the class!
-Add it to the cool-notebooks channel on our [class Slack team](https://biof309.slack.com)
+* Homework:
+  - Find a cool notebook to share with the class!
+  - Add a link to the notebook to the "cool-notebooks" channel on our [class Slack team](https://biof309.slack.com)
+  - Prepare a 1-minute presentation (no powerpoint!) to introduce yourself and your chosen notebook next class.
 
 **Week 2 (Sept 18 2017):**
 
 * Introduction to UNIX/bash/shell
 * IPython shell and shell-related commands
-* Review Homework: Cool notebook presentations (5 minutes)
-* Program: "Hello world" interactive
-* Reading: Chapters 01.05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Review Homework: Cool notebook presentations (1 minute each)
+* Discuss the "Hello world" interactive program
+* Reading: Chapter 01.05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 * Reading: Lessons 01-03 in [Software Carpentry - Shell](http://swcarpentry.github.io/shell-novice)
 * Activity: [DataCamp - Managing Files and Directories](https://www.datacamp.com/courses/intro-to-unix-shell)
-* Homework: Prepare the "Hello world" program
+* Homework: Prepare the "Hello world" interactive program
 
 **Week 3 (Sept 25 2017):**
+
 * Review homework, debugging
-* Version control with git
-* Reading: Lessons 01-03 in [Software Carpentry - git](http://swcarpentry.github.io/git-novice)
+* Version control with Git
+* Reading: Lessons 01-07 in [Software Carpentry - Git](http://swcarpentry.github.io/git-novice)
 * Activity: [Try Git: Git Tutorial](https://try.github.io/)
-* Homework: Create a GitHub repo for your "Hello world" program
+* Homework:
+  - Create a GitHub repo
+  - Push your "Hello world" program to this repo
 
 **Week 4 (Oct 2 2017):**
+
 * Intro and review
 * Review Homework
 * Lists
 * Sys Argv
-* Reading: Chapters 01-06 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Reading: Chapter 07 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Activity: [DataCamp - Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
-* Homework: Write a program to calculate GC percentage
+* Homework:
+  - Write a program to calculate GC percentage
+  - Push this program to GitHub
 
 **Week 5 (Oct 9 2017):**
 
@@ -252,57 +257,86 @@ We will make up this class on December 19th.
 
 * Intro and review
 * Review Homework
-* Writing functions
-* Homework: Trim sequences
+* Loops
+* Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Python Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
+* Homework: Prepare an example of how you might use a loop
 
 **Week 7 (Oct 23 2017):**
+
 * Intro and review
 * Review Homework
 * Conditional tests
-* Homework:
+* Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Python Logic and Control Flow](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
+* Homework: Prepare an example of how you might use conditionals
 
 **Week 8 (Oct 30 2017):**
 
 * Intro and review
 * Review Homework
-* NumPy
-* Homework: Submit project proposal via google spreadsheet
+* Functions
+* Reading: Chapter 09 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
+* Homework:
+  - Write the "Cubed" Program and push it to GitHub
+  - Submit your project proposal via GitHub
 
 **Week 9 (Nov 6 2017):**
+
+* Intro and review
+* Review Homework
+* NumPy
+* Reading: Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
+* Homework: Numpy practice set
+
+**Week 10 (Nov 13 2017):**
+
 * Intro and review
 * Review Homework
 * Data analysis with pandas
-* Homework: Pandas practice
+* Reading: Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - Dictionaries and Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
+* Homework: Pandas practice set
 
-**Week 10 (Nov 13 2017):**
+**Week 11 (Nov 20 2017):**
+
 * Intro and review
 * Review Homework
 * Data Visualization
-* Homework: Submit project milestone 1
-
-**Week 11 (Nov 20 2017):**
-* Intro and review
-* Review Homework
-* Biopython
-* Homework: Work on final project
+* Reading: Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - Matplotlib](https://campus.datacamp.com/courses/intermediate-python-for-data-science/matplotlib)
+* Homework: Prepare a plot using Matplotlib to share with the class
 
 **Week 12 (Nov 27 2017):**
+
 * Intro and review
 * Review Homework
 * Machine Learning
-* Homework: Submit project milestone 2
+* Reading: Chapter 05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - Titanic 1](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
+* Homework:
+  - Submit project milestone report
+  - Prepare an example of how you might use machine learning
 
 **Week 13 (Dec 4 2017):**
 
-* Machine Learning
-* Topic:  Student-selected topics!
+* Intro and review
+* Review Homework
+* Biopython
+* Student-selected topics
+* Reading: Chapter 00-02 in [Biopython-Notebook](https://github.com/tiagoantao/biopython-notebook/tree/master/notebooks)
+* Activity: [DataCamp - Titanic 2](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
+* Homework: Work on Final Project/Presentation
+
 **Week 14 (Dec 11 2017):**
+
 * Project presentations (Presentation slots will be
 randomly assigned)
+* Activity: [DataCamp - Titanic 3](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
+* Homework: Work on Final Project/Presentation
 
 **Week 15 (Dec 18 2017):**
+
 * Project presentations (Presentations slots will be randomly assigned)
-
-```{.python .input}
-
-```
