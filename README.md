@@ -37,19 +37,10 @@ Course Description
 ------------------
 
 This course is designed for non-programmers,
-biologists, or
-those without specific knowledge of python to learn how to
-program.
-Week by week
-we will slowly build up your skills and understanding of
-programming and the
-python language. As with learning
-any language you will get
-as much out of this
+biologists, or those without specific knowledge of python to learn how to program.
+Week by week we will slowly build up your skills and understanding of programming and the python language. As with learning any language you will get as much out of this
 class as you put in more effort. There will be in class
-demonstrations and
-Homework most weeks for you to practice and learn at your own
-pace.
+demonstrations,using [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html), activities to be completed outside of class, mostly using [DataCamp](https://www.datacamp.com), and homework for you to practice and learn at your own pace.
 
 
 Learning Objectives
@@ -57,10 +48,8 @@ Learning Objectives
 
 By the end of this course you should be able to:
 1. Look at a task and determine if you can or should automate it
-2. Create
-working python programs
-3. Understand the difference between different object
-types in python (i.e. lists, dicts)
+2. Create working python programs
+3. Understand the difference between different object types in python (i.e. lists, dicts)
 4. Do basic data analysis with python
 
 Logistics
@@ -74,20 +63,13 @@ of September 2017 and finishing on 18th of December 2017.
 
 Attendance in class is strongly recommended; however, we realize other
 commitments will occasionally prevent attendance.
-If you miss a class, please
-review the materials available at the course [github
+If you miss a class, please review the materials available at the course [github
 repository](https://github.com/marskar/BIO309_Fall2017).
 
-You may only attend
-the section for which you signed up. Do **NOT** attend other sections **UNLESS**
-given permission to do so by the instructor.
+You may only attend the section for which you signed up. Do **NOT** attend other sections **UNLESS** given permission to do so by the instructor.
 
-Most classes will have hands-on
-tutorials and assignments. Both practice and graded assignments will generally
-be provided. Graded assignments should be submitted prior to the following
-class.
-So that you can follow along during class, bringing a laptop to each
-class is strongly encouraged.
+Most classes will have hands-on tutorials and assignments. Both practice and graded assignments will generally be provided. Graded assignments should be submitted prior to the following class.
+So that you can follow along during class, bringing a laptop to each class is strongly encouraged.
 
 Important dates:
 * September 11 : Class starts
@@ -115,6 +97,8 @@ python installed. The Anaconda installer will automatically install many of the
 packages we will use during the course. Or see the guidelines on
 http://docs.python-guide.org/en/latest/ that were emailed to you.
 
+
+
 Optional Materials
 ------------------
 
@@ -123,7 +107,8 @@ might be interesting you you depending on your background: [GitHub student
 pack](https://education.github.com/pack).
 
 In particular, [atom](https://atom.io) is noteworthy
-because of its [integration with GitHub](https://github.atom.io/).
+because of its [integration with GitHub](https://github.atom.io/),
+ability to offer Jupyter Notebook style functionality through packages like Hydrogen and jupyter-notebook.
 
 
 Recommended Books
