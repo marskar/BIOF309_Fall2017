@@ -98,8 +98,7 @@ For more information, see the guidelines on the [The Hitchhiker’s Guide to Pyt
 
 In addition, we will use [Git](https://git-scm.com/) and [GitHub](https://github.com) for version control and collaboration.
 
-
-The very nice folks at [DataCamp](https://www.datacamp.com) have given us access to their awesome teaching materials.
+Last but certainly not least, the very nice folks at [DataCamp](https://www.datacamp.com) have given us access to their awesome teaching materials.
 
 Optional Materials
 ------------------
@@ -108,8 +107,8 @@ Optional Materials
 might be interesting you you depending on your background: [GitHub student pack](https://education.github.com/pack).
 
 In particular, the [Atom](https://atom.io) text editor is noteworthy
-because of its [integration with Git and GitHub](https://github.atom.io/),
-ability to offer [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html) style functionality through packages like [Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-notebook](https://atom.io/packages/jupyter-notebook).
+because of its [integration with Git and GitHub](https://github.atom.io/), and
+ability to offer [Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html)-style functionality through packages like [Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-notebook](https://atom.io/packages/jupyter-notebook).
 
 You may, however, use other another text editor, in you prefer.
 
