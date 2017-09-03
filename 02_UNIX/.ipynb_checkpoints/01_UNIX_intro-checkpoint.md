@@ -5,7 +5,7 @@ Shell
 
 ---
 
-### Getting into the Terminal or Command Prompt
+### Getting into the Terminal (or something similar)
 
 For Mac users:
 -
@@ -20,24 +20,30 @@ something like this:
 Terminal](https://www.imore.com/sites/imore.com/files/styles/larger/public/field/image/2016/03/13-add-
 spacers-terminal.jpg?itok=tAISaSDn)
 
-For Windows users:
-- In the search bar in
-the lower left-hand corner, type "cmd"
-- Hit "Enter"
-
-You should see somethign
-like this:
-![Windows Command
-Prompt](http://cdn.technorms.com/assets/1starterimage19.png)
+For Windows Users, there are many options.
+I recommend either [git bash](https://git-scm.com/download/win) or, if you are
+feeling adventurous, [Jupyter Lab](https://github.com/jupyterlab/jupyterlab).
 
 ## Finding out
 where you are:
 
-###Displays your location in the file system
+### Displays your location in the file system
 
-```{.python .input}
+```{.python .input  n=1}
 pwd     # pwd (Linux)
-chdir   # chdir (Windows)
+```
+
+```{.json .output n=1}
+[
+ {
+  "data": {
+   "text/plain": "'/Users/marskar/GitHub/BIOF309_Fall2017/02_UNIX'"
+  },
+  "execution_count": 1,
+  "metadata": {},
+  "output_type": "execute_result"
+ }
+]
 ```
 
 ###Creates a directory
@@ -81,61 +87,73 @@ C:/Users/username/Documents/BIOF309/file.txt
 
 Lists files
 
-
+```{.python .input}
     ls     # ls
     dir    # dir
+```
 
 Create a file
 
-
+```{.python .input}
     nano   # nano hello.txt
     dir >     # dir > hello.txt
+```
 
 Copies files
 
-
+```{.python .input}
     cp     # cp thisfile.txt /home/thisdirectory
     copy   # copy thisfile.txt
+```
+
 C:/Users/thisdirectory
 
 Moves files
 
-
+```{.python .input}
     mv    # mv thisfile.txt /home/thisdirectory
-	move  # move thisfile.txt
+    move  # move thisfile.txt
+```
+
 C:/Users/thisdirectory
 
 Deletes files
 
-
+```{.python .input}
     rm    # rm thisfile.txt
-	del   # rm thisfile.txt
+    del   # rm thisfile.txt
+```
 
 Compares the contents of files
 
-
+```{.python .input}
     diff  # diff file1 file2
-	fc    # diff file1 file2
+    fc    # diff file1 file2
+```
 
 Finds a string of text in a file
 
-
+```{.python .input}
     grep    # grep word or phrase thisfile.txt
-	find    # grep word or phrase
+    find    # grep word or phrase
+```
+
 thisfile.txt
 
 Views contents of a file
 
+```{.python .input}
 
     less    # less thisfile.txt
-	more    # less thisfile.txt
+    more    # less thisfile.txt
 
-To get out type "q"
-
+```
 
 Renames a file
 
-
+```{.python .input}
     mv     # mv thisfile.txt thatfile.txt
-	ren    # ren thisfile.txt
+    ren    # ren thisfile.txt
+```
+
 thatfile.txt
