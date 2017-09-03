@@ -1,0 +1,1658 @@
+ID   ABP1_ARATH              Reviewed;         198 AA.
+AC   P33487; Q8LBB3;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   15-FEB-2017, entry version 128.
+DE   RecName: Full=Auxin-binding protein 1 {ECO:0000303|PubMed:7517789};
+DE            Short=ABP1 {ECO:0000303|PubMed:7517789};
+DE   Flags: Precursor;
+GN   Name=ERABP1 {ECO:0000303|PubMed:7517789};
+GN   OrderedLocusNames=At4g02980 {ECO:0000312|Araport:AT4G02980};
+GN   ORFNames=T4I9.14 {ECO:0000312|EMBL:AAC79108.1};
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae; Camelineae;
+OC   Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=7517789;
+RA   Shimomura S., Liu W., Inohara N., Watanabe S., Futai M.;
+RT   "Structure of the gene for an auxin-binding protein and a gene for 7SL
+RT   RNA from Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 34:633-637(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 34-68.
+RX   PubMed=1321684; DOI=10.1105/tpc.4.2.193;
+RA   Palme K., Hesse T., Campos N., Garbers C., Yanofsky M.F., Schell J.;
+RT   "Molecular analysis of an auxin binding protein gene located on
+RT   chromosome 4 of Arabidopsis.";
+RL   Plant Cell 4:193-201(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617198; DOI=10.1038/47134;
+RA   Mayer K.F.X., Schueller C., Wambutt R., Murphy G., Volckaert G.,
+RA   Pohl T., Duesterhoeft A., Stiekema W., Entian K.-D., Terryn N.,
+RA   Harris B., Ansorge W., Brandt P., Grivell L.A., Rieger M.,
+RA   Weichselgartner M., de Simone V., Obermaier B., Mache R., Mueller M.,
+RA   Kreis M., Delseny M., Puigdomenech P., Watson M., Schmidtheini T.,
+RA   Reichert B., Portetelle D., Perez-Alonso M., Boutry M., Bancroft I.,
+RA   Vos P., Hoheisel J., Zimmermann W., Wedler H., Ridley P.,
+RA   Langham S.-A., McCullagh B., Bilham L., Robben J.,
+RA   van der Schueren J., Grymonprez B., Chuang Y.-J., Vandenbussche F.,
+RA   Braeken M., Weltjens I., Voet M., Bastiaens I., Aert R., Defoor E.,
+RA   Weitzenegger T., Bothe G., Ramsperger U., Hilbert H., Braun M.,
+RA   Holzer E., Brandt A., Peters S., van Staveren M., Dirkse W.,
+RA   Mooijman P., Klein Lankhorst R., Rose M., Hauf J., Koetter P.,
+RA   Berneiser S., Hempel S., Feldpausch M., Lamberth S., Van den Daele H.,
+RA   De Keyser A., Buysshaert C., Gielen J., Villarroel R., De Clercq R.,
+RA   van Montagu M., Rogers J., Cronin A., Quail M.A., Bray-Allen S.,
+RA   Clark L., Doggett J., Hall S., Kay M., Lennard N., McLay K., Mayes R.,
+RA   Pettett A., Rajandream M.A., Lyne M., Benes V., Rechmann S.,
+RA   Borkova D., Bloecker H., Scharfe M., Grimm M., Loehnert T.-H.,
+RA   Dose S., de Haan M., Maarse A.C., Schaefer M., Mueller-Auer S.,
+RA   Gabel C., Fuchs M., Fartmann B., Granderath K., Dauner D., Herzl A.,
+RA   Neumann S., Argiriou A., Vitale D., Liguori R., Piravandi E.,
+RA   Massenet O., Quigley F., Clabauld G., Muendlein A., Felber R.,
+RA   Schnabl S., Hiller R., Schmidt W., Lecharny A., Aubourg S.,
+RA   Chefdor F., Cooke R., Berger C., Monfort A., Casacuberta E.,
+RA   Gibbons T., Weber N., Vandenbol M., Bargues M., Terol J., Torres A.,
+RA   Perez-Perez A., Purnelle B., Bent E., Johnson S., Tacon D., Jesse T.,
+RA   Heijnen L., Schwarz S., Scholler P., Heber S., Francs P., Bielke C.,
+RA   Frishman D., Haase D., Lemcke K., Mewes H.-W., Stocker S.,
+RA   Zaccaria P., Bevan M., Wilson R.K., de la Bastide M., Habermann K.,
+RA   Parnell L., Dedhia N., Gnoj L., Schutz K., Huang E., Spiegel L.,
+RA   Sekhon M., Murray J., Sheet P., Cordes M., Abu-Threideh J.,
+RA   Stoneking T., Kalicki J., Graves T., Harmon G., Edwards J.,
+RA   Latreille P., Courtney L., Cloud J., Abbott A., Scott K., Johnson D.,
+RA   Minx P., Bentley D., Fulton B., Miller N., Greco T., Kemp K.,
+RA   Kramer J., Fulton L., Mardis E., Dante M., Pepin K., Hillier L.W.,
+RA   Nelson J., Spieth J., Ryan E., Andrews S., Geisel C., Layman D.,
+RA   Du H., Ali J., Berghoff A., Jones K., Drone K., Cotton M., Joshu C.,
+RA   Antonoiu B., Zidanic M., Strong C., Sun H., Lamar B., Yordan C.,
+RA   Ma P., Zhong J., Preston R., Vil D., Shekher M., Matero A., Shah R.,
+RA   Swaby I.K., O'Shaughnessy A., Rodriguez M., Hoffman J., Till S.,
+RA   Granat S., Shohdy N., Hasegawa A., Hameed A., Lodhi M., Johnson A.,
+RA   Chen E., Marra M.A., Martienssen R., McCombie W.R.;
+RT   "Sequence and analysis of chromosome 4 of the plant Arabidopsis
+RT   thaliana.";
+RL   Nature 402:769-777(1999).
+RN   [4]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RG   The Arabidopsis Information Resource (TAIR);
+RL   Submitted (APR-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J.,
+RA   Southwick A.M., Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F.,
+RA   Karlin-Newmann G., Liu S.X., Lam B., Sakano H., Wu T., Yu G.,
+RA   Miranda M., Quach H.L., Tripp M., Chang C.H., Lee J.M., Toriumi M.J.,
+RA   Chan M.M., Tang C.C., Onodera C.S., Deng J.M., Akiyama K., Ansari Y.,
+RA   Arakawa T., Banh J., Banno F., Bowser L., Brooks S.Y., Carninci P.,
+RA   Chao Q., Choy N., Enju A., Goldsmith A.D., Gurjal M., Hansen N.F.,
+RA   Hayashizaki Y., Johnson-Hopson C., Hsuan V.W., Iida K., Karnes M.,
+RA   Khan S., Koesema E., Ishida J., Jiang P.X., Jones T., Kawai J.,
+RA   Kamiya A., Meyers C., Nakajima M., Narusaka M., Seki M., Sakurai T.,
+RA   Satou M., Tamse R., Vaysberg M., Wallender E.K., Wong C., Yamamura Y.,
+RA   Yuan S., Shinozaki K., Davis R.W., Theologis A., Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Brover V.V., Troukhan M.E., Alexandrov N.A., Lu Y.-P., Flavell R.B.,
+RA   Feldmann K.A.;
+RT   "Full-length cDNA from Arabidopsis thaliana.";
+RL   Submitted (MAR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   FUNCTION.
+RX   PubMed=9804548; DOI=10.1126/science.282.5391.1114;
+RA   Jones A.M., Im K.H., Savka M.A., Wu M.J., DeWitt N.G., Shillito R.,
+RA   Binns A.N.;
+RT   "Auxin-dependent cell expansion mediated by overexpressed auxin-
+RT   binding protein 1.";
+RL   Science 282:1114-1117(1998).
+RN   [8]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=11297513; DOI=10.1101/gad.866201;
+RA   Chen J.G., Ullah H., Young J.C., Sussman M.R., Jones A.M.;
+RT   "ABP1 is required for organized cell elongation and division in
+RT   Arabidopsis embryogenesis.";
+RL   Genes Dev. 15:902-911(2001).
+RN   [9]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH SKU5.
+RX   PubMed=16649105; DOI=10.1007/s11103-005-5471-1;
+RA   Shimomura S.;
+RT   "Identification of a glycosylphosphatidylinositol-anchored plasma
+RT   membrane protein interacting with the C-terminus of auxin-binding
+RT   protein 1: a photoaffinity crosslinking study.";
+RL   Plant Mol. Biol. 60:663-677(2006).
+RN   [10]
+RP   FUNCTION.
+RX   PubMed=18952781; DOI=10.1105/tpc.108.059048;
+RA   Braun N., Wyrzykowska J., Muller P., David K., Couch D.,
+RA   Perrot-Rechenmann C., Fleming A.J.;
+RT   "Conditional repression of AUXIN BINDING PROTEIN1 reveals that it
+RT   coordinates cell division and cell expansion during postembryonic
+RT   shoot development in Arabidopsis and tobacco.";
+RL   Plant Cell 20:2746-2762(2008).
+RN   [11]
+RP   FUNCTION.
+RX   PubMed=19777056; DOI=10.1371/journal.pone.0006648;
+RA   Tromas A., Braun N., Muller P., Khodus T., Paponov I.A., Palme K.,
+RA   Ljung K., Lee J.Y., Benfey P., Murray J.A., Scheres B.,
+RA   Perrot-Rechenmann C.;
+RT   "The AUXIN BINDING PROTEIN 1 is required for differential auxin
+RT   responses mediating root growth.";
+RL   PLoS ONE 4:E6648-E6648(2009).
+RN   [12]
+RP   UBIQUITINATION BY RMA2.
+RX   PubMed=20152813; DOI=10.1016/j.bbrc.2010.02.032;
+RA   Son O., Cho S.K., Kim S.J., Kim W.T.;
+RT   "In vitro and in vivo interaction of AtRma2 E3 ubiquitin ligase and
+RT   auxin-binding protein 1.";
+RL   Biochem. Biophys. Res. Commun. 393:492-497(2010).
+RN   [13]
+RP   FUNCTION, AND MUTAGENESIS OF HIS-92.
+RX   PubMed=20887895; DOI=10.1016/j.cell.2010.09.003;
+RA   Xu T., Wen M., Nagawa S., Fu Y., Chen J.G., Wu M.J.,
+RA   Perrot-Rechenmann C., Friml J., Jones A.M., Yang Z.;
+RT   "Cell surface- and rho GTPase-based auxin signaling controls cellular
+RT   interdigitation in Arabidopsis.";
+RL   Cell 143:99-110(2010).
+RN   [14]
+RP   FUNCTION.
+RX   PubMed=20887896; DOI=10.1016/j.cell.2010.09.027;
+RA   Robert S., Kleine-Vehn J., Barbez E., Sauer M., Paciorek T.,
+RA   Baster P., Vanneste S., Zhang J., Simon S., Covanova M., Hayashi K.,
+RA   Dhonukshe P., Yang Z., Bednarek S.Y., Jones A.M., Luschnig C.,
+RA   Aniento F., Zazimalova E., Friml J.;
+RT   "ABP1 mediates auxin inhibition of clathrin-dependent endocytosis in
+RT   Arabidopsis.";
+RL   Cell 143:111-121(2010).
+RN   [15]
+RP   FUNCTION, AND INDUCTION BY AUXIN.
+RX   PubMed=21223392; DOI=10.1111/j.1365-313X.2010.04420.x;
+RA   Effendi Y., Rietz S., Fischer U., Scherer G.F.;
+RT   "The heterozygous abp1/ABP1 insertional mutant has defects in
+RT   functions requiring polar auxin transport and in regulation of early
+RT   auxin-regulated genes.";
+RL   Plant J. 65:282-294(2011).
+RN   [16]
+RP   REVIEW.
+RX   PubMed=21822062; DOI=10.4161/psb.6.8.16403;
+RA   Effendi Y., Scherer G.F.;
+RT   "Auxin binding-protein1 (ABP1), a receptor to regulate auxin transport
+RT   and early auxin genes in an interlocking system with PIN proteins and
+RT   the receptor TIR1.";
+RL   Plant Signal. Behav. 6:1101-1103(2011).
+RN   [17]
+RP   FUNCTION.
+RX   PubMed=22683261; DOI=10.1016/j.cub.2012.05.020;
+RA   Chen X., Naramoto S., Robert S., Tejos R., Loefke C., Lin D., Yang Z.,
+RA   Friml J.;
+RT   "ABP1 and ROP6 GTPase signaling regulate clathrin-mediated endocytosis
+RT   in Arabidopsis roots.";
+RL   Curr. Biol. 22:1326-1332(2012).
+RN   [18]
+RP   FUNCTION.
+RX   PubMed=24052532; DOI=10.1093/jxb/ert294;
+RA   Effendi Y., Jones A.M., Scherer G.F.;
+RT   "AUXIN-BINDING-PROTEIN1 (ABP1) in phytochrome-B-controlled
+RT   responses.";
+RL   J. Exp. Bot. 64:5065-5074(2013).
+RN   [19]
+RP   FUNCTION.
+RX   PubMed=24051655; DOI=10.1038/ncomms3496;
+RA   Tromas A., Paque S., Stierle V., Quettier A.L., Muller P., Lechner E.,
+RA   Genschik P., Perrot-Rechenmann C.;
+RT   "Auxin-binding protein 1 is a negative regulator of the SCF(TIR1/AFB)
+RT   pathway.";
+RL   Nat. Commun. 4:2496-2496(2013).
+RN   [20]
+RP   FUNCTION.
+RX   PubMed=25409144; DOI=10.1038/nature13889;
+RA   Chen X., Grandont L., Li H., Hauschild R., Paque S., Abuzeineh A.,
+RA   Rakusova H., Benkova E., Perrot-Rechenmann C., Friml J.;
+RT   "Inhibition of cell expansion by rapid ABP1-mediated auxin effect on
+RT   microtubules.";
+RL   Nature 516:90-93(2014).
+RN   [21]
+RP   FUNCTION.
+RX   PubMed=24424095; DOI=10.1105/tpc.113.120048;
+RA   Paque S., Mouille G., Grandont L., Alabadi D., Gaertner C.,
+RA   Goyallon A., Muller P., Primard-Brisset C., Sormani R., Blazquez M.A.,
+RA   Perrot-Rechenmann C.;
+RT   "AUXIN BINDING PROTEIN1 links cell wall remodeling, auxin signaling,
+RT   and cell expansion in arabidopsis.";
+RL   Plant Cell 26:280-295(2014).
+RN   [22]
+RP   FUNCTION, SUBCELLULAR LOCATION, INTERACTION WITH TMK1, AND MUTAGENESIS
+RP   OF HIS-92.
+RX   PubMed=24578577; DOI=10.1126/science.1245125;
+RA   Xu T., Dai N., Chen J., Nagawa S., Cao M., Li H., Zhou Z., Chen X.,
+RA   De Rycke R., Rakusova H., Wang W., Jones A.M., Friml J.,
+RA   Patterson S.E., Bleecker A.B., Yang Z.;
+RT   "Cell surface ABP1-TMK auxin-sensing complex activates ROP GTPase
+RT   signaling.";
+RL   Science 343:1025-1028(2014).
+RN   [23]
+RP   FUNCTION, AND MUTAGENESIS OF LEU-60; THR-89 AND HIS-141.
+RC   STRAIN=cv. Wassilewskija;
+RX   PubMed=25392478; DOI=10.1093/jxb/eru433;
+RA   Effendi Y., Ferro N., Labusch C., Geisler M., Scherer G.F.;
+RT   "Complementation of the embryo-lethal T-DNA insertion mutant of AUXIN-
+RT   BINDING-PROTEIN 1 (ABP1) with abp1 point mutated versions reveals
+RT   crosstalk of ABP1 and phytochromes.";
+RL   J. Exp. Bot. 66:403-418(2015).
+RN   [24]
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=25646447; DOI=10.1073/pnas.1500365112;
+RA   Gao Y., Zhang Y., Zhang D., Dai X., Estelle M., Zhao Y.;
+RT   "Auxin binding protein 1 (ABP1) is not required for either auxin
+RT   signaling or Arabidopsis development.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 112:2275-2280(2015).
+RN   [25]
+RP   REVIEW.
+RX   PubMed=25556248; DOI=10.1242/jcs.159418;
+RA   Grones P., Friml J.;
+RT   "Auxin transporters and binding proteins at a glance.";
+RL   J. Cell Sci. 128:1-7(2015).
+RN   [26]
+RP   FUNCTION, AND MUTAGENESIS OF ARG-57; LEU-60; GLN-81; THR-89; PRO-90;
+RP   HIS-92; HIS-94; VAL-99; PHE-125; PRO-136; PHE-181; TRP-185 AND
+RP   GLN-188.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=25922490; DOI=10.1093/jxb/erv177;
+RA   Grones P., Chen X., Simon S., Kaufmann W.A., De Rycke R.,
+RA   Nodzynski T., Zazimalova E., Friml J.;
+RT   "Auxin-binding pocket of ABP1 is crucial for its gain-of-function
+RT   cellular and developmental roles.";
+RL   J. Exp. Bot. 66:5055-5065(2015).
+CC   -!- FUNCTION: Auxin receptor that controls cell elongation and cell
+CC       division (PubMed:9804548, PubMed:11297513). Involved in embryonic
+CC       morphogenesis (PubMed:11297513). Acts on the cell cycle,
+CC       endocycle, cell plate formation, and cell expansion and
+CC       contributes to the control of auxin-related gene expression
+CC       (PubMed:18952781). Controls root meristem size and mediates auxin
+CC       responsiveness (PubMed:19777056). Involved in activation of ROP
+CC       GTPases in response to auxin and regulation of clathrin-mediated
+CC       endocytosis in roots (PubMed:20887895, PubMed:22683261). Acts as a
+CC       positive factor in clathrin recruitment to the plasma membrane,
+CC       thereby promoting endocytosis (PubMed:20887896, PubMed:25922490).
+CC       Upon auxin binding, restricts the internalization of PIN proteins
+CC       by inhibiting clathrin-mediated endocytosis (PubMed:20887896,
+CC       PubMed:25922490). Involved in the regulation of polar auxin
+CC       transport (PubMed:21223392). Behaves as a negative regulator of
+CC       the SCF(TIR1/AFB) signaling pathway, protecting AUX/IAA repressors
+CC       from degradation (PubMed:24051655). Regulates the expression of
+CC       cell wall remodeling genes via an SCF(TIR1/AFB)-dependent pathway
+CC       (PubMed:24424095). Involved in the modulation of hemicellulose
+CC       xyloglucan structure (PubMed:24424095). Required for rapid auxin-
+CC       mediated re-orientation of microtubules to regulate cell
+CC       elongation in roots and dark-grown hypocotyls as well as
+CC       asymmetric growth during gravitropic responses (PubMed:25409144).
+CC       Involved in the shade avoidance response (PubMed:24052532). Forms
+CC       with TMK1 a cell surface auxin perception complex that activates
+CC       ROP signaling pathways (PubMed:24578577). ABP1 sensing of auxin is
+CC       important for the ABP1-TMK1 complex formation (PubMed:24578577).
+CC       Interacts functionally with phytochrome to regulate growth
+CC       (PubMed:25392478). {ECO:0000269|PubMed:11297513,
+CC       ECO:0000269|PubMed:18952781, ECO:0000269|PubMed:19777056,
+CC       ECO:0000269|PubMed:20887895, ECO:0000269|PubMed:20887896,
+CC       ECO:0000269|PubMed:21223392, ECO:0000269|PubMed:22683261,
+CC       ECO:0000269|PubMed:24051655, ECO:0000269|PubMed:24052532,
+CC       ECO:0000269|PubMed:24424095, ECO:0000269|PubMed:24578577,
+CC       ECO:0000269|PubMed:25392478, ECO:0000269|PubMed:25409144,
+CC       ECO:0000269|PubMed:25922490, ECO:0000269|PubMed:9804548}.
+CC   -!- SUBUNIT: Homodimer (By similarity). May interact with the GPI-
+CC       anchored plasma membrane protein SKU5 and its family members
+CC       (PubMed:16649105). Interacts with TMK1 (via extracellular domain)
+CC       (PubMed:24578577). {ECO:0000250|UniProtKB:P13689,
+CC       ECO:0000269|PubMed:24578577, ECO:0000303|PubMed:16649105}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000269|PubMed:24578577, ECO:0000305|PubMed:7517789}. Cell
+CC       membrane {ECO:0000269|PubMed:24578577,
+CC       ECO:0000303|PubMed:16649105}; Peripheral membrane protein
+CC       {ECO:0000303|PubMed:16649105}. Note=In plasmolyzed cells, observed
+CC       in strands connecting the apoplast and the plasma membrane.
+CC       {ECO:0000269|PubMed:24578577}.
+CC   -!- INDUCTION: Up-regulated by auxin. {ECO:0000269|PubMed:21223392}.
+CC   -!- PTM: Glycosylated. {ECO:0000250|UniProtKB:P13689}.
+CC   -!- PTM: Ubiquitinated by RMA2, leading to proteasomal degradation.
+CC       {ECO:0000269|PubMed:20152813}.
+CC   -!- DISRUPTION PHENOTYPE: Embryo lethality, when homozygous
+CC       (PubMed:11297513). No visible phenotype was found for other null
+CC       mutants (PubMed:25646447). {ECO:0000269|PubMed:11297513,
+CC       ECO:0000269|PubMed:25646447}.
+CC   -!- CAUTION: Analysis of new null mutants leads to the conclusion that
+CC       plants do not need ABP1 for auxin signaling and for their growth
+CC       and development under normal growth conditions.
+CC       {ECO:0000269|PubMed:25646447}.
+DR   EMBL; X55111; CAA38909.1; -; Genomic_DNA.
+DR   EMBL; X69901; CAA49526.1; -; Genomic_DNA.
+DR   EMBL; S40550; AAB22612.1; -; mRNA.
+DR   EMBL; AF069442; AAC79108.1; -; Genomic_DNA.
+DR   EMBL; AL161495; CAB77783.1; -; Genomic_DNA.
+DR   EMBL; CP002687; AEE82256.1; -; Genomic_DNA.
+DR   EMBL; AF389278; AAK63851.1; -; mRNA.
+DR   EMBL; AY093754; AAM10378.1; -; mRNA.
+DR   EMBL; AY087315; AAM64865.1; -; mRNA.
+DR   PIR; S31584; S31584.
+DR   RefSeq; NP_192207.1; NM_116532.3.
+DR   UniGene; At.148; -.
+DR   ProteinModelPortal; P33487; -.
+DR   SMR; P33487; -.
+DR   BioGrid; 13409; 1.
+DR   DIP; DIP-61369N; -.
+DR   STRING; 3702.AT4G02980.1; -.
+DR   PaxDb; P33487; -.
+DR   EnsemblPlants; AT4G02980.1; AT4G02980.1; AT4G02980.
+DR   GeneID; 828120; -.
+DR   Gramene; AT4G02980.1; AT4G02980.1; AT4G02980.
+DR   KEGG; ath:AT4G02980; -.
+DR   Araport; AT4G02980; -.
+DR   TAIR; locus:2005491; AT4G02980.
+DR   eggNOG; ENOG410IWVR; Eukaryota.
+DR   eggNOG; ENOG4112D1V; LUCA.
+DR   HOGENOM; HOG000030816; -.
+DR   InParanoid; P33487; -.
+DR   OMA; PYYWDEQ; -.
+DR   OrthoDB; EOG09360MCM; -.
+DR   PhylomeDB; P33487; -.
+DR   PRO; PR:P33487; -.
+DR   Proteomes; UP000006548; Chromosome 4.
+DR   Genevisible; P33487; AT.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010011; F:auxin binding; ISS:UniProtKB.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0000911; P:cytokinesis by cell plate formation; IMP:TAIR.
+DR   GO; GO:0051781; P:positive regulation of cell division; IMP:TAIR.
+DR   GO; GO:0045793; P:positive regulation of cell size; IMP:TAIR.
+DR   GO; GO:0032877; P:positive regulation of DNA endoreduplication; IMP:TAIR.
+DR   GO; GO:0009826; P:unidimensional cell growth; IMP:TAIR.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   InterPro; IPR000526; Auxin-bd.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   Pfam; PF02041; Auxin_BP; 1.
+DR   PRINTS; PR00655; AUXINBINDNGP.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   Auxin signaling pathway; Cell membrane; Complete proteome;
+KW   Direct protein sequencing; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Membrane; Metal-binding; Receptor; Reference proteome;
+KW   Signal; Ubl conjugation; Zinc.
+FT   SIGNAL        1     33       {ECO:0000269|PubMed:1321684}.
+FT   CHAIN        34    198       Auxin-binding protein 1.
+FT                                /FTId=PRO_0000020613.
+FT   REGION       57     60       Auxin binding.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   REGION       89     90       Auxin binding.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   REGION      183    185       Auxin binding.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   MOTIF       195    198       Prevents secretion from ER.
+FT   METAL        92     92       Zinc; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   METAL        94     94       Zinc; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   METAL        98     98       Zinc. {ECO:0000250|UniProtKB:P13689}.
+FT   METAL       141    141       Zinc; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   SITE         81     81       Auxin binding.
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   CARBOHYD    130    130       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P13689}.
+FT   DISULFID     36    189       {ECO:0000250|UniProtKB:P13689}.
+FT   MUTAGEN      57     57       R->K: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with V-60.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      60     60       L->V: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with K-57.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      60     60       L->Y: In abp1-9; lower auxin sensitivity
+FT                                and altered responses to continous light
+FT                                and shade. {ECO:0000269|PubMed:25392478}.
+FT   MUTAGEN      81     81       Q->D: Slight reduction of activation by
+FT                                auxin. {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      89     89       T->I: In abp1-8; lower auxin sensitivity
+FT                                and altered responses to continous light
+FT                                and shade. {ECO:0000269|PubMed:25392478}.
+FT   MUTAGEN      89     89       T->V: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with L-90.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      90     90       P->L: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with V-89.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      92     92       H->A: In ABP-M1X; Strong reduction of
+FT                                activation by auxin. In ABP-M2X; strong
+FT                                reduction of activation by auxin; when
+FT                                associated with A-94.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      92     92       H->Y: In abp1-5; defects in pavement
+FT                                cells interdigitation and decreased
+FT                                interaction with TMK1.
+FT                                {ECO:0000269|PubMed:20887895,
+FT                                ECO:0000269|PubMed:24578577}.
+FT   MUTAGEN      94     94       H->A: In ABP-M2X; strong reduction of
+FT                                activation by auxin; when associated with
+FT                                A-92. {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN      99     99       V->A: No effect on activation by auxin.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN     125    125       F->L: No effect on activation by auxin.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN     136    136       P->L: No effect on activation by auxin.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN     141    141       H->N: In abp1-10; lower auxin sensitivity
+FT                                and altered responses to continous light
+FT                                and shade. {ECO:0000269|PubMed:25392478}.
+FT   MUTAGEN     181    181       F->L: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with Y-185.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN     185    185       W->Y: Slight reduction of activation by
+FT                                auxin. Slight reduction of activation by
+FT                                auxin; when associated with L-181.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   MUTAGEN     188    188       Q->D: No effect on activation by auxin.
+FT                                {ECO:0000269|PubMed:25922490}.
+FT   CONFLICT    102    102       V -> L (in Ref. 6; AAM64865).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   198 AA;  22044 MW;  43440CFDCE9EFD67 CRC64;
+     MIVLSVGSAS SSPIVVVFSV ALLLFYFSET SLGAPCPING LPIVRNISDL PQDNYGRPGL
+     SHMTVAGSVL HGMKEVEIWL QTFAPGSETP IHRHSCEEVF VVLKGSGTLY LAETHGNFPG
+     KPIEFPIFAN STIHIPINDA HQVKNTGHED LQVLVIISRP PIKIFIYEDW FMPHTAARLK
+     FPYYWDEQCI QESQKDEL
+//
+ID   AOC1_HUMAN              Reviewed;         751 AA.
+AC   P19801; C9J690; Q16683; Q16684; Q56II4; Q6GU42;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 4.
+DT   15-MAR-2017, entry version 176.
+DE   RecName: Full=Amiloride-sensitive amine oxidase [copper-containing];
+DE            Short=DAO;
+DE            Short=Diamine oxidase;
+DE            EC=1.4.3.22 {ECO:0000269|PubMed:19764817};
+DE   AltName: Full=Amiloride-binding protein 1;
+DE   AltName: Full=Amine oxidase copper domain-containing protein 1;
+DE   AltName: Full=Histaminase;
+DE   AltName: Full=Kidney amine oxidase;
+DE            Short=KAO;
+DE   Flags: Precursor;
+GN   Name=AOC1; Synonyms=ABP1, DAO1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND VARIANT
+RP   ASP-645.
+RC   TISSUE=Kidney;
+RX   PubMed=2217167; DOI=10.1073/pnas.87.19.7347;
+RA   Barbry P., Champe M., Chassande O., Munemitsu S., Champigny G.,
+RA   Lingueglia E., Maes P., Frelin C., Tartar A., Ullrich A.,
+RA   Lazdunski M.;
+RT   "Human kidney amiloride-binding protein: cDNA structure and functional
+RT   expression.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:7347-7351(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8182053;
+RA   Chassande O., Renard S., Barbry P., Lazdunski M.;
+RT   "The human gene for diamine oxidase, an amiloride binding protein.
+RT   Molecular cloning, sequencing, and characterization of the promoter.";
+RL   J. Biol. Chem. 269:14484-14489(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND VARIANTS PHE-332
+RP   AND ASP-645.
+RC   TISSUE=Placenta;
+RX   PubMed=8595053; DOI=10.1007/BF00553624;
+RA   Zhang X., Kim J., McIntire W.S.;
+RT   "cDNA sequences of variant forms of human placenta diamine oxidase.";
+RL   Biochem. Genet. 33:261-268(1995).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS MET-16; PHE-332;
+RP   ILE-479; ASP-645 AND HIS-659.
+RG   NIEHS SNPs program;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+RP   ASP-645.
+RC   TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 20-39, AND CHARACTERIZATION.
+RC   TISSUE=Placenta;
+RX   PubMed=8144586;
+RA   Novotny W.F., Chassande O., Baker M., Lazdunski M., Barbry P.;
+RT   "Diamine oxidase is the amiloride-binding protein and is inhibited by
+RT   amiloride analogues.";
+RL   J. Biol. Chem. 269:9921-9925(1994).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 22-751 ALONE AND IN COMPLEX
+RP   WITH CALCIUM; COPPER AND IHIBITORS, GLYCOSYLATION AT ASN-110; ASN-538
+RP   AND ASN-745, COFACTOR, ACTIVE SITE, CALCIUM-BINDING SITES,
+RP   COPPER-BINDING SITES, DISULFIDE BONDS, SUBUNIT, ENZYME REGULATION, AND
+RP   CATALYTIC ACTIVITY.
+RX   PubMed=19764817; DOI=10.1021/bi9014192;
+RA   McGrath A.P., Hilmer K.M., Collyer C.A., Shepard E.M., Elmore B.O.,
+RA   Brown D.E., Dooley D.M., Guss J.M.;
+RT   "Structure and inhibition of human diamine oxidase.";
+RL   Biochemistry 48:9810-9822(2009).
+CC   -!- FUNCTION: Catalyzes the degradation of compounds such as
+CC       putrescine, histamine, spermine, and spermidine, substances
+CC       involved in allergic and immune responses, cell proliferation,
+CC       tissue differentiation, tumor formation, and possibly apoptosis.
+CC       Placental DAO is thought to play a role in the regulation of the
+CC       female reproductive function.
+CC   -!- CATALYTIC ACTIVITY: Histamine + H(2)O + O(2) = (imidazol-4-
+CC       yl)acetaldehyde + NH(3) + H(2)O(2). {ECO:0000269|PubMed:19764817}.
+CC   -!- COFACTOR:
+CC       Name=Cu cation; Xref=ChEBI:CHEBI:23378;
+CC         Evidence={ECO:0000269|PubMed:19764817};
+CC       Note=Binds 1 copper ion per subunit.
+CC       {ECO:0000269|PubMed:19764817};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:19764817};
+CC       Note=Binds 2 calcium ions per subunit.
+CC       {ECO:0000269|PubMed:19764817};
+CC   -!- COFACTOR:
+CC       Name=L-topaquinone; Xref=ChEBI:CHEBI:79027;
+CC         Evidence={ECO:0000269|PubMed:19764817};
+CC       Note=Contains 1 topaquinone per subunit.
+CC       {ECO:0000269|PubMed:19764817};
+CC   -!- ENZYME REGULATION: Inhibited by isoniazid, cimetidine, clonidine,
+CC       pentamidine, berenil and pentamidine.
+CC       {ECO:0000269|PubMed:19764817}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC       {ECO:0000269|PubMed:19764817}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P19801-1; Sequence=Displayed;
+CC       Name=2; Synonyms=DAO2;
+CC         IsoId=P19801-2; Sequence=VSP_055190;
+CC         Note=Ref.3 (AAB60381) sequence is in conflict in position:
+CC         632:A->R. {ECO:0000305};
+CC   -!- TISSUE SPECIFICITY: Placenta and kidney.
+CC   -!- PTM: Topaquinone (TPQ) is generated by copper-dependent
+CC       autoxidation of a specific tyrosyl residue.
+CC       {ECO:0000250|UniProtKB:P12807}.
+CC   -!- MISCELLANEOUS: Inhibited by amiloride in a competitive manner.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the copper/topaquinone oxidase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA58358.1; Type=Frameshift; Positions=266, 284, 328, 494, 497, 514, 707, 729; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/abp1/";
+DR   EMBL; M55602; AAA58358.1; ALT_FRAME; mRNA.
+DR   EMBL; X78212; CAA55046.1; -; Genomic_DNA.
+DR   EMBL; U11862; AAC50270.1; -; mRNA.
+DR   EMBL; U11863; AAB60381.1; -; mRNA.
+DR   EMBL; AY948960; AAX81409.1; -; Genomic_DNA.
+DR   EMBL; AC006343; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC006479; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC014093; AAH14093.1; -; mRNA.
+DR   CCDS; CCDS43679.1; -. [P19801-1]
+DR   CCDS; CCDS64797.1; -. [P19801-2]
+DR   PIR; A54053; A54053.
+DR   RefSeq; NP_001082.2; NM_001091.3. [P19801-1]
+DR   RefSeq; NP_001259001.1; NM_001272072.1. [P19801-2]
+DR   RefSeq; XP_016867433.1; XM_017011944.1. [P19801-2]
+DR   RefSeq; XP_016867434.1; XM_017011945.1. [P19801-2]
+DR   RefSeq; XP_016867435.1; XM_017011946.1. [P19801-2]
+DR   RefSeq; XP_016867436.1; XM_017011947.1. [P19801-1]
+DR   UniGene; Hs.647097; -.
+DR   UniGene; Hs.733889; -.
+DR   PDB; 3HI7; X-ray; 1.80 A; A/B=21-751.
+DR   PDB; 3HIG; X-ray; 2.09 A; A/B=21-751.
+DR   PDB; 3HII; X-ray; 2.15 A; A/B=21-751.
+DR   PDB; 3K5T; X-ray; 2.11 A; A=21-751.
+DR   PDB; 3MPH; X-ray; 2.05 A; A/B=21-751.
+DR   PDBsum; 3HI7; -.
+DR   PDBsum; 3HIG; -.
+DR   PDBsum; 3HII; -.
+DR   PDBsum; 3K5T; -.
+DR   PDBsum; 3MPH; -.
+DR   ProteinModelPortal; P19801; -.
+DR   SMR; P19801; -.
+DR   BioGrid; 106544; 1.
+DR   IntAct; P19801; 9.
+DR   STRING; 9606.ENSP00000354193; -.
+DR   BindingDB; P19801; -.
+DR   ChEMBL; CHEMBL2118; -.
+DR   DrugBank; DB00594; Amiloride.
+DR   DrugBank; DB03608; Diminazene.
+DR   iPTMnet; P19801; -.
+DR   PhosphoSitePlus; P19801; -.
+DR   DMDM; 251757489; -.
+DR   PaxDb; P19801; -.
+DR   PeptideAtlas; P19801; -.
+DR   PRIDE; P19801; -.
+DR   TopDownProteomics; P19801-1; -. [P19801-1]
+DR   DNASU; 26; -.
+DR   Ensembl; ENST00000360937; ENSP00000354193; ENSG00000002726. [P19801-1]
+DR   Ensembl; ENST00000416793; ENSP00000411613; ENSG00000002726. [P19801-2]
+DR   Ensembl; ENST00000467291; ENSP00000418328; ENSG00000002726. [P19801-1]
+DR   Ensembl; ENST00000493429; ENSP00000418614; ENSG00000002726. [P19801-1]
+DR   GeneID; 26; -.
+DR   KEGG; hsa:26; -.
+DR   UCSC; uc003whz.3; human. [P19801-1]
+DR   CTD; 26; -.
+DR   DisGeNET; 26; -.
+DR   GeneCards; AOC1; -.
+DR   H-InvDB; HIX0007216; -.
+DR   HGNC; HGNC:80; AOC1.
+DR   HPA; HPA031032; -.
+DR   HPA; HPA031033; -.
+DR   MIM; 104610; gene.
+DR   neXtProt; NX_P19801; -.
+DR   OpenTargets; ENSG00000002726; -.
+DR   PharmGKB; PA24416; -.
+DR   eggNOG; KOG1186; Eukaryota.
+DR   eggNOG; COG3733; LUCA.
+DR   GeneTree; ENSGT00510000046461; -.
+DR   HOGENOM; HOG000233919; -.
+DR   HOVERGEN; HBG004164; -.
+DR   InParanoid; P19801; -.
+DR   KO; K11182; -.
+DR   OMA; FNSNFKG; -.
+DR   OrthoDB; EOG091G0C1O; -.
+DR   PhylomeDB; P19801; -.
+DR   TreeFam; TF314750; -.
+DR   BioCyc; MetaCyc:HS00083-MONOMER; -.
+DR   BRENDA; 1.4.3.22; 2681.
+DR   Reactome; R-HSA-211945; Phase 1 - Functionalization of compounds.
+DR   Reactome; R-HSA-6798695; Neutrophil degranulation.
+DR   EvolutionaryTrace; P19801; -.
+DR   GenomeRNAi; 26; -.
+DR   PRO; PR:P19801; -.
+DR   Proteomes; UP000005640; Chromosome 7.
+DR   Bgee; ENSG00000002726; -.
+DR   CleanEx; HS_ABP1; -.
+DR   ExpressionAtlas; P19801; baseline and differential.
+DR   Genevisible; P19801; HS.
+DR   GO; GO:0005923; C:bicellular tight junction; ISS:UniProtKB.
+DR   GO; GO:0070062; C:extracellular exosome; IDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0005777; C:peroxisome; NAS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0035580; C:specific granule lumen; TAS:Reactome.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0005507; F:copper ion binding; IDA:UniProtKB.
+DR   GO; GO:0052597; F:diamine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0008144; F:drug binding; IDA:UniProtKB.
+DR   GO; GO:0008201; F:heparin binding; IDA:UniProtKB.
+DR   GO; GO:0052598; F:histamine oxidase activity; TAS:Reactome.
+DR   GO; GO:0052599; F:methylputrescine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008131; F:primary amine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0052600; F:propane-1,3-diamine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032403; F:protein complex binding; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IPI:UniProtKB.
+DR   GO; GO:0048038; F:quinone binding; IDA:UniProtKB.
+DR   GO; GO:0004872; F:receptor activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0009308; P:amine metabolic process; IEA:InterPro.
+DR   GO; GO:0097185; P:cellular response to azide; IDA:UniProtKB.
+DR   GO; GO:0071280; P:cellular response to copper ion; IDA:UniProtKB.
+DR   GO; GO:0035874; P:cellular response to copper ion starvation; IDA:UniProtKB.
+DR   GO; GO:0071504; P:cellular response to heparin; TAS:UniProtKB.
+DR   GO; GO:0071420; P:cellular response to histamine; IDA:UniProtKB.
+DR   GO; GO:0043312; P:neutrophil degranulation; TAS:Reactome.
+DR   GO; GO:0055114; P:oxidation-reduction process; IDA:UniProtKB.
+DR   GO; GO:0046677; P:response to antibiotic; IDA:UniProtKB.
+DR   GO; GO:0042493; P:response to drug; IDA:UniProtKB.
+DR   GO; GO:0006805; P:xenobiotic metabolic process; TAS:Reactome.
+DR   Gene3D; 2.70.98.20; -; 1.
+DR   InterPro; IPR000269; Cu_amine_oxidase.
+DR   InterPro; IPR015798; Cu_amine_oxidase_C.
+DR   InterPro; IPR016182; Cu_amine_oxidase_N-reg.
+DR   InterPro; IPR015800; Cu_amine_oxidase_N2.
+DR   InterPro; IPR015802; Cu_amine_oxidase_N3.
+DR   PANTHER; PTHR10638; PTHR10638; 1.
+DR   Pfam; PF01179; Cu_amine_oxid; 1.
+DR   Pfam; PF02727; Cu_amine_oxidN2; 1.
+DR   Pfam; PF02728; Cu_amine_oxidN3; 1.
+DR   PRINTS; PR00766; CUDAOXIDASE.
+DR   SUPFAM; SSF49998; SSF49998; 1.
+DR   SUPFAM; SSF54416; SSF54416; 2.
+DR   PROSITE; PS01164; COPPER_AMINE_OXID_1; 1.
+DR   PROSITE; PS01165; COPPER_AMINE_OXID_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Calcium; Complete proteome;
+KW   Copper; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Heparin-binding; Metal-binding; Oxidoreductase; Polymorphism;
+KW   Reference proteome; Secreted; Signal; TPQ.
+FT   SIGNAL        1     19       {ECO:0000269|PubMed:8144586}.
+FT   CHAIN        20    751       Amiloride-sensitive amine oxidase
+FT                                [copper-containing].
+FT                                /FTId=PRO_0000035666.
+FT   REGION      371    381       Substrate binding. {ECO:0000244|PDB:3HII,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   REGION      458    463       Substrate binding. {ECO:0000244|PDB:3HII,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   REGION      568    575       Heparin-binding. {ECO:0000250}.
+FT   ACT_SITE    373    373       Proton acceptor.
+FT                                {ECO:0000269|PubMed:19764817}.
+FT   ACT_SITE    461    461       Schiff-base intermediate with substrate;
+FT                                via topaquinone. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       510    510       Copper; via tele nitrogen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       512    512       Copper; via tele nitrogen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       519    519       Calcium 1. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       520    520       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       521    521       Calcium 1. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       562    562       Calcium 2. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       653    653       Calcium 2; via carbonyl oxygen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       656    656       Calcium 2. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       658    658       Calcium 2. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       664    664       Calcium 1. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       665    665       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   METAL       675    675       Copper; via pros nitrogen.
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   MOD_RES     461    461       2',4',5'-topaquinone.
+FT                                {ECO:0000250|UniProtKB:P12807}.
+FT   CARBOHYD    110    110       N-linked (GlcNAc...).
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   CARBOHYD    168    168       N-linked (GlcNAc...).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    538    538       N-linked (GlcNAc...).
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   CARBOHYD    745    745       N-linked (GlcNAc...).
+FT                                {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000244|PDB:3K5T,
+FT                                ECO:0000244|PDB:3MPH,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   DISULFID    177    181       {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   DISULFID    391    417       {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   DISULFID    736    736       Interchain. {ECO:0000244|PDB:3HI7,
+FT                                ECO:0000244|PDB:3HIG,
+FT                                ECO:0000244|PDB:3HII,
+FT                                ECO:0000269|PubMed:19764817}.
+FT   VAR_SEQ     618    618       A -> ARTEGGQPRALSQAASPVPG (in isoform 2).
+FT                                {ECO:0000303|PubMed:8595053}.
+FT                                /FTId=VSP_055190.
+FT   VARIANT      16     16       T -> M (in dbSNP:rs10156191).
+FT                                {ECO:0000269|Ref.4}.
+FT                                /FTId=VAR_025078.
+FT   VARIANT     332    332       S -> F (in dbSNP:rs1049742).
+FT                                {ECO:0000269|PubMed:8595053,
+FT                                ECO:0000269|Ref.4}.
+FT                                /FTId=VAR_025079.
+FT   VARIANT     479    479       M -> I (in dbSNP:rs45558339).
+FT                                {ECO:0000269|Ref.4}.
+FT                                /FTId=VAR_025080.
+FT   VARIANT     645    645       H -> D (in dbSNP:rs1049793).
+FT                                {ECO:0000269|PubMed:15489334,
+FT                                ECO:0000269|PubMed:2217167,
+FT                                ECO:0000269|PubMed:8595053,
+FT                                ECO:0000269|Ref.4}.
+FT                                /FTId=VAR_007542.
+FT   VARIANT     659    659       N -> H (in dbSNP:rs35070995).
+FT                                {ECO:0000269|Ref.4}.
+FT                                /FTId=VAR_025081.
+FT   CONFLICT     28     28       R -> A (in Ref. 7; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT    280    280       P -> A (in Ref. 1; AAA58358).
+FT                                {ECO:0000305}.
+FT   CONFLICT    290    290       D -> T (in Ref. 1; AAA58358).
+FT                                {ECO:0000305}.
+FT   CONFLICT    572    572       K -> R (in Ref. 1; AAA58358).
+FT                                {ECO:0000305}.
+FT   CONFLICT    592    592       T -> S (in Ref. 1; AAA58358, 2; CAA55046,
+FT                                3; AAC50270/AAB60381 and 6; AAH14093).
+FT                                {ECO:0000305}.
+FT   HELIX        29     33       {ECO:0000244|PDB:3HI7}.
+FT   HELIX        38     49       {ECO:0000244|PDB:3HI7}.
+FT   HELIX        52     54       {ECO:0000244|PDB:3HI7}.
+FT   STRAND       64     75       {ECO:0000244|PDB:3HI7}.
+FT   HELIX        79     88       {ECO:0000244|PDB:3HI7}.
+FT   STRAND       96    103       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      105    108       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      110    117       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      119    121       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      124    129       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       137    140       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       145    158       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       160    162       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       163    170       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      173    176       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      178    186       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      191    193       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      198    205       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       210    212       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      214    222       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      225    227       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       228    230       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      232    238       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       246    254       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      301    303       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      309    313       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      316    320       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      322    329       {ECO:0000244|PDB:3HI7}.
+FT   TURN        330    332       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      333    341       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      344    359       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       364    368       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      370    372       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       373    376       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       378    380       {ECO:0000244|PDB:3HI7}.
+FT   TURN        387    389       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      395    405       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      410    422       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      427    433       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      435    445       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      448    456       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      458    469       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      475    483       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      487    489       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       492    496       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      497    502       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      505    508       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      510    520       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      524    540       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      547    559       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       562    565       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      569    571       {ECO:0000244|PDB:3MPH}.
+FT   STRAND      575    584       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      590    598       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       610    619       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      621    626       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       629    631       {ECO:0000244|PDB:3HI7}.
+FT   TURN        637    641       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      643    645       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       652    655       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      661    675       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       679    681       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      691    704       {ECO:0000244|PDB:3HI7}.
+FT   HELIX       706    709       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      714    717       {ECO:0000244|PDB:3HI7}.
+FT   STRAND      720    723       {ECO:0000244|PDB:3K5T}.
+FT   STRAND      725    727       {ECO:0000244|PDB:3HI7}.
+SQ   SEQUENCE   751 AA;  85378 MW;  37114CD0D446639C CRC64;
+     MPALGWAVAA ILMLQTAMAE PSPGTLPRKA GVFSDLSNQE LKAVHSFLWS KKELRLQPSS
+     TTTMAKNTVF LIEMLLPKKY HVLRFLDKGE RHPVREARAV IFFGDQEHPN VTEFAVGPLP
+     GPCYMRALSP RPGYQSSWAS RPISTAEYAL LYHTLQEATK PLHQFFLNTT GFSFQDCHDR
+     CLAFTDVAPR GVASGQRRSW LIIQRYVEGY FLHPTGLELL VDHGSTDAGH WAVEQVWYNG
+     KFYGSPEELA RKYADGEVDV VVLEDPLPGG KGHDSTEEPP LFSSHKPRGD FPSPIHVSGP
+     RLVQPHGPRF RLEGNAVLYG GWSFAFRLRS SSGLQVLNVH FGGERIAYEV SVQEAVALYG
+     GHTPAGMQTK YLDVGWGLGS VTHELAPGID CPETATFLDT FHYYDADDPV HYPRALCLFE
+     MPTGVPLRRH FNSNFKGGFN FYAGLKGQVL VLRTTSTVYN YDYIWDFIFY PNGVMEAKMH
+     ATGYVHATFY TPEGLRHGTR LHTHLIGNIH THLVHYRVDL DVAGTKNSFQ TLQMKLENIT
+     NPWSPRHRVV QPTLEQTQYS WERQAAFRFK RKLPKYLLFT SPQENPWGHK RTYRLQIHSM
+     ADQVLPPGWQ EEQAITWARY PLAVTKYRES ELCSSSIYHQ NDPWHPPVVF EQFLHNNENI
+     ENEDLVAWVT VGFLHIPHSE DIPNTATPGN SVGFLLRPFN FFPEDPSLAS RDTVIVWPRD
+     NGPNYVQRWI PEDRDCSMPP PFSYNGTYRP V
+//
+ID   ABP1_MAIZE              Reviewed;         201 AA.
+AC   P13689; Q41193;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   02-NOV-2016, entry version 116.
+DE   RecName: Full=Auxin-binding protein 1 {ECO:0000303|PubMed:2555179};
+DE            Short=ABP {ECO:0000303|PubMed:2555179};
+DE   AltName: Full=ERABP1 {ECO:0000303|PubMed:7693132};
+DE   Flags: Precursor;
+GN   Name=ABP1 {ECO:0000303|PubMed:2555179};
+GN   Synonyms=AUX311 {ECO:0000303|PubMed:1650260};
+OS   Zea mays (Maize).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae;
+OC   PACMAD clade; Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae;
+OC   Zea.
+OX   NCBI_TaxID=4577;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 39-67; 78-91; 110-119
+RP   AND 185-194, SUBCELLULAR LOCATION, AND GLYCOSYLATION.
+RC   TISSUE=Coleoptile;
+RX   PubMed=2555179;
+RA   Hesse T., Feldwisch J., Balshuesemann D., Bauw G., Puype M.,
+RA   Vandekerckhove J., Loebler M., Klaembt D., Schell J., Palme K.;
+RT   "Molecular cloning and structural analysis of a gene from Zea mays
+RT   (L.) coding for a putative receptor for the plant hormone auxin.";
+RL   EMBO J. 8:2453-2461(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2555180;
+RA   Tillmann U., Viola G., Kayser B., Siemeister G., Hesse T., Palme K.,
+RA   Loebler M., Klaembt D.;
+RT   "cDNA clones of the auxin-binding protein from corn coleoptiles (Zea
+RT   mays L.): isolation and characterization by immunological methods.";
+RL   EMBO J. 8:2463-2467(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 39-69.
+RC   STRAIN=cv. Golden cross Bantam;
+RX   PubMed=2542939; DOI=10.1073/pnas.86.10.3564;
+RA   Inohara N., Shimomura S., Fukui T., Futai M.;
+RT   "Auxin-binding protein located in the endoplasmic reticulum of maize
+RT   shoots: molecular cloning and complete primary structure.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:3564-3568(1989).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. LG11; TISSUE=Shoot;
+RX   PubMed=1650260; DOI=10.1007/BF00015087;
+RA   Yu L.X., Lazarus C.M.;
+RT   "Structure and sequence of an auxin-binding protein gene from maize
+RT   (Zea mays L.).";
+RL   Plant Mol. Biol. 16:925-930(1991).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT GLY-13.
+RX   PubMed=1668837;
+RA   Lazarus C.M., Napier R.M., Yu L.X., Lynas C., Venis M.A.;
+RT   "Auxin-binding protein -- antibodies and genes.";
+RL   Symp. Soc. Exp. Biol. 45:129-148(1991).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=cv. Wisconsin 22;
+RX   PubMed=7693132; DOI=10.1046/j.1365-313X.1993.04030423.x;
+RA   Schwob E., Choi S.-Y., Simmons C., Migliaccio F., Ilag L., Hesse T.,
+RA   Palme K., Soell D.;
+RT   "Molecular analysis of three maize 22 kDa auxin-binding protein genes
+RT   -- transient promoter expression and regulatory regions.";
+RL   Plant J. 4:423-432(1993).
+RN   [7]
+RP   REVIEW.
+RX   PubMed=1650041; DOI=10.1016/0968-0004(91)90028-T;
+RA   Napier R.M., Venis M.A.;
+RT   "From auxin-binding protein to plant hormone receptor?";
+RL   Trends Biochem. Sci. 16:72-75(1991).
+RN   [8]
+RP   PRELIMINARY DISULFIDE BOND.
+RX   PubMed=11749971; DOI=10.1016/S0014-5793(01)03196-9;
+RA   Feckler C., Muster G., Feser W., Romer A., Palme K.;
+RT   "Mass spectrometric analysis reveals a cysteine bridge between
+RT   residues 2 and 61 of the auxin-binding protein 1 from Zea mays L.";
+RL   FEBS Lett. 509:446-450(2001).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 39-201 IN COMPLEX WITH AUXIN
+RP   AND ZINC ION, GLYCOSYLATION AT ASN-133, MUTAGENESIS OF
+RP   199-ASP-GLU-200, DISULFIDE BOND, AND SUBUNIT.
+RX   PubMed=12065401; DOI=10.1093/emboj/cdf291;
+RA   Woo E.J., Marshall J., Bauly J., Chen J.G., Venis M., Napier R.M.,
+RA   Pickersgill R.W.;
+RT   "Crystal structure of auxin-binding protein 1 in complex with auxin.";
+RL   EMBO J. 21:2877-2885(2002).
+CC   -!- FUNCTION: Receptor for the plant hormone auxin.
+CC       {ECO:0000303|PubMed:2555179}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:12065401}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000269|PubMed:2555179}.
+CC   -!- TISSUE SPECIFICITY: Expressed in roots, coleoptiles, leaves,
+CC       stems, tassels and ears. {ECO:0000269|PubMed:7693132}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:12065401,
+CC       ECO:0000269|PubMed:2555179}.
+CC   -!- CAUTION: Was originally thought to have a disulfide bond between
+CC       Cys-40 and Cys-99. {ECO:0000305|PubMed:11749971}.
+DR   EMBL; X16309; CAA34376.1; -; mRNA.
+DR   EMBL; J04550; AAA33436.1; -; mRNA.
+DR   EMBL; X56737; CAA40061.1; -; Genomic_DNA.
+DR   EMBL; X16308; CAA34375.1; -; mRNA.
+DR   EMBL; S53630; AAB25115.1; -; mRNA.
+DR   EMBL; L08425; AAA33430.1; -; Genomic_DNA.
+DR   PIR; S16262; S16262.
+DR   RefSeq; NP_001105312.1; NM_001111842.1.
+DR   UniGene; Zm.152; -.
+DR   PDB; 1LR5; X-ray; 1.90 A; A/B/C/D=39-201.
+DR   PDB; 1LRH; X-ray; 1.90 A; A/B/C/D=39-201.
+DR   PDBsum; 1LR5; -.
+DR   PDBsum; 1LRH; -.
+DR   ProteinModelPortal; P13689; -.
+DR   SMR; P13689; -.
+DR   STRING; 4577.GRMZM2G116204_P01; -.
+DR   PaxDb; P13689; -.
+DR   PRIDE; P13689; -.
+DR   GeneID; 542232; -.
+DR   KEGG; zma:542232; -.
+DR   MaizeGDB; 25342; -.
+DR   eggNOG; ENOG410IWVR; Eukaryota.
+DR   eggNOG; ENOG4112D1V; LUCA.
+DR   EvolutionaryTrace; P13689; -.
+DR   Proteomes; UP000007305; Unplaced.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010011; F:auxin binding; IDA:UniProtKB.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0009734; P:auxin-activated signaling pathway; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   InterPro; IPR000526; Auxin-bd.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   Pfam; PF02041; Auxin_BP; 1.
+DR   PRINTS; PR00655; AUXINBINDNGP.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Auxin signaling pathway; Complete proteome;
+KW   Direct protein sequencing; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Metal-binding; Receptor; Reference proteome; Signal;
+KW   Zinc.
+FT   SIGNAL        1     38       {ECO:0000269|PubMed:2542939,
+FT                                ECO:0000269|PubMed:2555179}.
+FT   CHAIN        39    201       Auxin-binding protein 1.
+FT                                /FTId=PRO_0000020614.
+FT   REGION       60     63       Auxin binding.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   REGION       92     93       Auxin binding.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   REGION      187    189       Auxin binding.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   MOTIF       198    201       Prevents secretion from ER.
+FT                                {ECO:0000255}.
+FT   METAL        95     95       Zinc; via tele nitrogen.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   METAL        97     97       Zinc; via tele nitrogen.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   METAL       101    101       Zinc. {ECO:0000269|PubMed:12065401}.
+FT   METAL       144    144       Zinc; via tele nitrogen.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   SITE         84     84       Auxin binding.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   CARBOHYD    133    133       N-linked (GlcNAc...).
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   DISULFID     40    193       {ECO:0000269|PubMed:12065401}.
+FT   VARIANT      13     13       A -> G. {ECO:0000269|PubMed:1668837}.
+FT   VARIANT     141    141       N -> S.
+FT   MUTAGEN     199    200       DE->EQ: Prevents ER retention.
+FT                                {ECO:0000269|PubMed:12065401}.
+FT   STRAND       46     49       {ECO:0000244|PDB:1LR5}.
+FT   HELIX        50     52       {ECO:0000244|PDB:1LR5}.
+FT   STRAND       63     69       {ECO:0000244|PDB:1LR5}.
+FT   HELIX        71     74       {ECO:0000244|PDB:1LR5}.
+FT   STRAND       77     86       {ECO:0000244|PDB:1LR5}.
+FT   STRAND       94     99       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      101    107       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      110    114       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      117    121       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      126    130       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      134    138       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      144    147       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      151    153       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      155    165       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      168    173       {ECO:0000244|PDB:1LR5}.
+FT   HELIX       178    180       {ECO:0000244|PDB:1LR5}.
+FT   STRAND      182    186       {ECO:0000244|PDB:1LR5}.
+FT   TURN        188    190       {ECO:0000244|PDB:1LR5}.
+FT   HELIX       191    196       {ECO:0000244|PDB:1LR5}.
+SQ   SEQUENCE   201 AA;  21977 MW;  1AF11DFEC247D9D0 CRC64;
+     MAPDLSELAA AAAARGAYLA GVGVAVLLAA SFLPVAESSC VRDNSLVRDI SQMPQSSYGI
+     EGLSHITVAG ALNHGMKEVE VWLQTISPGQ RTPIHRHSCE EVFTVLKGKG TLLMGSSSLK
+     YPGQPQEIPF FQNTTFSIPV NDPHQVWNSD EHEDLQVLVI ISRPPAKIFL YDDWSMPHTA
+     AVLKFPFVWD EDCFEAAKDE L
+//
+ID   AOC1_MOUSE              Reviewed;         751 AA.
+AC   Q8JZQ5; Q8R229; Q8VC36;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   02-NOV-2016, entry version 108.
+DE   RecName: Full=Amiloride-sensitive amine oxidase [copper-containing];
+DE            Short=DAO;
+DE            Short=Diamine oxidase;
+DE            EC=1.4.3.22 {ECO:0000250|UniProtKB:P19801};
+DE   AltName: Full=Amiloride-binding protein 1;
+DE   AltName: Full=Amine oxidase copper domain-containing protein 1;
+DE   AltName: Full=Histaminase;
+DE   Flags: Precursor;
+GN   Name=Aoc1; Synonyms=Abp1;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi;
+OC   Muroidea; Muridae; Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the degradation of compounds such as
+CC       putrescine, histamine, spermine, and spermidine, substances
+CC       involved in allergic and immune responses, cell proliferation,
+CC       tissue differentiation, tumor formation, and possibly apoptosis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Histamine + H(2)O + O(2) = (imidazol-4-
+CC       yl)acetaldehyde + NH(3) + H(2)O(2).
+CC       {ECO:0000250|UniProtKB:P19801}.
+CC   -!- COFACTOR:
+CC       Name=Cu cation; Xref=ChEBI:CHEBI:23378;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Binds 1 copper ion per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Binds 2 calcium ions per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- COFACTOR:
+CC       Name=L-topaquinone; Xref=ChEBI:CHEBI:79027;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Contains 1 topaquinone per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC       {ECO:0000250|UniProtKB:P19801}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space {ECO:0000250}.
+CC   -!- PTM: Topaquinone (TPQ) is generated by copper-dependent
+CC       autoxidation of a specific tyrosyl residue.
+CC       {ECO:0000250|UniProtKB:P12807}.
+CC   -!- MISCELLANEOUS: Inhibited by amiloride in a competitive manner.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the copper/topaquinone oxidase family.
+CC       {ECO:0000305}.
+DR   EMBL; BC021880; AAH21880.1; -; mRNA.
+DR   EMBL; BC022627; AAH22627.1; -; mRNA.
+DR   EMBL; BC034215; AAH34215.1; -; mRNA.
+DR   UniGene; Mm.213898; -.
+DR   ProteinModelPortal; Q8JZQ5; -.
+DR   SMR; Q8JZQ5; -.
+DR   IntAct; Q8JZQ5; 1.
+DR   MINT; MINT-4086577; -.
+DR   STRING; 10090.ENSMUSP00000031835; -.
+DR   PhosphoSitePlus; Q8JZQ5; -.
+DR   MaxQB; Q8JZQ5; -.
+DR   PaxDb; Q8JZQ5; -.
+DR   PRIDE; Q8JZQ5; -.
+DR   MGI; MGI:1923757; Aoc1.
+DR   eggNOG; KOG1186; Eukaryota.
+DR   eggNOG; COG3733; LUCA.
+DR   HOVERGEN; HBG004164; -.
+DR   InParanoid; Q8JZQ5; -.
+DR   PRO; PR:Q8JZQ5; -.
+DR   Proteomes; UP000000589; Unplaced.
+DR   Bgee; ENSMUSG00000029811; -.
+DR   GO; GO:0005923; C:bicellular tight junction; ISS:UniProtKB.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:MGI.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:MGI.
+DR   GO; GO:0005507; F:copper ion binding; ISS:UniProtKB.
+DR   GO; GO:0052597; F:diamine oxidase activity; ISS:UniProtKB.
+DR   GO; GO:0008144; F:drug binding; ISS:UniProtKB.
+DR   GO; GO:0008201; F:heparin binding; ISS:UniProtKB.
+DR   GO; GO:0052598; F:histamine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052599; F:methylputrescine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008131; F:primary amine oxidase activity; ISS:UniProtKB.
+DR   GO; GO:0052600; F:propane-1,3-diamine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032403; F:protein complex binding; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:MGI.
+DR   GO; GO:0048038; F:quinone binding; ISS:UniProtKB.
+DR   GO; GO:0004872; F:receptor activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0015898; P:amiloride transport; ISO:MGI.
+DR   GO; GO:0009308; P:amine metabolic process; IEA:InterPro.
+DR   GO; GO:0097185; P:cellular response to azide; ISS:UniProtKB.
+DR   GO; GO:0071280; P:cellular response to copper ion; ISS:UniProtKB.
+DR   GO; GO:0035874; P:cellular response to copper ion starvation; ISS:UniProtKB.
+DR   GO; GO:0071420; P:cellular response to histamine; ISS:UniProtKB.
+DR   GO; GO:0055114; P:oxidation-reduction process; ISS:UniProtKB.
+DR   GO; GO:0046677; P:response to antibiotic; ISS:UniProtKB.
+DR   GO; GO:0042493; P:response to drug; ISS:UniProtKB.
+DR   Gene3D; 2.70.98.20; -; 1.
+DR   InterPro; IPR000269; Cu_amine_oxidase.
+DR   InterPro; IPR015798; Cu_amine_oxidase_C.
+DR   InterPro; IPR016182; Cu_amine_oxidase_N-reg.
+DR   InterPro; IPR015800; Cu_amine_oxidase_N2.
+DR   InterPro; IPR015802; Cu_amine_oxidase_N3.
+DR   PANTHER; PTHR10638; PTHR10638; 1.
+DR   Pfam; PF01179; Cu_amine_oxid; 1.
+DR   Pfam; PF02727; Cu_amine_oxidN2; 1.
+DR   Pfam; PF02728; Cu_amine_oxidN3; 1.
+DR   PRINTS; PR00766; CUDAOXIDASE.
+DR   SUPFAM; SSF49998; SSF49998; 1.
+DR   SUPFAM; SSF54416; SSF54416; 2.
+DR   PROSITE; PS01164; COPPER_AMINE_OXID_1; 1.
+DR   PROSITE; PS01165; COPPER_AMINE_OXID_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Complete proteome; Copper; Disulfide bond; Glycoprotein;
+KW   Heparin-binding; Metal-binding; Oxidoreductase; Reference proteome;
+KW   Secreted; Signal; TPQ.
+FT   SIGNAL        1     22       {ECO:0000255}.
+FT   CHAIN        23    751       Amiloride-sensitive amine oxidase
+FT                                [copper-containing]. {ECO:0000250}.
+FT                                /FTId=PRO_0000035667.
+FT   REGION      371    381       Substrate binding.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   REGION      458    463       Substrate binding.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   REGION      568    575       Heparin-binding. {ECO:0000250}.
+FT   ACT_SITE    373    373       Proton acceptor.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   ACT_SITE    461    461       Schiff-base intermediate with substrate;
+FT                                via topaquinone.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       510    510       Copper; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       512    512       Copper; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       519    519       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       520    520       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       521    521       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       562    562       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       653    653       Calcium 2; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       656    656       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       658    658       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       664    664       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       665    665       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       675    675       Copper; via pros nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   MOD_RES     461    461       2',4',5'-topaquinone.
+FT                                {ECO:0000250|UniProtKB:P12807}.
+FT   CARBOHYD     61     61       N-linked (GlcNAc...).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    110    110       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CARBOHYD    538    538       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CARBOHYD    745    745       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   DISULFID    391    417       {ECO:0000250|UniProtKB:P19801}.
+FT   DISULFID    736    736       Interchain.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CONFLICT     20     20       A -> P (in Ref. 1; AAH21880).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   751 AA;  85424 MW;  4E9682DA7C967AC7 CRC64;
+     MSLAFGWAAV ILLLQTADTA SAVTTPHDKA RIFADLSPQE IKAVHSFLMS RKELGLESSK
+     NLTLAKNSVF LIEMLLPKKK NVLKFLDEGR KSPVREARAI IFFGAQDHPN VTEFAVGPLP
+     RPCYVQALSP RPGHHLSWSS RPISTAEYDL LYHMLNRAIT PLHQFFLDTT GFSFLGCDDR
+     FLTFTDVAPR GVESGQRRSW LIVQRYVEGY FLHPTGLEIL VDHSSTDVQD WRVEQLWYNG
+     KFYNSPEELA QKYAVGEVEA VVLEEVVLED PLPGATEQPP LFSSYKPRGE FHTPVTVAGP
+     HVVQPSGPRY KLEGNVVLYG DWSFSYRLRS SSGLQIFNVL FGGERVAYEV SVQEAVALYG
+     GHTPAGMQTK YIDVGWGLGS VTHELAPGID CPETATFLDA FHYYDSDGPV LYPRALCLFE
+     MPTGVPLRRH FDSNFKGGFN FYAGLKGYVL VLRTTSTVYN YDYIWDFIFY PNGVMETKMH
+     ATGYVHATFY TPEGLRHGTR LQTHLLGNIH THLVHYRVDL DVAGTKNSFR TLKTKLENIT
+     NPWSPSHSLV QPTLEQTQYS HEHQAAFRFG QTLPKYLLFS SPQKNRWGHR RSYRLQIHSM
+     AEQVLPPGWQ EERAVTWARY PLAVTKYRES ERYSSSLYNQ NDPWDPPVVF EEFLRNNENI
+     ENEDLVAWVT VGFLHIPHSE DVPNTATPGN CVGFLIRPFN FFEEDPSLAS RDTVIVWPQD
+     NGLNHVQRWI PENRDCLVSP PFSYNGTYKP V
+//
+ID   AOC1_PIG                Reviewed;         755 AA.
+AC   Q9TRC7; F1SSL3; Q29317;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   04-FEB-2015, sequence version 3.
+DT   15-MAR-2017, entry version 91.
+DE   RecName: Full=Amiloride-sensitive amine oxidase [copper-containing] {ECO:0000305};
+DE            Short=DAO {ECO:0000303|PubMed:8144586};
+DE            Short=Diamine oxidase {ECO:0000303|PubMed:8144586};
+DE            EC=1.4.3.22 {ECO:0000269|PubMed:1457410, ECO:0000269|PubMed:8144586};
+DE   AltName: Full=Amiloride-binding protein 1 {ECO:0000303|PubMed:8144586};
+DE   AltName: Full=Amine oxidase copper domain-containing protein 1 {ECO:0000305};
+DE   AltName: Full=Histaminase {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=AOC1; Synonyms=ABP1;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+OC   Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RG   Porcine genome sequencing project;
+RL   Submitted (NOV-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 30-49, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Kidney;
+RX   PubMed=8144586;
+RA   Novotny W.F., Chassande O., Baker M., Lazdunski M., Barbry P.;
+RT   "Diamine oxidase is the amiloride-binding protein and is inhibited by
+RT   amiloride analogues.";
+RL   J. Biol. Chem. 269:9921-9925(1994).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 457-475, CATALYTIC ACTIVITY, COFACTOR, ACTIVE
+RP   SITE, AND TOPAQUINONE AT TYR-464.
+RC   TISSUE=Kidney;
+RX   PubMed=1457410; DOI=10.1021/bi00163a025;
+RA   Janes S.M., Palcic M.M., Scaman C.H., Smith A.J., Brown D.E.,
+RA   Dooley D.M., Mure M., Klinman J.P.;
+RT   "Identification of topaquinone and its consensus sequence in copper
+RT   amine oxidases.";
+RL   Biochemistry 31:12147-12154(1992).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 508-610.
+RC   TISSUE=Small intestine;
+RX   PubMed=8672129; DOI=10.1007/s003359900153;
+RA   Winteroe A.K., Fredholm M., Davies W.;
+RT   "Evaluation and characterization of a porcine small intestine cDNA
+RT   library: analysis of 839 clones.";
+RL   Mamm. Genome 7:509-517(1996).
+RN   [5]
+RP   GLYCAN STRUCTURE, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Kidney;
+RX   PubMed=10782293; DOI=10.1016/S0008-6215(99)00254-2;
+RA   Huang Y., Mechref Y., Novotny M.V.;
+RT   "N-linked oligosaccharide structures in the diamine oxidase from
+RT   porcine kidney.";
+RL   Carbohydr. Res. 323:111-125(2000).
+CC   -!- FUNCTION: Catalyzes the degradation of compounds such as
+CC       putrescine, histamine, spermine, and spermidine, substances
+CC       involved in allergic and immune responses, cell proliferation,
+CC       tissue differentiation, tumor formation, and possibly apoptosis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Histamine + H(2)O + O(2) = (imidazol-4-
+CC       yl)acetaldehyde + NH(3) + H(2)O(2). {ECO:0000269|PubMed:1457410,
+CC       ECO:0000269|PubMed:8144586}.
+CC   -!- COFACTOR:
+CC       Name=Cu cation; Xref=ChEBI:CHEBI:23378;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Binds 1 copper ion per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Binds 2 calcium ions per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- COFACTOR:
+CC       Name=L-topaquinone; Xref=ChEBI:CHEBI:79027;
+CC         Evidence={ECO:0000250|UniProtKB:P19801};
+CC       Note=Contains 1 topaquinone per subunit.
+CC       {ECO:0000250|UniProtKB:P19801};
+CC   -!- ENZYME REGULATION: Inhibited by amiloride in a competitive manner.
+CC       {ECO:0000250|UniProtKB:P19801}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC       {ECO:0000250|UniProtKB:P19801}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space {ECO:0000250}.
+CC   -!- PTM: N-glycosylated; the glycans are primarily linear, di-, or
+CC       tribranched fucosylated complex type.
+CC       {ECO:0000269|PubMed:10782293}.
+CC   -!- PTM: Topaquinone (TPQ) is generated by copper-dependent
+CC       autoxidation of a specific tyrosyl residue.
+CC       {ECO:0000250|UniProtKB:P12807}.
+CC   -!- SIMILARITY: Belongs to the copper/topaquinone oxidase family.
+CC       {ECO:0000305}.
+DR   EMBL; CU928555; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; F14708; CAA23203.1; -; mRNA.
+DR   PIR; B54410; B54410.
+DR   RefSeq; XP_003134601.1; XM_003134553.3.
+DR   UniGene; Ssc.21957; -.
+DR   SMR; Q9TRC7; -.
+DR   STRING; 9823.ENSSSCP00000017422; -.
+DR   BindingDB; Q9TRC7; -.
+DR   ChEMBL; CHEMBL3108636; -.
+DR   DrugBank; DB00594; Amiloride.
+DR   UniCarbKB; Q9TRC7; -.
+DR   PaxDb; Q9TRC7; -.
+DR   PeptideAtlas; Q9TRC7; -.
+DR   Ensembl; ENSSSCT00000017903; ENSSSCP00000017422; ENSSSCG00000016442.
+DR   GeneID; 100517436; -.
+DR   KEGG; ssc:100517436; -.
+DR   CTD; 26; -.
+DR   eggNOG; KOG1186; Eukaryota.
+DR   eggNOG; COG3733; LUCA.
+DR   GeneTree; ENSGT00510000046461; -.
+DR   InParanoid; Q9TRC7; -.
+DR   KO; K11182; -.
+DR   OMA; FNSNFKG; -.
+DR   OrthoDB; EOG091G0C1O; -.
+DR   BioCyc; MetaCyc:MONOMER-14652; -.
+DR   BRENDA; 1.4.3.22; 6170.
+DR   Reactome; R-SSC-211945; Phase 1 - Functionalization of compounds.
+DR   Reactome; R-SSC-6798695; Neutrophil degranulation.
+DR   SABIO-RK; Q9TRC7; -.
+DR   Proteomes; UP000008227; Chromosome 18.
+DR   Bgee; ENSSSCG00000016442; -.
+DR   GO; GO:0005923; C:bicellular tight junction; ISS:UniProtKB.
+DR   GO; GO:0070062; C:extracellular exosome; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:Ensembl.
+DR   GO; GO:0005507; F:copper ion binding; ISS:UniProtKB.
+DR   GO; GO:0052597; F:diamine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0008144; F:drug binding; IDA:UniProtKB.
+DR   GO; GO:0008201; F:heparin binding; ISS:UniProtKB.
+DR   GO; GO:0052598; F:histamine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052599; F:methylputrescine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008131; F:primary amine oxidase activity; ISS:UniProtKB.
+DR   GO; GO:0052600; F:propane-1,3-diamine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032403; F:protein complex binding; ISS:UniProtKB.
+DR   GO; GO:0048038; F:quinone binding; ISS:UniProtKB.
+DR   GO; GO:0004872; F:receptor activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0009308; P:amine metabolic process; IEA:InterPro.
+DR   GO; GO:0097185; P:cellular response to azide; ISS:UniProtKB.
+DR   GO; GO:0071280; P:cellular response to copper ion; ISS:UniProtKB.
+DR   GO; GO:0035874; P:cellular response to copper ion starvation; ISS:UniProtKB.
+DR   GO; GO:0071420; P:cellular response to histamine; ISS:UniProtKB.
+DR   GO; GO:0055114; P:oxidation-reduction process; IDA:UniProtKB.
+DR   GO; GO:0046677; P:response to antibiotic; IDA:UniProtKB.
+DR   GO; GO:0042493; P:response to drug; IDA:UniProtKB.
+DR   Gene3D; 2.70.98.20; -; 1.
+DR   InterPro; IPR000269; Cu_amine_oxidase.
+DR   InterPro; IPR015798; Cu_amine_oxidase_C.
+DR   InterPro; IPR016182; Cu_amine_oxidase_N-reg.
+DR   InterPro; IPR015800; Cu_amine_oxidase_N2.
+DR   InterPro; IPR015802; Cu_amine_oxidase_N3.
+DR   PANTHER; PTHR10638; PTHR10638; 1.
+DR   Pfam; PF01179; Cu_amine_oxid; 1.
+DR   Pfam; PF02727; Cu_amine_oxidN2; 1.
+DR   Pfam; PF02728; Cu_amine_oxidN3; 1.
+DR   PRINTS; PR00766; CUDAOXIDASE.
+DR   SUPFAM; SSF49998; SSF49998; 1.
+DR   SUPFAM; SSF54416; SSF54416; 2.
+DR   PROSITE; PS01164; COPPER_AMINE_OXID_1; 1.
+DR   PROSITE; PS01165; COPPER_AMINE_OXID_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Complete proteome; Copper; Direct protein sequencing;
+KW   Disulfide bond; Glycoprotein; Heparin-binding; Metal-binding;
+KW   Oxidoreductase; Reference proteome; Secreted; Signal; TPQ.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    755       Amiloride-sensitive amine oxidase
+FT                                [copper-containing]. {ECO:0000255}.
+FT                                /FTId=PRO_0000064100.
+FT   REGION      374    384       Substrate binding.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   REGION      461    466       Substrate binding.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   REGION      571    578       Heparin-binding. {ECO:0000250}.
+FT   ACT_SITE    376    376       Proton acceptor.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   ACT_SITE    464    464       Schiff-base intermediate with substrate;
+FT                                via topaquinone.
+FT                                {ECO:0000269|PubMed:1457410}.
+FT   METAL       513    513       Copper; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       515    515       Copper; via tele nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       522    522       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       523    523       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       524    524       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       565    565       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       656    656       Calcium 2; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       659    659       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       661    661       Calcium 2.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       667    667       Calcium 1.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       668    668       Calcium 1; via carbonyl oxygen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   METAL       678    678       Copper; via pros nitrogen.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   MOD_RES     464    464       2',4',5'-topaquinone.
+FT                                {ECO:0000269|PubMed:1457410}.
+FT   CARBOHYD    115    115       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CARBOHYD    541    541       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CARBOHYD    749    749       N-linked (GlcNAc...).
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   DISULFID    182    186       {ECO:0000250|UniProtKB:P19801}.
+FT   DISULFID    394    420       {ECO:0000250|UniProtKB:P19801}.
+FT   DISULFID    740    740       Interchain.
+FT                                {ECO:0000250|UniProtKB:P19801}.
+FT   CONFLICT     33     33       G -> P (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT     40     42       DLS -> AGV (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT     44     45       QE -> ED (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT    474    474       P -> Y (in Ref. 3; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT    593    593       Missing (in Ref. 4; CAA23203).
+FT                                {ECO:0000305}.
+FT   CONFLICT    595    597       SYR -> AVP (in Ref. 4; CAA23203).
+FT                                {ECO:0000305}.
+FT   CONFLICT    602    602       S -> F (in Ref. 4; CAA23203).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   755 AA;  85475 MW;  3859049D87819255 CRC64;
+     MGRGTLALGW AGAALLLLQM LAAAERSPRT PGGKAGVFAD LSAQELKAVH SFLWSQKELK
+     LEPSGTLTMA KNSVFLIEML LPKKQHVLKF LDKGHRRPVR EARAVIFFGA QEQPNVTEFA
+     VGPLPTPRYM RDLPPRPGHQ VSWASRPISK AEYALLSHKL QEATQPLRQF FRRTTGSSFG
+     DCHEQCLTFT DVAPRGLASG QRRTWFILQR QMPGYFLHPT GLELLVDHGS TNAQDWTVEQ
+     VWYNGKFYRS PEELAQKYND GEVDVVILED PLAKGKDGES LPEPALFSFY QPRGDFAVTM
+     HGPHVVQPQG PRYSLEGNRV MYGGWSFAFR LRSSSGLQIL DVHFGGERIA YEVSVQEAVA
+     LYGGHTPAGM QTKYIDVGWG LGSVTHELAP DIDCPETATF LDALHHYDAD GPVLYPRALC
+     LFEMPTGVPL RRHFNSNFSG GFNFYAGLKG QVLVLRTTST VYNYDYIWDF IFYPNGVMEA
+     KMHATGYVHA TFYTPEGLRY GTRLHTHLIG NMHTHLVNYR VDLDVAGTTN SFQTLQMELE
+     NITNPWSPRH RLVQPTLKQT RYSRERQAAF RFGQPLPKYL LITSPKENPW GHTRSYRLQL
+     HSMADQVLPP GWQEERAVTW ARYPLAVTRY RESELSSSSI YNQNDPWDPP VVFEEFLRNN
+     ENIEDEDLVA WVTVGFLHIP HSEDIPNTAT PGNSVGFLLR PFNFFPEDPA LASRDLVVVW
+     PLENGSTYAQ RWIPEEDQSC LKPPPFSYNG SYRPV
+//
