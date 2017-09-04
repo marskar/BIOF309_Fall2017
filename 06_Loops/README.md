@@ -21,15 +21,6 @@ Your tasks were to:
 
 ##Homework
 
-* Trimming sequences
-* Directions are a PDF file in this directory (trimming_HW.pdf)
-* Submit your final script to the proper drop it to me page.
-* Your file should be named [yourname].HW_4.py
+## Next week
 
-
-##Where to send homework
-
-* https://dropitto.me/week4-330
-* https://dropitto.me/week4-530
-* Password for both is: iLOVEpython
-* Homework must be received no later than 12:00 PM on 3/7/17 to receive credit
+Next week, we will

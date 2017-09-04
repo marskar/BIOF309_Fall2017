@@ -20,14 +20,10 @@ Your tasks were to:
 
 ##Homework
 
-* Caclulate amino acid residues 
+* Caclulate amino acid residues
 * Submit your final script to the proper drop it to me page.
 * Your file should be named [yourname].HW_5.py
 
+## Next week
 
-##Where to send homework
-
-* https://dropitto.me/week5-330
-* https://dropitto.me/week5-530
-* Password for both is: iLOVEpython
-* Homework must be received no later than 12:00 PM on 3/14/17 to receive credit
+Next week, we will

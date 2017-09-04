@@ -1,9 +1,9 @@
-#Info for week 6
+# BIOF309 Fall 2017 - week 4
 
 ##Homework review
 
 Your tasks were to:
-* Create a function to compute percentages
+* Create a function to compute GC percentages
 * Call the function from inside the same file or turn it into a module and import the module
 
 ##Objects and classes
@@ -44,9 +44,6 @@ Your tasks were to:
 * Project Milestone 1
 * Send suggestions on topics for the remaining 3 weeks
 
-## Where to send homework
+## Next week
 
-* https://dropitto.me/week10-330
-* https://dropitto.me/week10-530
-* Password for both is: iLOVEpython
-* Homework must be received no later than 1:00 PM on 4/11/17 to receive credit
+Next week, we will

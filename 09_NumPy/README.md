@@ -15,9 +15,6 @@ Your tasks were to:
 * Project Milestone 1
 * Send suggestions on topics for the remaining 3 weeks
 
-## Where to send homework
+## Next week
 
-* https://dropitto.me/week10-330
-* https://dropitto.me/week10-530
-* Password for both is: iLOVEpython
-* Homework must be received no later than 1:00 PM on 4/11/17 to receive credit
+Next week, we will
