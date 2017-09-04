@@ -19,6 +19,7 @@ We will
 * Review absolute and relative paths
 * Create and remove files/directories
 
+### Notebook list
 
 ## Homework
 
