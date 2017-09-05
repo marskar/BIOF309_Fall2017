@@ -9,6 +9,7 @@
 * What can you do with Python?
 * Troubleshooting software installation
 * Introduction to Jupyter Notebook
+* Ben's "What I wish I knew years ago"
 
 ## Why Python
 - Python is a widely-used, general-purpose language.
@@ -85,6 +86,21 @@ https://www.youtube.com/watch?v=-67hh86N42Q
 *  01-03-03_types-conversion.ipynb
 *  01-03-04_var-string-num.ipynb
 *  01-03-05_variable-assignment.ipynb
+
+## Ben's "What I wish I knew years ago"
+
+Computer time is cheap, humans are expensive, their time is valuable. Given a task, they need to learn to minimize the time spent writing the code. Or given a stretch of time, they need to know how to maximize output. So they need to learn a few best practices to get the most out of their time (these are just some things I’ve learned that I wish someone told me early on):
+
+* Modularize code, good coding frame work has functions which are agnostic to input
+* Write pseudo-code
+* Don’t get too cute with it, just solve the problem
+* Use a style guide. Even if it’s your own made up style guide, just be consistent. Keep a format that makes bugs easy to spot.
+* Minimize time spent debugging. That means writing code in chunks, where you get total confidence in one chunk before moving on to the next.
+* Comment your code; make comments follow some consistent formatting.
+* Error rate is ~proportional to the number of lines of code you write. Concise code with helpful comments minimizes error rate.
+* Log your bugs, and don’t repeat them. Every time you spend time debugging, write down the issue once you solve it, and make a checklist for yourself like a pilot before takeoff. If something doesn’t work next time, you have a list of most probable candidates to check first.
+* People type at about the same rate, codes usually run at about the same speed, people often get the right idea at about the same speed. These things often vary on a time scales of mere minutes. Yet, people vary in how fast they implement successful code on a time scales of hours, days, or even weeks. This is because debugging is your rate limiting factor. Get good at debugging, minimize time spent doing I. Solve your problem today, not two weeks from now.
+* You’re going to have problems that you try and try to solve for days and make no progress, and then something will budge. Given a stretch of time to work on something, this means your progress is binary: you made headway, or you didn’t. These best practices are a starting point for you, but you (the student) need to figure out for yourself how maximize the frequency of making things budge.
 
 ## Reading
 
