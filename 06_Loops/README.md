@@ -1,4 +1,13 @@
-#Info for week 4
+
+**Week 6 (Oct 16 2017):**
+
+* Intro and review
+* Review Homework
+* Loops
+* Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Python Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
+* Homework: Prepare an example of how you might use a loop
+
 
 ##Homework review
 

@@ -1,4 +1,12 @@
-# BIOF309 Fall 2017 - week 4
+# BIOF309 Fall 2017
+**Week 10 (Nov 13 2017):**
+
+* Intro and review
+* Review Homework
+* Data analysis with pandas
+* Reading: Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - Dictionaries and Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
+* Homework: Pandas practice set
 
 ##Homework review
 

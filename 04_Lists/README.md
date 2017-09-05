@@ -2,7 +2,17 @@
 
 ##Homework review
 
+**Week 4 (Oct 2 2017):**
 
+* Intro and review
+* Review Homework
+* Lists
+* Sys Argv
+* Reading: Chapter 07 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
+* Homework:
+  - Write a program to calculate GC percentage
+  - Push this program to GitHub
 
 ##Lists and Loops (Chapter 4 of Python for Biologists)
 

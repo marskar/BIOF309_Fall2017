@@ -198,7 +198,7 @@ Schedule
 
 **Week 1 (Sept 11 2017):**
 
-* Intro survey
+* [Intro survey](https://goo.gl/forms/hKJGAyI0JfjKLgq73)
 * Course overview
 * An introduction to programming
 * Why Python?
@@ -211,7 +211,7 @@ Schedule
 * Homework:
   - Find a cool notebook to share with the class!
   - Add a link to the notebook to the "cool-notebooks" channel on our [class Slack team](https://biof309.slack.com)
-  - Prepare a 1-minute presentation (no powerpoint!) to introduce yourself and your chosen notebook next class.
+  - Prepare a 1-minute presentation (no powerpoint!) to introduce yourself and your chosen notebook next class
 
 **Week 2 (Sept 18 2017):**
 

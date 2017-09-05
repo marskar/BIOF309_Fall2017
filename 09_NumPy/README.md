@@ -1,4 +1,12 @@
-# Info for week 10 (4/5/2017)
+
+**Week 9 (Nov 6 2017):**
+
+* Intro and review
+* Review Homework
+* NumPy
+* Reading: Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
+* Homework: Numpy practice set
 
 ## Homework review
 

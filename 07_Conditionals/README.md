@@ -1,4 +1,13 @@
-#Info for week 6
+
+
+**Week 7 (Oct 23 2017):**
+
+* Intro and review
+* Review Homework
+* Conditional tests
+* Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Activity: [DataCamp - Python Logic and Control Flow](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
+* Homework: Prepare an example of how you might use conditionals
 
 ##Homework review
 
