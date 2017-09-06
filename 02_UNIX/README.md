@@ -2,13 +2,14 @@
 
 ## Homework review
 
-Your tasks were to find a cool notebook and share the link.
+Your tasks were to find a cool notebook and share the link on Slack.
 
 ## Plan for today
 
+* Review Homework: Cool notebook presentations (1 minute each)
 * Introduction to UNIX/bash/shell
 * IPython shell and shell-related commands
-* Review Homework: Cool notebook presentations (1 minute each)
+* Go a little more in-depth into string objects
 * Discuss the "Hello world" interactive program
 
 ## UNIX
@@ -29,15 +30,27 @@ We will
 
 #### UNIX
 
-02-01-00_Review.ipynb
-02-01-01_Introduction_to_the_Command_Line.ipynb
-02-01-02_IPython-shell.ipynb
-02-01-03_Organization.ipynb
-02-01-04_more-linux.ipynb
-02-01-05_terminal_apps.ipynb
+* 02-01-00_Review.ipynb
+* 02-01-01_Introduction_to_the_Command_Line.ipynb
+* 02-01-02_IPython-shell.ipynb
+* 02-01-03_Organization.ipynb
+* 02-01-04_more-linux.ipynb
+* 02-01-05_terminal_apps.ipynb
 
 #### Strings
 
+* 02-02-01_Strings.ipynb
+* 02-02-02_StringIO.ipynb
+* 02-02-03_Print.ipynb
+* 02-02-04_More-on-Print.ipynb
+* 02-02-05_More-on-Strings.ipynb
+* 02-02-06_Statements-Assessment-Test.ipynb
+* 02-02-07_Statements-Assessment-Test-Solutions.ipynb
+* 02-02-08_Advanced Strings.ipynb
+* 02-02-09_Regular-Expressions.ipynb
+* 02-02-10_more-regexp.ipynb
+* 02-02-11_Working-with-Files.ipynb
+* 02-02-12_Hello-World-Homework.ipynb
 
 ## Reading
 

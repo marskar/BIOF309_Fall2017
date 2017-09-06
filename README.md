@@ -238,8 +238,8 @@ Schedule
 
 * Intro and review
 * Review Homework
-* Lists
-* Sys Argv
+* Data Structures: Lists, Sets, and Tuples
+* System arguments and how to use sys.argv
 * Reading: Chapter 07 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Activity: [DataCamp - Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
 * Homework:
