@@ -4,9 +4,9 @@ Syllabus
 
 **Fall 2017**
 
-**Monday Section 5:30 - 7:30**
+**Section 1: Monday 5:30PM - 7:30PM**
 
-**Monday Section 7:30 - 9:30**
+**Section 2: Monday 7:30PM - 9:30PM**
 
 *This document is subject to revision!*
 
@@ -24,9 +24,8 @@ Communication
 **Before contacting us, please check to see if your question has already been answered:**
 https://stackoverflow.com/help/how-to-ask
 
-In general, please use the [class Slack team](https://biof309.slack.com) to communicate with classmates and instructors.
-Use email only in case of personal and/or private question/concerns.
-If you have a course-relevant question or something to share, slack is simply the better way to communicate.
+In general, please use the [class Slack team](https://biof309.slack.com) to communicate with classmates and instructors. Please use email only in case of personal and/or private question/concerns.
+If you have a course-relevant question or something to share, Slack is simply the better way to communicate.
 
 First class: September 11, 2017
 
@@ -98,13 +97,46 @@ For more information, see the guidelines on the [The Hitchhiker’s Guide to Pyt
 
 In addition, we will use [Git](https://git-scm.com/) and [GitHub](https://github.com) for version control and collaboration.
 
+All of the course materials are available on GitHub. Before accessing the [course materials repo](https://github.com/marskar/BIOF309_Fall2017), you should that
+1. it is likely to be be under constant development throughout the semester and
+2. you are not expected to work through every single Jupyter Notebook contained therein!
+
+We will discuss the most interesting examples during class and point out the others to be reviewed outside of class.
+
+Most homework assignments will be managed by [GitHub Classroom](https://classroom.github.com). The list of assignments is as follows:
+01. [Hello World!](https://classroom.github.com/a/44MTt0SY)
+02. [GC Percent](https://classroom.github.com/a/XrlyUiUr)
+03. [Loop Example](https://classroom.github.com/a/DumKeNjl)
+04. [Conditionals Example](https://classroom.github.com/a/VzDLNQbH)
+05. [Cubed Program](https://classroom.github.com/a/iUdDBNnA)
+06. [NumPy Problem Set](https://classroom.github.com/a/t0t2h8P0)
+07. [Pandas Problem Set](https://classroom.github.com/a/MGTf6Xdb)
+08. [Make A Plot](https://classroom.github.com/a/YFjKLk76)
+09. [Machine Learning Example](https://classroom.github.com/a/qmS_iZJm)
+10. [Final Project](https://classroom.github.com/a/oOdW4qG-)
+
 Last but certainly not least, the very nice folks at [DataCamp](https://www.datacamp.com) have given us access to their awesome teaching materials.
+
+The DataCamp assignments are:
+
+01. [Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
+02. [Manipulating Files and Directories](https://campus.datacamp.com/courses/intro-to-unix-shell/manipulating-files-and-directories)
+03. [Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
+04. [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
+05. [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
+06. [Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
+07. [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
+08. [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
+09. [Matplotlib](https://campus.datacamp.com/courses/intermediate-python-for-data-science/matplotlib)
+10. [Getting Started with Machine Learning in Python](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
+11. [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
+12. [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
 
 Optional Materials
 ------------------
 
-[GitHub](https://github.com) is offering some awesome resources, that
-might be interesting you you depending on your background: [GitHub student pack](https://education.github.com/pack).
+[GitHub](https://github.com) is offering some free awesome resources to students, that
+might be of interest to you, depending on your background: [GitHub student pack](https://education.github.com/pack).
 
 In particular, the [Atom](https://atom.io) text editor is noteworthy
 because of its [integration with Git and GitHub](https://github.atom.io/), and
