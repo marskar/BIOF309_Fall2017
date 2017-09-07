@@ -25,4 +25,4 @@ Prepare an example of how you might use a loop. Try to come up with a real examp
 
 ## Next week
 
-Next week, we will talk about Control Flow a.k.a. Conditionals.
+Next week, we will talk about Conditionals. Together Loops and Conditionals are referred to as Control Flow.
