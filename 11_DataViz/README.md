@@ -1,16 +1,38 @@
-# Info for week 13 (4/26/2017)
+# BIOF309 Fall 2017 - Week 11 (Nov 20 2017)
+
+## Plan for today
+
+* Intro and review
+* Review Homework
+* Data Visualization (DataViz)
 
 ## Homework review
 
-Your tasks were to:
-* Submit Project Milestone 2
+Today we will go over the Pandas Problem Set.
 
-## Visualizations
+## Data Visualization (DataViz)
 
-* Visualizations in general
-* Cybersecurity
-* Other topics if there is time: (add your here): https://goo.gl/zbhiFv
+* Data Visualization in Matplotlib
+* Other Data Visualization (DataViz) systems
+  - Seaborn
+  - Bokeh
+  - ggplot/ggviz
+  - Plotly
+  - Altair
+  - Others?
 
-## Homework 
+## Reading
 
-* No homework - finish your semester projects
+* Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+
+## Activity
+
+* [DataCamp - Matplotlib](https://campus.datacamp.com/courses/intermediate-python-for-data-science/matplotlib)
+
+## Homework
+
+Your homework is to prepare a plot using Matplotlib to share with the class and push the code and output to GitHub.
+
+## Next week
+
+Next week, we will discuss Machine Learning.

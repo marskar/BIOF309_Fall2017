@@ -1,9 +1,5 @@
 # BIOF309 Fall 2017 - Week 2 (Sept 18 2017)
 
-## Homework review
-
-Your tasks were to find a cool notebook and share the link on Slack.
-
 ## Plan for today
 
 * Review Homework: Cool notebook presentations (1 minute each)
@@ -11,6 +7,10 @@ Your tasks were to find a cool notebook and share the link on Slack.
 * IPython shell and shell-related commands
 * Go a little more in-depth into string objects
 * Discuss the "Hello world" interactive program
+
+## Homework review
+
+Your tasks were to find a cool notebook and share the link on [Slack](https://biof309.slack.com/messages/C6WUUDV0D/).
 
 ## UNIX
 
@@ -55,7 +55,7 @@ We will
 ## Reading
 
 * Chapter 01.05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-Lessons 01-03 in [Software Carpentry - Shell](http://swcarpentry.github.io/shell-novice)
+* Lessons 01-03 in [Software Carpentry - Shell](http://swcarpentry.github.io/shell-novice)
 
 ## Activity
 

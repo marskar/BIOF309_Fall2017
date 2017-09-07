@@ -114,8 +114,8 @@ Computer time is cheap, humans are expensive, their time is valuable. Given a ta
 
 ## Homework
 
-Find a cool Jupyter notebook to share with the class! Use the resources notebook (01-01-14_Resources.ipynb), [nbviewer](https://nbviewer.jupyter.org/), Google, or any other means to find a notebook that interests you. You will have 60 seconds to discuss the notebook and tell everyone why you find it interesting. You can run the notebook in presentation mode or just scroll, but do **NOT** use powerpoint. Please add a link to the notebook you selected to the "cool-notebooks" channel on our [class Slack team](https://biof309.slack.com).
+Find a cool Jupyter notebook to share with the class! Use the resources notebook (01-01-14_Resources.ipynb), [nbviewer](https://nbviewer.jupyter.org/), Google, or any other means to find a notebook that interests you. You will have 60 seconds to discuss the notebook and tell everyone why you find it interesting. You can run the notebook in presentation mode or just scroll, but do **NOT** use powerpoint. Please add a link to the notebook you selected to the [cool-notebooks](https://biof309.slack.com/messages/C6WUUDV0D/) channel on our [class Slack team](https://biof309.slack.com).
 
 ## Next week
 
-Next week, we will present our chosen notebooks , learn to use UNIX commands, and talk about strings. We will then build on our UNIX skills in week 3, when we cover git. Also in week 3, we will create [GitHub](https://github.com) repositories for the homework assignments and final projects.
+Next week, we will present our chosen notebooks, learn to use UNIX commands, and talk about strings. We will then build on our UNIX skills in week 3, when we cover git. Also in week 3, we will create [GitHub](https://github.com) repositories for the homework assignments and final projects.

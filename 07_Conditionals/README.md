@@ -1,33 +1,28 @@
 
+# BIOF309 Fall 2017 - Week 7 (Oct 23 2017)
 
-**Week 7 (Oct 23 2017):**
+## Plan for today
 
 * Intro and review
 * Review Homework
-* Conditional tests
-* Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
-* Activity: [DataCamp - Python Logic and Control Flow](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
-* Homework: Prepare an example of how you might use conditionals
+* Conditional Statements: If, Elif, and Else
 
-##Homework review
+## Homework review
 
-Your tasks were to:
-* Create a function to compute percentages
-* Call the function from inside the same file or turn it into a module and import the module
+We will look at the the GitHub repos containing your Loop Examples.
 
-##Objects and classes
+## Reading
 
-* Difference between objects and classes
-* Difference between functions and methods
+* Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-##Pandas introduction
+## Activity
 
-* We will use the 10 minute intro and the Jupyter Notebook
+* [DataCamp - Python Logic and Control Flow](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
 
-##Homework
+## Homework
 
-* Fill out the Project proposal spreadsheet https://goo.gl/t39OoF
+Prepare an example of how you might use conditionals. Try to come up with a real example from your daily work and/or life. Push the example to GitHub before the next class.
 
 ## Next week
 
-Next week, we will
+Next week, we will discuss Functions.

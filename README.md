@@ -320,7 +320,7 @@ We will make up this class on December 19th.
 * NumPy
 * Reading: Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 * Activity: [DataCamp - NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
-* Homework: Numpy practice set
+* Homework: Numpy Problem Set
 
 **Week 10 (Nov 13 2017):**
 
@@ -329,13 +329,13 @@ We will make up this class on December 19th.
 * Data analysis with pandas
 * Reading: Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 * Activity: [DataCamp - Dictionaries and Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
-* Homework: Pandas practice set
+* Homework: Pandas Problem Set
 
 **Week 11 (Nov 20 2017):**
 
 * Intro and review
 * Review Homework
-* Data Visualization
+* Data Visualization (DataViz)
 * Reading: Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 * Activity: [DataCamp - Matplotlib](https://campus.datacamp.com/courses/intermediate-python-for-data-science/matplotlib)
 * Homework: Prepare a plot using Matplotlib to share with the class

@@ -1,12 +1,16 @@
 # BIOF309 Fall 2017 - Week 3 (Sept 25 2017)
 
-##Homework review
-
 ## Plan for today
 
 * Review homework, debugging
 * Version control with Git
 * We also discuss organization and practice using git for version control.
+
+## Homework review
+
+We will look at the "Hello World" interactive program.
+
+There is no need to "hand in" anything. Just bring the homework on your laptop, so that we can discuss it and answer any questions.
 
 ### Notebook list
 
@@ -36,6 +40,10 @@ Your task this week is to create a GitHub repo for the course and add Homework 1
 We will use git and GitHub throughout the course.
 This homework is due before class 3.
 
+Additionally, sometime before the 2nd to last class, a.k.a. Week 14 (2017-12-11), you must submit a pull request to a classmate's Final Project repo on GitHub. This pull request will be graded. Make sure it is well-documented, non-trivial and constructive!
+
+Furthermore, if you find any mistakes in the course materials. Please submit a pull request! We will consider giving extra credit on a case-by-case basis.
+
 ## Next week
 
-Next week, we will focus on Lists. We will also discuss Sets and Tuples. We will try to make sure that there is no confusion between these three data types in Python.
+Next week, we will focus on Lists. We will also discuss Sets and Tuples. These, along with Dictionaries, are called Data Structures. We cover Dictionaries in Week 10 (2017-11-13). We will try to make sure that there is no confusion between these four data types in Python.
