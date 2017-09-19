@@ -236,8 +236,8 @@ particular, the [Atom](https://atom.io) text editor is noteworthy
 because of its
 [integration with Git and GitHub](https://github.atom.io/), and
 ability to offer
-[Jupyter Notebook](http://jupyter-
-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html)-style
+[Jupyter Notebook]("http://jupyter-
+notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html")-style
 functionality through packages like
 [Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-
 notebook](https://atom.io/packages/jupyter-notebook).
