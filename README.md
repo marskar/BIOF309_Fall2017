@@ -135,8 +135,7 @@ likely be the easiest approach to configuring Python, if you do not already have
 Python installed.
 The Anaconda installer will automatically install many of the
 packages we will use during the course, including [Jupyter
-Notebooks](http://jupyter-
-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html).
+Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html).
 For more information, see the guidelines on the [The Hitchhiker’s Guide to
 Python](http://docs.python-guide.org/en/latest/).
 
