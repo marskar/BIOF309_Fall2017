@@ -318,43 +318,25 @@ survey](https://goo.gl/forms/hKJGAyI0JfjKLgq73)
 introduction to programming
 * Why Python?
 * What can you do with Python?
-*
-Troubleshooting software installation
+* Troubleshooting software installation
 * Introduction to Notebook
-*
-Reading: Chapters 01-06 in [Whirlwind Tour of
-Python](https://github.com/jakevdp/WhirlwindTourOfPython)
-* Reading: Chapters
-01.01-01.04 in [Python Data Science
-Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-* Activity: [DataCamp - Python
-Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-
-science/chapter-1-python-basics)
+* Reading: Chapters 01-06 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* Reading: Chapters 01.01-01.04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Activity: [DataCamp - Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
 * Homework:
-  - Find a cool notebook to share
-with the class!
-  - Add a link to the notebook to the "cool-notebooks" channel
-on our [class Slack team](https://biof309.slack.com)
-  - Prepare a 1-minute
-presentation (no powerpoint!) to introduce yourself and your chosen notebook
-next class
+  - Find a cool notebook to share with the class!
+  - Add a link to the notebook to the "cool-notebooks" channel on our [class Slack team](https://biof309.slack.com)
+  - Prepare a 1-minute presentation (no powerpoint!) to introduce yourself and your chosen notebook next class
 
 **Week 2 (Sept 18 2017):**
 
 * Introduction to UNIX/bash/shell
-*
-IPython shell and shell-related commands
-* Review Homework: Cool notebook
-presentations (1 minute each)
+* IPython shell and shell-related commands
+* Review Homework: Cool notebook presentations (1 minute each)
 * Discuss the "Hello world" interactive program
-*
-Reading: Chapter 01.05 in [Python Data Science
-Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-* Reading: Lessons 01-03 in [Software Carpentry -
-Shell](http://swcarpentry.github.io/shell-novice)
-* Activity: [DataCamp -
-Managing Files and Directories](https://www.datacamp.com/courses/intro-to-unix-
-shell)
+* Reading: Chapter 01.05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+* Reading: Lessons 01-03 in [Software Carpentry - Shell](http://swcarpentry.github.io/shell-novice)
+* Activity: [DataCamp - Managing Files and Directories](https://www.datacamp.com/courses/intro-to-unix-shell)
 * Homework: Prepare the "Hello world" interactive program
 
 **Week 3 (Sept
@@ -362,12 +344,10 @@ shell)
 
 * Review homework, debugging
 * Version control with Git
-* Reading:
-Lessons 01-07 in [Software Carpentry - Git](http://swcarpentry.github.io/git-
-novice)
+* Reading: Lessons 01-07 in [Software Carpentry - Git](http://swcarpentry.github.io/git-novice)
 * Activity: [Try Git: Git Tutorial](https://try.github.io/)
 * Homework:
-- Create a GitHub repo
+  - Create a GitHub repo
   - Push your "Hello world" program to this repo
 
 **Week
@@ -388,13 +368,10 @@ Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
 **Week 5 (Oct 9 2017):**
 
-*Columbus
-day - No class*
+* **Columbus day - No class**
+* We will make up this class on December 19th.
 
-We will make up this class on December 19th.
-
-**Week 6 (Oct 16
-2017):**
+**Week 6 (Oct 16 2017):**
 
 * Intro and review
 * Review Homework
