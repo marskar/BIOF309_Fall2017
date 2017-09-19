@@ -50,8 +50,8 @@ knowledge of Python to learn how to program.
 Week by week we will slowly build
 up your skills and understanding of programming and the Python language. There
 will be in class
-demonstrations, using [Jupyter Notebooks](http://jupyter-
-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html),
+demonstrations, using [Jupyter Notebooks](<http://jupyter-
+notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html>),
 activities to be completed outside of class, mostly using
 [DataCamp](https://www.datacamp.com), and homework for you to practice and learn
 at your own pace.
@@ -382,7 +382,7 @@ introduction to programming
 * What can you do with Python?
 *
 Troubleshooting software installation
-* Introduction to Jupyter Notebook
+* Introduction to Notebook
 *
 Reading: Chapters 01-06 in [Whirlwind Tour of
 Python](https://github.com/jakevdp/WhirlwindTourOfPython)
