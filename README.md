@@ -50,8 +50,7 @@ knowledge of Python to learn how to program.
 Week by week we will slowly build
 up your skills and understanding of programming and the Python language. There
 will be in class
-demonstrations, using [Jupyter Notebooks](<http://jupyter-
-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html>),
+demonstrations, using [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html),
 activities to be completed outside of class, mostly using
 [DataCamp](https://www.datacamp.com), and homework for you to practice and learn
 at your own pace.
@@ -238,8 +237,7 @@ because of its
 ability to offer
 [Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html)-style
 functionality through packages like
-[Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-
-notebook](https://atom.io/packages/jupyter-notebook).
+[Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-notebook](https://atom.io/packages/jupyter-notebook).
 
 You may, however, use
 other another text editor, in you prefer.
