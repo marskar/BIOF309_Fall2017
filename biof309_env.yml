@@ -2,21 +2,24 @@ name: biof309
 channels:
 - conda-forge
 - r
+- anaconda
 - defaults
 dependencies:
 - altair=1.2.0=py36_0
-- argcomplete=1.8.2=py36_0
 - biopython=1.70=py36_1
 - bkcharts=0.2=py36_0
 - bleach=1.5.0=py36_0
 - bokeh=0.12.7=py36_0
+- bzip2=1.0.6
 - ca-certificates=2017.7.27.1=0
+- colorama=0.3.9=py36_0
 - certifi=2016.2.28=py36_0
 - cycler=0.10.0=py36_0
 - decorator=4.1.2=py36_0
 - entrypoints=0.2.3=py36_0
 - freetype=2.5.5
 - html5lib=0.999=py36_0
+- icu=58.1
 - ipykernel=4.6.1=py36_0
 - ipython_genutils=0.2.0=py36_0
 - ipython=6.1.0=py36_0
