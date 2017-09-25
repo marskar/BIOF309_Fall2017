@@ -2,26 +2,21 @@ Syllabus
 ========
 **BIOF309 - Introduction to Python Programming**
 
-**Fall
-2017**
+**Fall 2017**
 
 **Section 1: Monday 5:30PM - 7:30PM**
 
-**Section 2: Monday 7:30PM -
-9:30PM**
+**Section 2: Monday 7:30PM - 9:30PM**
 
 *This document is subject to revision!*
 
-Changes are tracked using the
-git version control system.
+Changes are tracked using the git version control system.
 
 Instructors:
 ------------
 
-* Martin Skarzynski -
-marskar at gmail, and also GitHub, Slack, DataCamp etc.
-* Benjamin Cohen -
-benjapaulcohen at gmail
+* Martin Skarzynski - marskar at gmail, and also GitHub, Slack, DataCamp etc.
+* Benjamin Cohen - benjapaulcohen at gmail
 
 Communication
 ------------
@@ -97,8 +92,7 @@ should be submitted prior to the following class.
 So that you can follow along
 during class, bringing a laptop to each class is strongly encouraged.
 
-Important
-dates:
+Important dates:
 * September 11 : Class starts
 * September 11 September 29 : Late
 Registration ($10.00 late registration fee per course applies)
@@ -111,8 +105,7 @@ audit)
 Required Materials
 ------------------
 
-**Each
-student is encouraged to bring their own
+**Each student is encouraged to bring their own
 laptop to each class.**
 
 *Programing
@@ -180,8 +173,7 @@ The DataCamp assignments are:
 11. [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
 12. [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
 
-Optional
-Materials
+Optional Materials
 ------------------
 
 [GitHub](https://github.com) is offering some free
@@ -309,13 +301,12 @@ repository](https://github.com/marskar/BIO309_Fall2017).
 
 Schedule
 --------
+
 **Week 1 (Sept 11 2017):**
 
-* [Intro
-survey](https://goo.gl/forms/hKJGAyI0JfjKLgq73)
+* [Intro survey](https://goo.gl/forms/hKJGAyI0JfjKLgq73)
 * Course overview
-* An
-introduction to programming
+* An introduction to programming
 * Why Python?
 * What can you do with Python?
 * Troubleshooting software installation
@@ -339,8 +330,7 @@ introduction to programming
 * Activity: [DataCamp - Managing Files and Directories](https://www.datacamp.com/courses/intro-to-unix-shell)
 * Homework: Prepare the "Hello world" interactive program
 
-**Week 3 (Sept
-25 2017):**
+**Week 3 (Sept 25 2017):**
 
 * Review homework, debugging
 * Version control with Git
@@ -350,8 +340,7 @@ introduction to programming
   - Create a GitHub repo
   - Push your "Hello world" program to this repo
 
-**Week
-4 (Oct 2 2017):**
+**Week 4 (Oct 2 2017):**
 
 * Intro and review
 * Review Homework
@@ -380,6 +369,7 @@ Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Activity: [DataCamp - Python Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
 * Homework: Prepare an example of how you might use a loop
+
 **Week 7 (Oct 23 2017):**
 
 * Intro and review
@@ -411,8 +401,7 @@ you might use conditionals
 * Activity: [DataCamp - NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
 * Homework: Numpy Problem Set
 
-**Week
-10 (Nov 13 2017):**
+**Week 10 (Nov 13 2017):**
 
 * Intro and review
 * Review Homework
@@ -421,8 +410,7 @@ you might use conditionals
 * Activity: [DataCamp - Dictionaries and Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
 * Homework: Pandas Problem Set
 
-**Week 11 (Nov 20
-2017):**
+**Week 11 (Nov 20 2017):**
 
 * Intro and review
 * Review Homework
