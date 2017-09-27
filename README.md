@@ -133,17 +133,12 @@ and collaboration.
 All of the course materials are available on GitHub. Before
 accessing the [course materials
 repo](https://github.com/marskar/BIOF309_Fall2017), you should that
-1. it is
-likely to be be under constant development throughout the semester and
-2. you
-are not expected to work through every single Jupyter Notebook contained
-therein!
+1. it is likely to be be under constant development throughout the semester and
+2. you are not expected to work through every single Jupyter Notebook contained therein!
 
-We will discuss the most interesting examples during class and point
-out the others to be reviewed outside of class.
+We will discuss the most interesting examples during class and point out the others to be reviewed outside of class.
 
-Most homework assignments will
-be managed by [GitHub Classroom](https://classroom.github.com). The list of
+Most homework assignments will be managed by [GitHub Classroom](https://classroom.github.com). The list of
 assignments is as follows:
 01. [Hello World!](https://classroom.github.com/a/44MTt0SY)
 02. [GC Percent](https://classroom.github.com/a/XrlyUiUr)
@@ -186,12 +181,13 @@ particular, the [Atom](https://atom.io) text editor is noteworthy
 because of its
 [integration with Git and GitHub](https://github.atom.io/), and
 ability to offer
-[Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html)-style
-functionality through packages like
-[Hydrogen](https://nteract.gitbooks.io/hydrogen/) and [jupyter-notebook](https://atom.io/packages/jupyter-notebook).
+[Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html)-style functionality through the awesome [Hydrogen](https://nteract.gitbooks.io/hydrogen/) package.
 
-You may, however, use
-other another text editor, in you prefer.
+The [Hydrogen](https://nteract.gitbooks.io/hydrogen/) package is made by the very fine people responsible for [nteract](https://nteract.io/), a desktop application that can edit and run [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html). The advantages include open [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html) by double clicking, not need to launch a [Notebook server](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html#notebook-app)
+
+If spend a lot of time writing Python code in [Atom](https://atom.io), you might want to try the [autocomplete-python](https://atom.io/packages/autocomplete-python) package. If you do, I recommend the [Jedi](https://github.com/davidhalter/jedi) option, not the [Kite option](https://kite.com/)).
+
+You may, however, use another text editor, in you prefer.
 
 Recommended Books
 -----------------
@@ -228,8 +224,8 @@ Downey.
 available from the author)](https://www.pythonlearn.com/book.php) by Charles
 Severance
 * [Python
-Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/index.html) by
-David Beazy
+Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/index.html) by David Beazy
+
 For more information about Python, please see the official [Python
 Software Foundation website](https://www.python.org/).
 
