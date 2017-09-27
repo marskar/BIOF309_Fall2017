@@ -185,7 +185,11 @@ ability to offer
 
 The [Hydrogen](https://nteract.gitbooks.io/hydrogen/) package is made by the very fine people responsible for [nteract](https://nteract.io/), a desktop application that can edit and run [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html). The advantages include open [Jupyter Notebooks](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html) by double clicking, not need to launch a [Notebook server](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html#notebook-app)
 
+<<<<<<< HEAD
 If spend a lot of time writing Python code in [Atom](https://atom.io), you might want to try the [autocomplete-python](https://atom.io/packages/autocomplete-python) package. If you do, I recommend the [Jedi](https://github.com/davidhalter/jedi) option, not the [Kite](https://kite.com/) option.
+=======
+If spend a lot of time writing Python code in [Atom](https://atom.io), you might want to try the [autocomplete-python](https://atom.io/packages/autocomplete-python) package. If you do, I recommend the [Jedi](https://github.com/davidhalter/jedi) option, not the [Kite option](https://kite.com/).
+>>>>>>> f86f38eaea4a2d3d3b092ee24998b541cb0ba03d
 
 You may, however, use another text editor, in you prefer.
 
