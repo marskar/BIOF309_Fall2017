@@ -10,39 +10,62 @@
     -moz-columns: 3 100px;
   }
 
+  .col4 {
+    columns: 4 50px;
+    -webkit-columns: 4 50px;
+    -moz-columns: 4 50px;
+  }
+
+  .col5 {
+    columns: 5 25px;
+    -webkit-columns: 5 25px;
+    -moz-columns: 5 25px;
+  }
+
   table tr {
-border-collapse: collapse;
-white-space:nowrap;
+    border-collapse: collapse;
+    white-space:nowrap;
+  }
 
-}
-
-table td {
+  table td {
    padding:0; margin:0;
    border-collapse: collapse;
-}
+ }
+ body{ /* Normal  */
+      font-size: 12px;
+  }
+
+  td {  /* Table  */
+  font-size: 18px;
+
+  }
 
 </style>
 
+<center>
+<h2>Atom Keyboard Shortcut Cheatsheet</h2>
+</center>
 
-# Key to the Keys
 
-<div class="col3">
+<div style="text-align: center;">
+    <div style="display: inline-block; text-align: left">
+      <div class="col5">
 
 <!--More-->
 
-⌘ &ensp;: Command
+⌘ &nbsp;: Command
 </br>
-⌃ &ensp; : Control
+⌃ &nbsp; : Control
 </br>
-⌫ &nbsp; : Delete
+⌫ : Delete
 </br>
-← &nbsp;&ensp;: Left arrow
+← : Left arrow
 </br>
 → : Right arrow
 </br>
-↑ : Up arrow
+↑ &nbsp; : Up arrow
 </br>
-↓ : Down arrow
+↓ &nbsp; : Down arrow
 </br>
 ⌥ : Option/Alt
 </br>
@@ -52,122 +75,141 @@ table td {
 </br>
 ⇥ : Tab
 </br>
-&nbsp;⎵ &nbsp;: Space
+&nbsp;⎵ : Space
 </br>
 ⎋ : Escape
+</br>
+![](http://tobiasahlin.com/static/cursors/default.png) : Mouse Click
+
+    </div>
+  </div>
 </div>
 
-</br>
-<div class="col3">
+<div class="col2">
 
-| <span style="font-size:18px;">Task</span> | <span style="font-size:18px;"><i class="icon-apple" align="center"></i> Keys</span> |
-|---------------------------------|-------|
-| Open Command Palette                   | ⌘ ⇧ P |
-| Preferences/Settings                   | ⌘ ,   |
-| Switch Windows                         | ⌘ `   |
-| Switch Applications                    | ⌘ ⇥   |
-| Switch Tab Left                        | ⌘ ⇧ { |
-| Switch Tab Right                       | ⌘ ⇧ } |
-| Close Window                           | ⌘ W |
-| Close Tab                              | ⌘ ⇧ W |
-| Hide Application                       | ⌘ H |
-| Hide Other Applications                | ⌥ ⌘ H |
-| Minimize Application                   | ⌘ M |
-| New File                               | ⌘ N |
-| New Window                             | ⌘ ⇧ N |
-| Open...                                | ⌘ O |
-| Add Project Folder                     | ⌘ ⇧ O |
-| Save                                   | ⌘ S |
-| Save As...                             | ⌘ ⇧ S |
-| Save All                               | ⌥ ⇧ S |⎵
-| Quit                                   | ⌘ Q |
-| Toggle Autocomplete                    | ⌃ `space` |
-| Toggle Bookmark                        | ⌘ `F2` |
-| View All Bookmarks                     | ⌃ `F2` |
-| Jump to Next Bookmark                  | `F2` |
-| Jump to Previous Bookmark              | ⇧ `F2`|
+|| |
+|----------------------------------------|-----------|
+| Open Command Palette                   | ⌘ ⇧ P     |
+| Preferences/Settings                   | ⌘ ,       |
+| Switch Windows                         | ⌘ `       |
+| Switch Applications                    | ⌘ ⇥       |
+| Switch Tab Left                        | ⌘ ⇧ {     |
+| Switch Tab Right                       | ⌘ ⇧ }     |
+| Close Window                           | ⌘ W       |
+| Close Tab                              | ⌘ ⇧ W     |
+| Hide Application                       | ⌘ H       |
+| Hide Other Applications                | ⌥ ⌘ H     |
+| Minimize Application                   | ⌘ M       |
+| New File                               | ⌘ N       |
+| New Window                             | ⌘ ⇧ N     |
+| Open...                                | ⌘ O       |
+| Add Project Folder                     | ⌘ ⇧ O     |
+| Save                                   | ⌘ S       |
+| Save As...                             | ⌘ ⇧ S     |
+| Save All                               | ⌥ ⇧ S     |
+| Quit                                   | ⌘ Q       |
+| Toggle Autocomplete                    | ⌃ ␣       |
+| Toggle Bookmark                        | ⌘ `F2`    |
+| View All Bookmarks                     | ⌃ `F2`    |
+| Jump to Next Bookmark                  | `F2`      |
+| Jump to Previous Bookmark              | ⇧ `F2`    |
 | Clear All Bookmarks                    |  ⌘ ⇧ `F2` |
-| Find Matching Bracket                  | ⌃ M |
-| Fold Code                              | ⌥ ⌘ [ |
-| Unfold Code                            | ⌥ ⌘ ] |
-| Fold at Indentation Level (N)          | ⌘ K ⌘ N |
-| Fold Selected Text                     | ⌥ ⌘ ⌃ F |
-| Fold All Code                          | ⌥ ⌘ { |
-| Unfold All Code                        | ⌥ ⌘ } |
-| Reflow Selection                       | ⌥ ⌘ Q |
-| Cut to End of Line                     | ⌃ K |
-| Delete to Beginning of Word            | ⌥ ⌫ |
-| Delete to End of Word                  | ⌥ D |
-| Delete Line                            | ⌃ ⇧ K |
-| Trasponse                              | ⌃ T   |
-| Duplicate Line                         | ⌘ ⇧ D |
-| Go to Line                             | ⌃ G |
-| Go to Matching Bracket                 | ⌃ M |
-| Indent Selected Text                   | ⌘ ] |
-| Outdent Selected Text                  | ⌘ [ |
-| Join Lines                             | ⌘ J |
-| Move to Beginning of Word              | ⌥ B |
-| Move to End of Word                    | ⌥ F |
-| Move to Beginning of Line              | ⌃ A |
-| Move to End of Line                    | ⌃ E |
-| Move Line Up                           | ⌘ ⌃ ↑ |
-| Move Line Down                         | ⌘ ⌃ ↓ |
-| Move to Top of File                    | ⌘ ↑ |
-| Move to Bottom of File                 | ⌘ ↓ |
-| Move to First Character of Line        |  ⌘ ← |
-| Move to Last Character of Line         | ⌘ →|
-| Move Selection Left                    |  ⌘ ⌃  ← |
-| Move Selection Right                   |  ⌘ ⌃  → |
-| Add Selection Above                    | ⌃ ⇧ ↑|
-| Add Selection Below                    | ⌃ ⇧ ↓ |
-| Multiple Cursors                       | ⌥ ⌘ `Click` |
-| Split into Lines                       | ⌘ ⇧ L |
-| Single Selection                       |⎋|
-| Select to Beginning of Word            | ⌥ ⇧ ← |
-| Select to End of Word                  | ⌥ ⇧ → |
-| Select Entire Word                     | ⌃ ⇧ W |
-| Select to First Character of Line      | ⌘ ⇧ ← |
-| Select to Last Character of Line       | ⌘ ⇧ → |
-| Select to Top of File                  | ⌘ ⇧ ↑ |
-| Select to Bottom of File               | ⌘ ⇧ ↓ |
-| Select All                             | ⌘ A |
-| Select Next                            | ⌘ D |
-| Select Line                            | ⌘ L |
-| Select Word                            | ⌃ ⇧ W |
-| Select Inside {} [] ()                 | ⌃ ⌘ M |
-| Toggle (Line) Comment                  | ⌘ / |
-| Convert Tabs to Spaces                 | ⌥ ⌘ [ |
-| Convert Spaces to Tabs                 | ⌥ ⌘ ] |
-| Convert to Upper Case                  | ⌘ K U |
-| Convert to Lower Case                  | ⌘ K L |
-| Split Panes Vertically                 | ⌘ K ↓ |
-| Split Panes Horizontally               | ⌘ K → |
-| Vertical Navigation Panes              | ⌘ K ⌘ ↓ |
-| Horizontal Navigation Panes            | ⌘ K ⌘ → |
-| Toggle Full Screen                     | ⌃ ⌘ F |
-| Toggle GitHub Tab                      | ⌃ ⇧ 8|
-| Toggle Git Tab                         | ⌃ ⇧ 9|
-| Toggle Tree View                       | ⌘ \ |
-| Fuzzy Find Files                       | ⌘ T |
-| Find Open File                         | ⌘ B |
-| Find Modified, Untracked (git) File    | ⌘ ⇧ B |
-| Copy Path                              | ⌃ ⇧ C |
-| Add a File                             | A |
-| Move a File                            | M |
-| Delete a File                          | ⌫ |
-| Reopen Last File                       | ⌘ ⇧ T |
-| Find String in Current File            | ⌘ F |
-| Find String in All Project Files       | ⇧ ⌘ F |
-| Find Next Matching String              | ⌘ G |
-| Find Previous Matching String          | ⇧ ⌘ G |
-| Select Next Matching String            | ⌘ D |
-| Select All Matching Strings            | ⌃ ⌘ G |
-| Replace String in Current File         | ⌥ ⌘ F |
-| Increase Font Size                     | ⌘ + |
-| Decrease Font Size                     | ⌘ -  |
-| Reset Font Size                        | ⌘ 0  |
-| Choose Encoding                        | ⌃ ⇧ U |
-| Choose Grammar                         | ⌃ ⇧ L |
-| Emojis and Symbols                     | ⌃ ⌘ ␣ |
-| Search for Symbol                      | ⌘ R |
-| Search for Symbol Across Project       | ⌘ ⇧ R |
+| Find Matching Bracket                  | ⌃ M       |
+| Remove Matching Bracket                | ^ ⌫       |
+| Remove Selected Bracket                | ^ ]       |
+| Fold Code                              | ⌥ ⌘ [     |
+| Unfold Code                            | ⌥ ⌘ ]     |
+| Fold at Indentation (N)                | ⌘ K ⌘ N   |
+| Fold Selected Text                     | ⌥ ⌘ ⌃ F   |
+| Fold All Code                          | ⌥ ⌘ {     |
+| Unfold All Code                        | ⌥ ⌘ }     |
+| Reflow Selection                       | ⌥ ⌘ Q     |
+| Cut to End of Line                     | ⌃ K       |
+| Delete to Start of Word                | ⌥ ⌫       |
+| Delete to End of Word                  | ⌥ D       |
+| Delete Line                            | ⌃ ⇧ K     |
+| Transpose                              | ⌃ T       |
+| Duplicate Line                         | ⌘ ⇧ D     |
+| Go to Line                             | ⌃ G       |
+| Go to Matching Bracket                 | ⌃ M       |
+| Indent Selected Text                   | ⌘ ]       |
+| Outdent Selected Text                  | ⌘ [       |
+| Join Lines                             | ⌘ J       |
+| Move to Start of Word                  | ⌥ B       |
+| Move to End of Word                    | ⌥ F       |
+| Move to Start of Line                  | ⌃ A       |
+| Move to End of Line                    | ⌃ E       |
+| Move Line Up                           | ⌘ ⌃ ↑     |
+| Move Line Down                         | ⌘ ⌃ ↓     |
+| Move to Top of File                    | ⌘ ↑       |
+| Move to Bottom of File                 | ⌘ ↓       |
+| Move to First Character                |  ⌘ ←      |
+| Move to Last Character                 | ⌘ →       |
+| Move Selection Left                    |  ⌘ ⌃  ←   |
+| Move Selection Right                   |  ⌘ ⌃  →   |
+| Add Selection Above                    | ⌃ ⇧ ↑     |
+| Add Selection Below                    | ⌃ ⇧ ↓     |
+| Multiple Cursors                       | ⌥ ⌘ ![](http://tobiasahlin.com/static/cursors/default.png) |
+| Split into Lines                       | ⌘ ⇧ L     |
+| Single Selection                       |   ⎋       |
+| Select to Start of Word                | ⌥ ⇧ ←     |
+| Select to End of Word                  | ⌥ ⇧ →     |
+| Select Entire Word                     | ⌃ ⇧ W     |
+| Select to First Character              | ⌘ ⇧ ←     |
+| Select to Last Character               | ⌘ ⇧ →     |
+| Select to Top of File                  | ⌘ ⇧ ↑     |
+| Select to Bottom of File               | ⌘ ⇧ ↓     |
+| Select All                             | ⌘ A       |
+| Select Line                            | ⌘ L       |
+| Select Word                            | ⌃ ⇧ W     |
+| Select Inside { } [ ] ( )              | ⌃ ⌘ M     |
+| Toggle (Line) Comment                  | ⌘ /       |
+| Convert Tabs to Spaces                 | ⌥ ⌘ [     |
+| Convert Spaces to Tabs                 | ⌥ ⌘ ]     |
+| Convert to Upper Case                  | ⌘ K U     |
+| Convert to Lower Case                  | ⌘ K L     |
+| Split Panes Vertically                 | ⌘ K ↓     |
+| Split Panes Horizontally               | ⌘ K →     |
+| Vertical Navigation Panes              | ⌘ K ⌘ ↓   |
+| Horizontal Navigation Panes            | ⌘ K ⌘ →   |
+| Toggle Full Screen                     | ⌃ ⌘ F     |
+| Toggle GitHub Tab                      | ⌃ ⇧ 8     |
+| Toggle Git Tab                         | ⌃ ⇧ 9     |
+| Add (git-plus)                         | ⌃ ⇧ A     |
+| Commit (git-plus)                      | ⌃ ⇧ C     |
+| Run (Hydrogen)                         | ⌘  ↩      |   
+| Run & Move Down                        | ⌘  ⇧      |   
+| Run Cell (Hydrogen)                    | ⌥ ⌘ ↩     |   
+| Run Cell & Move Down                   | ⌥ ⇧ ↩     |   
+| Run All (Hydrogen)                     | ^ ⌘ ↩     |   
+| Clear Results (Hydrogen)               | ⌥ ⌘ ⌫     |   
+| Toggle Markdown Preview                | ⌃ ⇧ M     |
+| Toggle Tree View                       | ⌘ \       |
+| Reveal Active File                     | ⌘ ⇧ \     |
+| Focus On File                          | ^ 0       |  
+| Fuzzy Find Files                       | ⌘ T       |
+| Find Open File                         | ⌘ B       |
+| Find uncommitted File                  | ⌘ ⇧ B     |
+| Find File in Project                   |⌘ P        |
+| Copy Path                              | ⌃ ⇧ C     |
+| Add a File                             | A         |
+| Move a File                            | M         |
+| Delete a File                          | ⌫         |
+| Reopen Last File                       | ⌘ ⇧ T     |
+| Find String in File                    | ⌘ F       |
+| Find String in Project                 | ⇧ ⌘ F     |
+| Exit String Search Bar                 |   ⎋       |
+| Find Next String                       | ⌘ G       |
+| Find Previous String                   | ⇧ ⌘ G     |
+| Select Next String                     | ⌘ D       |
+| Select All Strings                     | ⌃ ⌘ G     |
+| Replace Strings                        | ⌥ ⌘ F     |
+| Replace Next String                    | ⌥ ⌘ E     |
+| Increase Font Size                     | ⌘ +       |
+| Decrease Font Size                     | ⌘ -       |
+| Reset Font Size                        | ⌘ 0       |
+| Choose Encoding                        | ⌃ ⇧ U     |
+| Choose Grammar                         | ⌃ ⇧ L     |
+| Emojis and Symbols                     | ⌃ ⌘ ␣     |
+| Search Symbol                          | ⌘ R       |
+| Search Symbol in Project               | ⌘ ⇧ R     |
