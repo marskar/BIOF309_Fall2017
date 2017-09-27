@@ -53,7 +53,7 @@
 
 <!--More-->
 
-⌘ &nbsp;: Comm&
+⌘ &nbsp;: Command
 </br>
 ⌃ &nbsp; : Control
 </br>
