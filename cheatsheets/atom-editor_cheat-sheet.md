@@ -1,6 +1,6 @@
 <style>
   .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
+    columns: 2 200px;         /* number of columns & width in pixels*/
     -webkit-columns: 2 200px; /* chrome, safari */
     -moz-columns: 2 200px;    /* firefox */
   }
@@ -53,7 +53,7 @@
 
 <!--More-->
 
-⌘ &nbsp;: Command
+⌘ &nbsp;: Comm&
 </br>
 ⌃ &nbsp; : Control
 </br>
@@ -89,7 +89,7 @@
 
 || |
 |----------------------------------------|-----------|
-| Open Command Palette                   | ⌘ ⇧ P     |
+| Open Comm& Palette                   | ⌘ ⇧ P     |
 | Preferences/Settings                   | ⌘ ,       |
 | Switch Windows                         | ⌘ `       |
 | Switch Applications                    | ⌘ ⇥       |
@@ -175,8 +175,13 @@
 | Toggle Full Screen                     | ⌃ ⌘ F     |
 | Toggle GitHub Tab                      | ⌃ ⇧ 8     |
 | Toggle Git Tab                         | ⌃ ⇧ 9     |
-| Add (git-plus)                         | ⌃ ⇧ A     |
-| Commit (git-plus)                      | ⌃ ⇧ C     |
+| Toggle Git+ Palette                    | ⌘  ⇧ H    |
+| Add (Git+)                             | ⌃ ⇧ A     |
+| Commit (Git+)                          | ⌃ ⇧ C     |
+| Add & Commit (Git+)                    | ⌃ ⇧ A, C  |
+| Add, Commit & Push                     | ⌃ ⇧ A, Q  |
+| Add All & Commit (Git+)                | ⌃ ⇧ A, A  |
+| Add All, Commit & Push                 | ⌃ ⇧ A, P  |
 | Run (Hydrogen)                         | ⌘  ↩      |   
 | Run & Move Down                        | ⌘  ⇧      |   
 | Run Cell (Hydrogen)                    | ⌥ ⌘ ↩     |   
@@ -210,6 +215,6 @@
 | Reset Font Size                        | ⌘ 0       |
 | Choose Encoding                        | ⌃ ⇧ U     |
 | Choose Grammar                         | ⌃ ⇧ L     |
-| Emojis and Symbols                     | ⌃ ⌘ ␣     |
+| Emojis & Symbols                     | ⌃ ⌘ ␣     |
 | Search Symbol                          | ⌘ R       |
 | Search Symbol in Project               | ⌘ ⇧ R     |
