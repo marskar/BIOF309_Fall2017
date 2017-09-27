@@ -187,7 +187,7 @@ The [Hydrogen](https://nteract.gitbooks.io/hydrogen/) package is made by the ver
 
 If you spend a lot of time writing Python code in [Atom](https://atom.io), you might want to try the [autocomplete-python](https://atom.io/packages/autocomplete-python) package with [Jedi](https://github.com/davidhalter/jedi)-powered autocompletion (I do **not** recommend not the [Kite](https://kite.com/) option).
 
-You may, however, use another text editor, in you prefer.
+You may, however, use another text editor, if you prefer.
 
 Recommended Books
 -----------------
