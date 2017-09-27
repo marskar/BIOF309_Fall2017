@@ -89,7 +89,7 @@
 
 || |
 |----------------------------------------|-----------|
-| Open Comm& Palette                   | ⌘ ⇧ P     |
+| Open Command Palette                   | ⌘ ⇧ P     |
 | Preferences/Settings                   | ⌘ ,       |
 | Switch Windows                         | ⌘ `       |
 | Switch Applications                    | ⌘ ⇥       |
@@ -143,15 +143,15 @@
 | Move Line Down                         | ⌘ ⌃ ↓     |
 | Move to Top of File                    | ⌘ ↑       |
 | Move to Bottom of File                 | ⌘ ↓       |
-| Move to First Character                |  ⌘ ←      |
+| Move to First Character                | ⌘ ←       |
 | Move to Last Character                 | ⌘ →       |
-| Move Selection Left                    |  ⌘ ⌃  ←   |
-| Move Selection Right                   |  ⌘ ⌃  →   |
+| Move Selection Left                    | ⌘ ⌃  ←    |
+| Move Selection Right                   | ⌘ ⌃  →    |
 | Add Selection Above                    | ⌃ ⇧ ↑     |
 | Add Selection Below                    | ⌃ ⇧ ↓     |
 | Multiple Cursors                       | ⌥ ⌘ ![](http://tobiasahlin.com/static/cursors/default.png) |
 | Split into Lines                       | ⌘ ⇧ L     |
-| Single Selection                       |   ⎋       |
+| Single Selection                       | ⎋         |
 | Select to Start of Word                | ⌥ ⇧ ←     |
 | Select to End of Word                  | ⌥ ⇧ →     |
 | Select Entire Word                     | ⌃ ⇧ W     |
@@ -194,8 +194,8 @@
 | Focus On File                          | ^ 0       |  
 | Fuzzy Find Files                       | ⌘ T       |
 | Find Open File                         | ⌘ B       |
-| Find uncommitted File                  | ⌘ ⇧ B     |
-| Find File in Project                   |⌘ P        |
+| Find Uncommitted File                  | ⌘ ⇧ B     |
+| Find File in Project                   | ⌘ P       |
 | Copy Path                              | ⌃ ⇧ C     |
 | Add a File                             | A         |
 | Move a File                            | M         |
@@ -215,6 +215,6 @@
 | Reset Font Size                        | ⌘ 0       |
 | Choose Encoding                        | ⌃ ⇧ U     |
 | Choose Grammar                         | ⌃ ⇧ L     |
-| Emojis & Symbols                     | ⌃ ⌘ ␣     |
+| Emojis & Symbols                       | ⌃ ⌘ ␣     |
 | Search Symbol                          | ⌘ R       |
 | Search Symbol in Project               | ⌘ ⇧ R     |
