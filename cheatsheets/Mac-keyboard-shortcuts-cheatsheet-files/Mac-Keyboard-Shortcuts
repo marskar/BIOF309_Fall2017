@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+	<html lang="en">
+
+</div><div id=copy><h2>Cut, copy, paste, and other common shortcuts</h2><table border="1">
+<tbody><tr><th style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortcut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th style="text-align: center;">Description</th>
+</tr><tr><td>Command-X</td>
+<td><strong>Cut</strong>&nbsp;the selected item and copy it to the Clipboard.</td>
+</tr><tr><td>Command-C</td>
+<td><strong>Copy</strong>&nbsp;the selected item to the Clipboard. This also works for files in the Finder.<br>
+</td>
+</tr><tr><td>Command-V</td>
+<td><strong>Paste</strong> the contents of the Clipboard into the current document or app. This also works for files in the Finder.</td>
+</tr><tr><td>Command-Z</td>
+<td><strong>Undo</strong>&nbsp;the previous command. You can then press Command-Shift-Z to <strong>Redo</strong>, reversing the undo command. In some apps, you can undo and redo multiple commands.</td>
+</tr><tr><td>Command-A</td>
+<td><strong>Select All</strong>&nbsp;items.&nbsp;</td>
+</tr><tr><td>Command-F</td>
+<td><strong>Find&nbsp;</strong>items in a document or open a Find window.</td>
+</tr><tr><td>Command-G</td>
+<td><strong>Find Again</strong>: Find the next occurrence&nbsp;of the item previously found. To find the previous occurrence, press Command-Shift-G.</td>
+</tr><tr><td>Command-H</td>
+<td><strong>Hide</strong>&nbsp;the windows of the front app. To&nbsp;view the front app but hide all other apps, press Command-Option-H.</td>
+</tr><tr><td>Command-M</td>
+<td><strong>Minimize</strong> the front window to the Dock. To minimize all windows of the front app,&nbsp;press Command-Option-M.</td>
+</tr><tr><td>Command-N</td>
+<td><strong>New:</strong> Open an new document or window.</td>
+</tr><tr><td>Command-O</td>
+<td><strong>Open</strong>&nbsp;the selected item, or open a dialog to select a file to open.</td>
+</tr><tr><td>Command-P</td>
+<td><strong>Print</strong>&nbsp;the current document.</td>
+</tr><tr><td>Command-S</td>
+<td><strong>Save</strong>&nbsp;the current document.</td>
+</tr><tr><td>Command-W</td>
+<td><strong>Close</strong>&nbsp;the front window. To close all windows of the app, press Command-Option-W.</td>
+</tr><tr><td>Command-Q</td>
+<td><strong>Quit</strong> the app.</td>
+</tr><tr><td>Option-Command-Esc</td>
+<td><strong>Force Quit</strong>: Choose an app to&nbsp;<a href="https://support.apple.com/HT201276">force quit</a>. Or press Command-Shift-Option-Esc and hold for 3 seconds to force just the front app to quit.</td>
+</tr><tr><td>Command–Space&nbsp;bar</td>
+<td><strong>Spotlight</strong>:&nbsp;Show or hide the&nbsp;<a href="https://support.apple.com/kb/HT201744">Spotlight</a>&nbsp;search field. To perform a Spotlight search from a Finder window, press Command–Option–Space bar. If you&nbsp;<a href="https://support.apple.com/kb/PH21564">use multiple input sources</a>&nbsp;to type in different languages, these shortcuts <a href="https://support.apple.com/kb/PH21554">change input sources instead of showing Spotlight</a>.</td>
+</tr><tr><td>Space bar</td>
+<td><strong>Quick Look:</strong> Use&nbsp;<a href="https://support.apple.com/kb/HT201067">Quick Look</a>&nbsp;to preview the selected item.</td>
+</tr><tr><td>Command-Tab</td>
+<td><strong>Switch apps:</strong> Switch&nbsp;to the next most recently used app among your open apps.&nbsp;</td>
+</tr><tr><td>Shift-Command-Tilde&nbsp;(~)</td>
+<td><strong>Switch windows:</strong> Switch to the next most recently used window of the front app.&nbsp;</td>
+</tr><tr><td>Shift-Command-3</td>
+<td><strong>Screenshot</strong>: Take a screenshot of the entire screen. <a href="https://support.apple.com/kb/HT201361">Learn more screenshot shortcuts</a>.</td>
+</tr><tr><td>Command-Comma&nbsp;(,)</td>
+<td><strong>Preferences:</strong> Open preferences for the front app.</td>
+</tr></tbody></table>
+</div>
+<div id=sleep><h2>Sleep, log out, and shut down shortcuts</h2><table border="1">
+<tbody><tr><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortcut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th>Description</th>
+</tr><tr><td>Power button<br>
+</td>
+<td><p>Press to turn on your Mac or wake your Mac from sleep.</p>
+<p>Press and hold for 1.5 seconds while your Mac is awake to display a dialog asking if you want to sleep, restart, or shut down. If you don't want to wait 1.5 seconds, press Control–Power button or Control–Media Eject.#</p>
+<p>Press and hold for 5 seconds to force your Mac to turn off.</p>
+</td>
+</tr><tr><td>Control–Command–Power&nbsp;button</td>
+<td>Force your Mac to restart.#<br>
+</td>
+</tr><tr><td>Control–Shift–Power button&nbsp;or&nbsp;<br>
+Control–Shift–Media Eject&nbsp;</td>
+<td>Put your displays to sleep.#</td>
+</tr><tr><td>Control–Command–Media Eject&nbsp;</td>
+<td>Quit all apps, then restart your Mac. If any open documents have unsaved changes, you'll be asked whether you want to save them.#</td>
+</tr><tr><td>Control–Option–Command–Power&nbsp;button&nbsp;or&nbsp;<br>
+Control–Option–Command–Media Eject&nbsp;</td>
+<td>Quit all apps, then shut down your Mac. If any open documents have unsaved changes, you'll be asked whether you want to save them.#</td>
+</tr><tr><td>Shift-Command-Q</td>
+<td>Log out of your macOS user account. You'll be asked to confirm.</td>
+</tr><tr><td>Option-Shift-Command-Q</td>
+<td>Log out of your macOS user account immediately, without being asked to confirm.</td>
+</tr></tbody></table>
+<p><span class="note">#Doesn't apply to keyboards that have a <a href="https://support.apple.com/kb/HT207055">Touch Bar</a>.</span></p>
+</div><div><p></p>
+</div><div id=text><h2>Document shortcuts</h2><table border="1">
+<tbody><tr><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortcut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th style="text-align: center;">Description</th>
+</tr><tr><td>Command-B</td>
+<td>Boldface the selected text, or turn boldfacing on or off.&nbsp;</td>
+</tr><tr><td>Command-I</td>
+<td>Italicize the selected text, or turn italics on or off.</td>
+</tr><tr><td>Command-U</td>
+<td>Underline the selected text, or turn underlining on or off.</td>
+</tr><tr><td>Command-T</td>
+<td>Show or hide the Fonts window.</td>
+</tr><tr><td>Command-D</td>
+<td>Select the Desktop folder from within an Open dialog or Save dialog.</td>
+</tr><tr><td>Control-Command-D</td>
+<td>Show or hide the definition of the selected word.</td>
+</tr><tr><td>Shift-Command-Colon&nbsp;(:)</td>
+<td>Display the Spelling and Grammar window.</td>
+</tr><tr><td>Command-Semicolon&nbsp;(;)</td>
+<td>Find misspelled words in the document.</td>
+</tr><tr><td>Option-Delete</td>
+<td>Delete the word to the left of the insertion point.</td>
+</tr><tr><td>Control-H</td>
+<td>Delete the character to the left of the insertion point. Or use Delete.</td>
+</tr><tr><td>Control-D</td>
+<td>Delete the character to the right of the insertion point. Or use Fn-Delete.</td>
+</tr><tr><td>Fn-Delete</td>
+<td>Forward delete on keyboards that don't have a Forward Delete&nbsp;key. Or use Control-D.</td>
+</tr><tr><td>Control-K</td>
+<td>Delete the text between the insertion point and the end of the line or paragraph.</td>
+</tr><tr><td>Command-Delete</td>
+<td>Select Delete or Don't Save in a dialog that contains a Delete or Don't Save button.</td>
+</tr><tr><td>Fn–Up Arrow</td>
+<td>Page Up: Scroll up one page.&nbsp;</td>
+</tr><tr><td>Fn–Down Arrow</td>
+<td>Page Down: Scroll down one page.</td>
+</tr><tr><td>Fn–Left Arrow</td>
+<td>Home: Scroll to the beginning of a document.</td>
+</tr><tr><td>Fn–Right Arrow</td>
+<td>End: Scroll to the end of a document.</td>
+</tr><tr><td>Command–Up Arrow</td>
+<td>Move the insertion point to the beginning of the document.</td>
+</tr><tr><td>Command–Down Arrow</td>
+<td>Move the insertion point to the end of the document.</td>
+</tr><tr><td>Command–Left Arrow</td>
+<td>Move the insertion point to the beginning of the current line.</td>
+</tr><tr><td>Command–Right&nbsp;Arrow</td>
+<td>Move the insertion point to the end of the current line.</td>
+</tr><tr><td>Option–Left Arrow</td>
+<td>Move the insertion point to the beginning of the previous word.</td>
+</tr><tr><td>Option–Right Arrow</td>
+<td>Move the insertion point to the end of the next word.</td>
+</tr><tr><td>Shift–Command–Up&nbsp;Arrow</td>
+<td>Select the text between the insertion point and the beginning of the document.</td>
+</tr><tr><td>Shift–Command–Down&nbsp;Arrow</td>
+<td>Select the text between the insertion point and the end of the document.</td>
+</tr><tr><td>Shift–Command–Left&nbsp;Arrow</td>
+<td>Select the text between the insertion point and the beginning of the current line.</td>
+</tr><tr><td>Shift–Command–Right&nbsp;Arrow</td>
+<td>Select the text between the insertion point and the end of the current line.</td>
+</tr><tr><td>Shift–Up Arrow</td>
+<td>Extend text selection to the nearest character at the same horizontal location on the line above.</td>
+</tr><tr><td>Shift–Down Arrow</td>
+<td>Extend text selection to the nearest character at the same horizontal location on the line below.</td>
+</tr><tr><td>Shift–Left Arrow</td>
+<td>Extend text selection one character to the left.</td>
+</tr><tr><td>Shift–Right Arrow</td>
+<td>Extend text selection one character to the right.</td>
+</tr><tr><td>Option–Shift–Up&nbsp;Arrow</td>
+<td>Extend text selection to the beginning of the current paragraph, then to the beginning of the following paragraph if pressed again.</td>
+</tr><tr><td>Option–Shift–Down&nbsp;Arrow</td>
+<td>Extend text selection to the end of the current paragraph, then to the end of the following paragraph if pressed again.</td>
+</tr><tr><td>Option–Shift–Left&nbsp;Arrow</td>
+<td>Extend text selection to the beginning of the current word, then to the beginning of the following word if pressed again.</td>
+</tr><tr><td>Option–Shift–Right&nbsp;Arrow</td>
+<td>Extend text selection to the end of the current word, then to the end of the following word if pressed again.</td>
+</tr><tr><td>Control-A</td>
+<td>Move to the beginning of the line or paragraph.</td>
+</tr><tr><td>Control-E</td>
+<td>Move to the end of a line or paragraph.</td>
+</tr><tr><td>Control-F</td>
+<td>Move one character forward.</td>
+</tr><tr><td>Control-B</td>
+<td>Move one character backward.</td>
+</tr><tr><td>Control-L</td>
+<td>Center the cursor or selection in the visible area.</td>
+</tr><tr><td>Control-P</td>
+<td>Move up one line.</td>
+</tr><tr><td>Control-N</td>
+<td>Move down one line.</td>
+</tr><tr><td>Control-O</td>
+<td>Insert a new line after the insertion point.</td>
+</tr><tr><td>Control-T</td>
+<td>Swap the character behind the insertion point with the character in front of the insertion point.</td>
+</tr><tr><td>Command–Left&nbsp;Curly&nbsp;Bracket&nbsp;({)</td>
+<td>Left align.</td>
+</tr><tr><td>Command–Right&nbsp;Curly&nbsp;Bracket&nbsp;(})</td>
+<td>Right align.</td>
+</tr><tr><td>Shift–Command–Vertical&nbsp;bar&nbsp;(|)</td>
+<td>Center align.</td>
+</tr><tr><td>Option-Command-F</td>
+<td>Go to the search field.&nbsp;</td>
+</tr><tr><td>Option-Command-T</td>
+<td>Show or hide a toolbar in the app.</td>
+</tr><tr><td>Option-Command-C</td>
+<td>Copy Style: Copy the formatting settings of the selected item to the Clipboard.</td>
+</tr><tr><td>Option-Command-V</td>
+<td>Paste Style: Apply the copied style to the selected item.</td>
+</tr><tr><td>Option-Shift-Command-V</td>
+<td>Paste and Match Style: Apply the style of the surrounding content to the item pasted within that content.</td>
+</tr><tr><td>Option-Command-I</td>
+<td>Show or hide the inspector window.</td>
+</tr><tr><td>Shift-Command-P</td>
+<td>Page setup: Display a window for selecting document settings.</td>
+</tr><tr><td>Shift-Command-S</td>
+<td>Display the Save As dialog, or duplicate the current document.</td>
+</tr><tr><td>Shift–Command–<br>
+Minus&nbsp;sign&nbsp;(-)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>Decrease the size of the selected item.</td>
+</tr><tr><td>Shift–Command–<br>
+Plus&nbsp;sign&nbsp;(+)</td>
+<td>Increase the size of the selected item. Command–Equal sign (=) performs the same function.</td>
+</tr><tr><td>Shift–Command–<br>
+Question&nbsp;mark&nbsp;(?)</td>
+<td>Open the Help menu.</td>
+</tr></tbody></table>
+</div><div><p></p>
+</div><div id=finder><h2>Finder shortcuts</h2><table border="1">
+<tbody><tr><th style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortcut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th style="text-align: center;">Description</th>
+</tr><tr><td>Command-D</td>
+<td>Duplicate the selected files.</td>
+</tr><tr><td>Command-E</td>
+<td>Eject the selected disk or volume.</td>
+</tr><tr><td>Command-F</td>
+<td>Start a Spotlight search in the Finder window.</td>
+</tr><tr><td>Command-I</td>
+<td>Show the Get Info window for a selected file.</td>
+</tr><tr><td>Shift-Command-C</td>
+<td>Open the Computer window.</td>
+</tr><tr><td>Shift-Command-D</td>
+<td>Open the desktop folder.</td>
+</tr><tr><td>Shift-Command-F</td>
+<td>Open the All My Files window.</td>
+</tr><tr><td>Shift-Command-G</td>
+<td>Open a Go to Folder window.</td>
+</tr><tr><td>Shift-Command-H</td>
+<td>Open the Home folder of the current macOS user account.</td>
+</tr><tr><td>Shift-Command-I</td>
+<td>Open <a href="https://support.apple.com/kb/HT201104">iCloud Drive</a>.</td>
+</tr><tr><td>Shift-Command-K</td>
+<td>Open the Network window.</td>
+</tr><tr><td>Option-Command-L</td>
+<td>Open the Downloads folder.</td>
+</tr><tr><td>Shift-Command-O</td>
+<td>Open the Documents folder.</td>
+</tr><tr><td>Shift-Command-R</td>
+<td>Open the AirDrop window.</td>
+</tr><tr><td>Shift-Command-T</td>
+<td>Add selected Finder item to the Dock (OS X Mountain Lion or earlier)</td>
+</tr><tr><td>Control-Shift-Command-T</td>
+<td>Add selected Finder item to the Dock (OS X Mavericks or later)</td>
+</tr><tr><td>Shift-Command-U</td>
+<td>Open the Utilities folder.</td>
+</tr><tr><td>Option-Command-D</td>
+<td>Show or hide the&nbsp;<a href="http://support.apple.com/kb/HT201730">Dock</a>. This often works even when you're not in the Finder.</td>
+</tr><tr><td>Control-Command-T</td>
+<td>Add the selected item to the sidebar (OS X Mavericks or later).</td>
+</tr><tr><td>Option-Command-P</td>
+<td>Hide or show the path bar&nbsp;in Finder windows.</td>
+</tr><tr><td>Option-Command-S</td>
+<td>Hide or show the Sidebar in Finder windows.</td>
+</tr><tr><td>Command–Slash&nbsp;(/)</td>
+<td>Hide or show the status bar in Finder windows.</td>
+</tr><tr><td>Command-J</td>
+<td>Show View Options.</td>
+</tr><tr><td>Command-K</td>
+<td>Open the Connect to Server window.</td>
+</tr><tr><td>Command-L</td>
+<td>Make an alias of the selected item.</td>
+</tr><tr><td>Command-N</td>
+<td>Open a new Finder window.</td>
+</tr><tr><td>Shift-Command-N</td>
+<td>Create a new folder.</td>
+</tr><tr><td>Option-Command-N</td>
+<td>Create a new Smart Folder.</td>
+</tr><tr><td>Command-R</td>
+<td>Show the original file for the selected alias.</td>
+</tr><tr><td>Command-T</td>
+<td>Show or hide the tab bar when a single tab is open in the current Finder window.</td>
+</tr><tr><td>Shift-Command-T</td>
+<td>Show or hide a Finder tab.</td>
+</tr><tr><td>Option-Command-T</td>
+<td>Show or hide the toolbar when a single tab is open in the current Finder window.</td>
+</tr><tr><td>Option-Command-V</td>
+<td>Move: Move the files in the Clipboard from their original location to the current location.</td>
+</tr><tr><td>Option-Command-Y</td>
+<td>View a <a href="https://support.apple.com/kb/HT201067">Quick Look</a> slideshow of the selected files.</td>
+</tr><tr><td>Command-Y</td>
+<td>Use Quick Look to preview the selected files.</td>
+</tr><tr><td>Command-1</td>
+<td>View the items in the Finder window as icons.</td>
+</tr><tr><td>Command-2</td>
+<td>View the items in a Finder window as a list.</td>
+</tr><tr><td>Command-3</td>
+<td>View the items in a Finder window in columns.&nbsp;</td>
+</tr><tr><td>Command-4</td>
+<td>View the items in a Finder window with Cover Flow.</td>
+</tr><tr><td>Command–Left&nbsp;Bracket&nbsp;([)</td>
+<td>Go to the previous folder.</td>
+</tr><tr><td>Command–Right&nbsp;Bracket&nbsp;(])</td>
+<td>Go to the next folder.</td>
+</tr><tr><td>Command–Up Arrow</td>
+<td>Open the folder that contains the current folder.</td>
+</tr><tr><td>Command–Control–Up&nbsp;Arrow</td>
+<td>Open the folder that contains the current folder in a new window.</td>
+</tr><tr><td>Command–Down Arrow</td>
+<td>Open the selected item.</td>
+</tr><tr><td>Command–Mission&nbsp;Control</td>
+<td>Show the desktop. This works even when you're not in the Finder.</td>
+</tr><tr><td>Command–Brightness&nbsp;Up</td>
+<td>Turn&nbsp;<a href="https://support.apple.com/kb/HT204592">Target Display Mode</a>&nbsp;on or off.</td>
+</tr><tr><td>Command–Brightness&nbsp;Down</td>
+<td>Turn display mirroring on or off when your Mac is connected to more than one display.</td>
+</tr><tr><td>Right Arrow&nbsp;</td>
+<td>Open the selected folder. This works only when in list view.</td>
+</tr><tr><td>Left Arrow</td>
+<td>Close the selected folder. This works only when in list view.</td>
+</tr><tr><td>Option–double-click</td>
+<td>Open a folder in a separate window and close the current window.</td>
+</tr><tr><td>Command–double-click</td>
+<td>Open a folder in a separate tab or window.</td>
+</tr><tr><td>Command-Delete</td>
+<td>Move the selected item to the Trash.</td>
+</tr><tr><td>Shift-Command-Delete</td>
+<td>Empty the Trash.</td>
+</tr><tr><td>Option-Shift-Command-Delete</td>
+<td>Empty the Trash without confirmation dialog.</td>
+</tr><tr><td>Command-Y</td>
+<td>Use Quick Look to preview the files.</td>
+</tr><tr><td>Option–Brightness&nbsp;Up</td>
+<td>Open Displays preferences. This works with either Brightness key.</td>
+</tr><tr><td>Option–Mission Control</td>
+<td>Open Mission Control preferences.</td>
+</tr><tr><td>Option–Volume Up</td>
+<td>Open Sound preferences. This works with any of the volume keys.</td>
+</tr><tr><td><em>Command key while dragging</em></td>
+<td>Move the dragged item to another volume or location. The pointer changes while you drag the item.</td>
+</tr><tr><td><em>Option key while dragging</em></td>
+<td>Copy the dragged item. The pointer changes while you drag the item.</td>
+</tr><tr><td><em>Option-Command while dragging</em></td>
+<td>Make an alias of the dragged item. The pointer changes while you drag the item.</td>
+</tr><tr><td><em>Option-click a disclosure triangle</em></td>
+<td>Open all folders within the selected folder. This works only when in list view.</td>
+</tr><tr><td><em>Command-click a window title</em></td>
+<td>See the folders that contain the current folder.</td>
+</tr></tbody></table>
+</div><div><p><img alt=""
+</ul>
+
+
+</html>

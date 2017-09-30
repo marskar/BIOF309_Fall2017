@@ -1,0 +1,30 @@
+{
+  "keys": {
+    "command": {
+      "bind": {
+        "cmdtrl-alt-b": "jupyter-notebook:run-all-cells-below",
+        "cmdtrl-alt-r": "jupyter-notebook:run-all-cells",
+        "cmdtrl-alt-a": "jupyter-notebook:run-all-cells-above"
+      }
+    }
+  },
+  "Notebook": {
+    "Toolbar": false,
+    "Header": false
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": false
+    }
+  },
+  "MarkdownCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  }
+}

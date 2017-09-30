@@ -1,0 +1,51 @@
+"*":
+  "atom-beautify":
+    bash:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    python:
+      beautify_on_save: true
+    r:
+      beautify_on_save: true
+  "autocomplete-python":
+    useKite: false
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "markdown-preview"
+      "atom-beautify"
+      "file-icons"
+      "minimap"
+      "git-plus"
+      "welcome"
+      "autocomplete-python"
+      "Hydrogen"
+      "markdown-preview-enhanced"
+      "github"
+      "about"
+    ]
+    packagesWithKeymapsDisabled: [
+      "autocomplete-python"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    lineHeight: 1.75
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "55f118f4-f33e-4a5e-af45-77ec67210e50"
+  kite:
+    showKiteTourOnStatup: false
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+  welcome:
+    showOnStartup: false
