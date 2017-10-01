@@ -1,6 +1,6 @@
 name: biof309
 channels:
-- conda-forge
+-
 - r
 - anaconda
 - defaults
@@ -12,8 +12,8 @@ dependencies:
 - bokeh=0.12.7=py36_0
 - bzip2=1.0.6
 - ca-certificates=2017.7.27.1=0
-- colorama=0.3.9=py36_0
 - certifi=2016.2.28=py36_0
+- colorama=0.3.9=py36_0
 - cycler=0.10.0=py36_0
 - decorator=4.1.2=py36_0
 - entrypoints=0.2.3=py36_0
@@ -31,7 +31,12 @@ dependencies:
 - jsonschema=2.6.0=py36_0
 - jupyter_client=5.1.0=py36_0
 - jupyter_console=5.2.0=py36_0
+- jupyter_contrib_core=0.3.3-py36_0
+- jupyter_contrib_nbextensions=0.3.1-py36_0
 - jupyter_core=4.3.0=py36_0
+- jupyter_highlight_selected_word=0.0.11-py36_0
+- jupyter_latex_envs=1.3.8.2-py36_1
+- jupyter_nbextensions_configurator=0.2.7-py36_0
 - jupyter=1.0.0=py36_3
 - libpng=1.6.30
 - libtiff=4.0.6
@@ -94,11 +99,3 @@ dependencies:
 - zlib=1.2.11
 
 prefix: /Users/marskar/anaconda3/envs/biof309
-
-
-The following NEW packages will be INSTALLED:
-
-    certifi=2017.7.27.1=py36_0=conda-forge
-    flake8=3.4.1-py36_0=conda-forge
-    mccabe=0.6.1-py36_0=conda-forge
-    pycodestyle=2.3.1-py36_0=conda-forge
