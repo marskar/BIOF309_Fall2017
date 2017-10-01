@@ -22,6 +22,7 @@
       "metrics"
       "styleguide"
       "package-generator"
+      "atom-beautify"
     ]
     packagesWithKeymapsDisabled: [
       "autocomplete-python"
