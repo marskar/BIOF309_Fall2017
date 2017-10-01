@@ -1,0 +1,8 @@
+Hydrogen
+atom-beautify
+autocomplete-python
+file-icons
+git-plus
+github
+markdown-preview-enhanced
+minimap

@@ -1,0 +1,7 @@
+Hydrogen@1.23.0
+atom-beautify@0.30.5
+autocomplete-python@1.10.3
+file-icons@2.1.12
+git-plus@7.9.3
+markdown-preview-enhanced@0.14.10
+minimap@4.29.7
