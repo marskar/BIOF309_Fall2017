@@ -25,3 +25,8 @@ grammar-selector
 image-view
 incompatible-packages
 line-ending-selector
+busy-signal
+intentions
+linter
+linter-python
+linter-ui-default
