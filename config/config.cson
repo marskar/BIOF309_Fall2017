@@ -13,38 +13,28 @@
   autosave:
     enabled: true
   core:
+    audioBeep: false
     disabledPackages: [
       "wrap-guide"
       "markdown-preview"
-      "atom-beautify"
-      "file-icons"
-      "minimap"
-      "git-plus"
       "welcome"
-      "autocomplete-python"
-      "Hydrogen"
-      "markdown-preview-enhanced"
-      "github"
       "about"
+      "metrics"
+      "styleguide"
+      "package-generator"
     ]
     packagesWithKeymapsDisabled: [
       "autocomplete-python"
     ]
     telemetryConsent: "limited"
-    themes: [
-      "one-light-ui"
-      "one-light-syntax"
-    ]
   editor:
+    fontSize: 18
     lineHeight: 1.75
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
     tabLength: 4
-  "exception-reporting":
-    userId: "55f118f4-f33e-4a5e-af45-77ec67210e50"
-  kite:
-    showKiteTourOnStatup: false
+   "grammar-selector": {}
   "markdown-preview-plus":
     enableLatexRenderingByDefault: true
   welcome:

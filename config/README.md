@@ -1,18 +1,32 @@
 # Config
 
-Here you will find config files for Jupyter Notebook, Atom, and a conda environment.
+Here you will find config files for [Atom](https://atom.io/) and [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also [conda environment file](https://conda.io/docs/using/envs.html).
 
 ## Atom
 
-The atom config file (`config.cson`) is designed for optimal speed, therefore all of the Community Packages are disabled. You can enable some or all of them, depending on what you plan to work on, using the following command line commands: `apm enable packagename` `apm disable packagename` Or you can edit your atom config file is in the `.atom` folder in your home directory Or you can find the package(s) you want to disable/enable in "Packages" under "Settings".
+To run the command line commands below, you must first click "Install Shell Commands" in the "Atom" tab in Atom.
 
-To install the packages in the `atom-packages.txt` file:
+### Install packages
+
+To install all of the packages in the `atom-packages.txt` file enter and run the following line into Terminal (Mac/Windows) or Command Prompt/Powershell (Windows):
 
 `apm install --packages-file atom-packages.txt`
+
+You can also install packages individually: `apm install packagename`
+
+Or you can search for package(s) and install the ones you want in the "Install" section of the "Settings" menu.
 
 I created the package list file with the following code:
 
 `apm list --installed --bare > atom-packages.txt`
+
+### Atom config file
+
+The Atom config file (`config.cson`) contains all my preferred settings for Atom. If you want to edit your own Atom config file is in the `.atom` folder in your home directory.
+
+### Enable/Disable packages
+
+If you want Atom to open with optimal speed, you can disable all of the Community Packages and some of the builtin packages. Depending on what you plan to work on, you might (not) need/want some/all of the packages. Use the following command line commands: `apm enable packagename` `apm disable packagename` to disable/enable packages by name or do so in the "Packages" section of the "Settings" menu.
 
 There is also a `atom-dev-package.txt` file which you can use to enable or disable all of the packages that slow down Atom during startup. To disable all of the packages:
 
@@ -32,7 +46,7 @@ You can create a new conda environment using the `biof309_env.yml` file. To do t
 
 `conda env create --file biof309_env.yml`
 
-into your Terminal (Mac/Windows) or Anaconda Prompt (Windows). You must have Anaconda (or Miniconda) installed for this to work.
+into your Terminal (Mac/Windows) or Anaconda Prompt (Windows). You must have [Anaconda](https://www.anaconda.com/download/) (or Miniconda) installed for this to work.
 
 I created the environment file with the following code:
 
@@ -42,11 +56,11 @@ I created the environment file with the following code:
 
 The following are instructions that will enable Jupyter Notebooks to
 
-## 1\. Open markdown files as notebooks
+### 1\. Open markdown files as notebooks
 
 You must have [notedown](https://github.com/aaren/notedown) installed for this to work!
 
-## 2\. Export output files
+### 2\. Export output files
 
 <sup>*</sup>
 
@@ -57,7 +71,6 @@ You must have [notedown](https://github.com/aaren/notedown) installed for this t
 <sup>*</sup>
 
 HTML, script (.py, .R, etc.), slides.html, markdown (.md), PDF, and TeX files<br>
-
 
 <sup>#</sup>
 
