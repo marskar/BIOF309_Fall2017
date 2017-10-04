@@ -31,26 +31,26 @@ If you want Atom to open with optimal speed, you can disable all of the Communit
 There is also a `atom-dev-package.txt` file which you can use to enable or disable all of the packages that slow down Atom during startup. To disable all of the packages:
 
 ```
-apm disable `cat atom-dev-packages.txt`
+apm disable `cat atom-enable-disable.txt`
 ```
 
 and to enable:
 
 ```
-apm enable `cat atom-dev-packages.txt`
+apm enable `cat atom-enable-disable.txt`
 ```
 
 ## Conda
 
-You can create a new conda environment using the `biof309_env.yml` file. To do this, enter
+You can create a new conda environment using the `env.yml` file. To do this, enter
 
-`conda env create --file biof309_env.yml`
+`conda env create --file env.yml`
 
 into your Terminal (Mac/Windows) or Anaconda Prompt (Windows). You must have [Anaconda](https://www.anaconda.com/download/) (or Miniconda) installed for this to work.
 
 I created the environment file with the following code:
 
-`conda env export > biof309_env.yml`
+`conda env export > env.yml`
 
 ## Jupyter Notebook - config.py
 
@@ -125,6 +125,8 @@ On a final note, I highly recommend checking out the [jupyter_contrib_nbextensio
 My favorite nbextensions are:
 
 - Code Font Size
+
+- Collapsible Headings
 
 - Freeze
 
