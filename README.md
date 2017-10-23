@@ -374,8 +374,7 @@ Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Reading: Chapter 08 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 * Activity: [DataCamp - Python Logic and Control
 Flow](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
-* Homework: Prepare an example of how
-you might use conditionals
+* Homework: Prepare an example of how you might use conditionals
 
 **Week 8 (Oct 30 2017):**
 
